@@ -1,5 +1,5 @@
-[03:03:24] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.2
-[03:03:25] [main/INFO]: Loading 112 mods:
+[04:38:46] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.2
+[04:38:47] [main/INFO]: Loading 112 mods:
 	- easyauth 3.0.25
 	   |-- at_favre_lib_bcrypt 0.10.2
 	   |-- at_favre_lib_bytes 1.6.1
@@ -128,1274 +128,753 @@
 	- manic-miner 0.1.0
 	- minecraft 1.21.1
 	- skinrestorer 2.0.3+1.21
-[03:03:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/gsapt/server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[03:03:25] [main/INFO]: Compatibility level set to JAVA_21
-[03:03:27] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[03:03:38] [main/INFO]: [EasyAuth]: EasyAuth mod by NikitaCartes
-[03:03:38] [main/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
-[03:03:38] [main/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
-[03:03:39] [main/WARN]: en_ is not a supported Floodgate language.
-[03:03:40] [main/INFO]: Loading extensions...
-[03:03:40] [main/INFO]: Loaded 0 extension(s)
-[03:03:40] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:03:43] [main/INFO]: Loaded 1290 recipes
-[03:03:43] [main/INFO]: Loaded 1399 advancements
-[03:03:43] [Thread-3/INFO]: Loaded 36 translation keys
-[03:03:44] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 6.804 ms
-[03:03:44] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[03:03:44] [Server thread/INFO]: Loading properties
-[03:03:44] [Server thread/INFO]: Default game type: SURVIVAL
-[03:03:44] [Server thread/INFO]: Generating keypair
-[03:03:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:03:44] [Server thread/INFO]: Using epoll channel type
-[03:03:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:03:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:03:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:03:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:03:45] [Server thread/INFO]: Preparing level "world"
-[03:03:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:03:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:03:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:03:51] [Server thread/INFO]: Time elapsed: 1116 ms
-[03:03:51] [Server thread/INFO]: Done (5.900s)! For help, type "help"
-[03:03:51] [Server thread/INFO]: Took 85ms to boot Floodgate
-[03:03:51] [Server thread/INFO]: ******************************************
-[03:03:51] [Server thread/INFO]: 
-[03:03:51] [Server thread/INFO]: Loading Geyser version 2.4.2-b654 (git-master-2274377)
-[03:03:51] [Server thread/INFO]: 
-[03:03:51] [Server thread/INFO]: ******************************************
-[03:03:55] [epollEventLoopGroup-3-2/INFO]: Started Geyser on UDP port 19132
-[03:03:55] [Server thread/INFO]: Done (4.241s)! Run /geyser help for help!
-[03:03:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4403ms or 88 ticks behind
-[03:08:54] [Server thread/INFO]: Crysla[/103.156.118.22:65136] logged in with entity id 26 at (-44.38423620286287, 65.0, -80.57223878056243)
-[03:08:54] [Server thread/INFO]: Crysla joined the game
-[03:59:12] [Server thread/INFO]: Lawey[/104.28.245.124:45333] logged in with entity id 11730 at (-17.789430828634053, 64.0, -45.998531383984194)
-[03:59:12] [Server thread/INFO]: Lawey joined the game
-[04:03:29] [Server thread/INFO]: [Not Secure] <Crysla> eh ada orang
-[04:03:35] [Server thread/INFO]: [Not Secure] <Lawey> helo
-[04:03:52] [Server thread/INFO]: [Not Secure] <Crysla> lu mau mending ?
-[04:04:12] [Server thread/INFO]: [Not Secure] <Lawey> ntar aja
-[04:08:39] [Server thread/INFO]: Lawey was slain by Zombie
-[04:14:18] [Server thread/INFO]: ArcturusNeo[/112.215.224.108:51873] logged in with entity id 17665 at (-19.11132443296594, 63.875, -45.60238640699928)
-[04:14:18] [Server thread/INFO]: ArcturusNeo joined the game
-[04:14:47] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dih galih
-[04:14:51] [Server thread/INFO]: [Not Secure] <Crysla> apa
-[04:14:58] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kirain gw kemana lu ga jawab
-[04:14:58] [Server thread/INFO]: [Lawey: Skin changed]
-[04:15:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> itu sarang tawon gunanya apaan
-[04:16:59] [Server thread/INFO]: Lawey lost connection: Timed out
-[04:16:59] [Server thread/INFO]: Lawey left the game
-[04:16:59] [Server thread/WARN]: handleDisconnection() called twice
-[04:17:36] [Server thread/INFO]: Lawey[/104.28.245.128:45152] logged in with entity id 19540 at (-65.73534673179962, 70.0, -103.67420261260308)
-[04:17:36] [Server thread/INFO]: Lawey joined the game
-[04:19:06] [Server thread/INFO]: [Not Secure] <Crysla> lang
-[04:19:09] [Server thread/INFO]: [Not Secure] <Lawey> oit
-[04:19:14] [Server thread/INFO]: [Not Secure] <Crysla> kata satria bisa bikin mob grinder ga servernya
-[04:19:24] [Server thread/INFO]: [Not Secure] <Lawey> Vanilla 1.21
-[04:19:27] [Server thread/INFO]: [Not Secure] <Lawey> jadi ya bisa
-[04:19:31] [Server thread/INFO]: [Not Secure] <Crysla> tuh sat
-[04:19:34] [Server thread/INFO]: [Not Secure] <Lawey> pake fabric gw
-[04:20:01] [Server thread/INFO]: [Not Secure] <Lawey> kalo paper iya despawn ratenya lebih kenceng cuma harusnya aman ini
-[04:20:05] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ini gw nyari spawner
-[04:20:11] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kmrn sebelah mana si gal
-[04:20:13] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw lupa
-[04:20:20] [Server thread/INFO]: [Not Secure] <Crysla> ada zombie yg deket
-[04:20:32] [Server thread/INFO]: [Not Secure] <Crysla> ga di cave
-[04:20:37] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ini 2
-[04:20:39] [Server thread/INFO]: [Not Secure] <ArcturusNeo> nempel
-[04:21:46] [Server thread/INFO]: [Not Secure] <Crysla> lu bikin going merry sat ?
-[04:21:52] [Server thread/INFO]: [Not Secure] <ArcturusNeo> apaan :v
-[04:23:41] [Server thread/INFO]: [Not Secure] <ArcturusNeo> malah nyasar pea
-[04:25:52] [Server thread/INFO]: [Not Secure] <ArcturusNeo> nah
-[04:26:02] [Server thread/INFO]: [Not Secure] <ArcturusNeo> eh beda coo
-[04:26:05] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kmrn dimana ya
-[04:29:07] [Server thread/INFO]: [Not Secure] <Lawey> dudududu
-[04:29:22] [Server thread/INFO]: [Not Secure] <Lawey> ini rumah siapa di depan rumah gw
-[04:29:25] [Server thread/INFO]: [Not Secure] <Lawey> ancur kena kreeper
-[04:29:31] [Server thread/INFO]: [Not Secure] <ArcturusNeo> pars
-[04:29:33] [Server thread/INFO]: [Not Secure] <Crysla> adeknya satria
-[04:29:35] [Server thread/INFO]: [Not Secure] <Lawey> dudududu
-[04:29:42] [Server thread/INFO]: [Not Secure] <ArcturusNeo> rapihin coo
-[04:30:03] [Server thread/INFO]: [Not Secure] <Crysla> ancur semua ?
-[04:30:27] [Server thread/INFO]: [Not Secure] <Lawey> sat
-[04:30:56] [Server thread/INFO]: Disconnecting ArcturusNeo (/112.215.246.106:51629): §cPlayer ArcturusNeo is already online!
-[04:30:56] [Server thread/INFO]: ArcturusNeo (/112.215.246.106:51629) lost connection: §cPlayer ArcturusNeo is already online!
-[04:30:56] [Server thread/WARN]: handleDisconnection() called twice
-[04:30:58] [Server thread/INFO]: Disconnecting ArcturusNeo (/112.215.246.106:23220): §cPlayer ArcturusNeo is already online!
-[04:30:58] [Server thread/INFO]: ArcturusNeo (/112.215.246.106:23220) lost connection: §cPlayer ArcturusNeo is already online!
-[04:30:58] [Server thread/WARN]: handleDisconnection() called twice
-[04:31:01] [Server thread/INFO]: Disconnecting ArcturusNeo (/112.215.246.106:39379): §cPlayer ArcturusNeo is already online!
-[04:31:01] [Server thread/INFO]: ArcturusNeo (/112.215.246.106:39379) lost connection: §cPlayer ArcturusNeo is already online!
-[04:31:01] [Server thread/WARN]: handleDisconnection() called twice
-[04:31:03] [Server thread/INFO]: Disconnecting ArcturusNeo (/112.215.246.106:19446): §cPlayer ArcturusNeo is already online!
-[04:31:03] [Server thread/INFO]: ArcturusNeo (/112.215.246.106:19446) lost connection: §cPlayer ArcturusNeo is already online!
-[04:31:03] [Server thread/WARN]: handleDisconnection() called twice
-[04:31:04] [Server thread/INFO]: Disconnecting ArcturusNeo (/112.215.246.106:44744): §cPlayer ArcturusNeo is already online!
-[04:31:04] [Server thread/INFO]: ArcturusNeo (/112.215.246.106:44744) lost connection: §cPlayer ArcturusNeo is already online!
-[04:31:05] [Server thread/WARN]: handleDisconnection() called twice
-[04:31:05] [Server thread/INFO]: ArcturusNeo lost connection: Timed out
-[04:31:05] [Server thread/INFO]: ArcturusNeo left the game
-[04:31:08] [Server thread/INFO]: ArcturusNeo[/112.215.246.106:51822] logged in with entity id 25315 at (50.41771180804392, 3.1621414210269867, -305.55748029387786)
-[04:31:08] [Server thread/INFO]: ArcturusNeo joined the game
-[04:31:25] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lang
-[04:31:32] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ini cave bagus di terraform
-[04:31:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kek di dimensi laen cok
-[04:31:57] [Server thread/INFO]: [Not Secure] <Lawey> jadi cagar alam aja
-[04:32:02] [Server thread/INFO]: [Not Secure] <Lawey> lagi males jadi hobbit gw
-[04:32:16] [Server thread/INFO]: [Not Secure] <ArcturusNeo> sini dah
-[04:32:19] [Server thread/INFO]: [Not Secure] <ArcturusNeo> coba eksplor
-[04:32:22] [Server thread/INFO]: [Not Secure] <Crysla> lu farming netherite di portal mana sat
-[04:32:29] [Server thread/INFO]: [Not Secure] <ArcturusNeo> portal tristan
-[04:32:35] [Server thread/INFO]: [Not Secure] <Crysla> ada jalan kebawah ?
-[04:34:15] [Server thread/INFO]: [Not Secure] <Crysla> ewh
-[04:34:18] [Server thread/INFO]: [Not Secure] <Crysla> itu tristan ngapain di smk 3
-[04:34:20] [Server thread/INFO]: [Not Secure] <Crysla> :v
-[04:34:25] [Server thread/INFO]: [Not Secure] <Crysla> di lab diua
-[04:34:26] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tau darimana
-[04:34:33] [Server thread/INFO]: [Not Secure] <Crysla> grup
-[04:34:37] [Server thread/INFO]: [Not Secure] <Crysla> dia ngirim foto barusan
-[04:34:39] [Server thread/INFO]: [Not Secure] <Crysla> semenit lalu
-[04:34:44] [Server thread/INFO]: [Not Secure] <Crysla> oalah foto lama wkwk
-[04:34:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> forward dah
-[04:34:47] [Server thread/INFO]: [Not Secure] <ArcturusNeo> yeh
-[04:34:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> wkkwkwk
-[04:34:54] [Server thread/INFO]: [Not Secure] <ArcturusNeo> suruh login gal
-[04:34:58] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw ngecas hp
-[04:35:17] [Server thread/INFO]: [Not Secure] <Crysla> aaa gaada exp gw
-[04:35:27] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bikin mob grinder :v
-[04:35:33] [Server thread/INFO]: [Not Secure] <Lawey> buat mob grinder di hutan
-[04:35:33] [Server thread/INFO]: [Not Secure] <Crysla> malas
-[04:35:34] [Server thread/INFO]: [Not Secure] <ArcturusNeo> spawner gw ilang co
-[04:35:36] [Server thread/INFO]: [Not Secure] <Lawey> buat sat
-[04:35:43] [Server thread/INFO]: [Not Secure] <ArcturusNeo> malas (2)
-[04:35:45] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gede bangat
-[04:35:51] [Server thread/INFO]: [Not Secure] <Crysla> gw mau jadi om om tavern
-[04:35:55] [Server thread/INFO]: [Not Secure] <Crysla> gw mau buka bar
-[04:36:00] [Server thread/INFO]: [Not Secure] <Lawey> teh tarik satu
-[04:39:09] [Server thread/INFO]: [Not Secure] <Lawey> afk
-[04:39:21] [Server thread/INFO]: Lawey lost connection: Disconnected
-[04:39:21] [Server thread/INFO]: Lawey left the game
-[04:45:35] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tidur ga
-[04:45:41] [Server thread/INFO]: [Not Secure] <Crysla> wait
-[04:46:19] [Server thread/INFO]: [Not Secure] <Crysla> tidur dah
-[04:46:20] [Server thread/INFO]: Crysla lost connection: Disconnected
-[04:46:20] [Server thread/INFO]: Crysla left the game
-[04:46:36] [Server thread/INFO]: Crysla[/103.156.118.22:49250] logged in with entity id 30209 at (22.34694102881635, 63.0, 291.07744281813495)
-[04:46:36] [Server thread/INFO]: Crysla joined the game
-[04:46:53] [Server thread/INFO]: [Not Secure] <ArcturusNeo> jir mobs burung
-[04:46:55] [Server thread/INFO]: [Not Secure] <ArcturusNeo> apaan tuh
-[04:51:20] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal kalo mau manccing ada di chest aer
-[04:52:31] [Server thread/INFO]: [Not Secure] <ArcturusNeo> mw ke cave ga
-[04:53:46] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal
-[04:53:49] [Server thread/INFO]: [Not Secure] <ArcturusNeo> sharp 5 drmn u
-[04:54:09] [Server thread/INFO]: Lawey[/104.28.245.128:45062] logged in with entity id 34469 at (-44.69999998807907, 65.0, -80.30000001192093)
-[04:54:09] [Server thread/INFO]: Lawey joined the game
-[05:04:27] [Server thread/INFO]: [Not Secure] <Crysla> dari blackmarket
-[05:04:40] [Server thread/INFO]: [Not Secure] <ArcturusNeo> apaan
-[05:05:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> seh ikan bykna
-[05:05:50] [Server thread/INFO]: [Not Secure] <Crysla> siapa mau unbreaking iii\
-[05:09:28] [Server thread/INFO]: [Not Secure] <ArcturusNeo> taro chest
-[05:09:52] [Server thread/INFO]: [Not Secure] <Crysla> ok
-[05:10:32] [Server thread/INFO]: [Not Secure] <ArcturusNeo> glow inksac buat ap[a
-[05:10:38] [Server thread/INFO]: [Not Secure] <Crysla> frame item
-[05:10:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> mau ga
-[05:10:50] [Server thread/INFO]: [Not Secure] <Crysla> taro aja
-[05:10:53] [Server thread/INFO]: [Not Secure] <ArcturusNeo> oke
-[05:12:18] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw waktu itu nemu spawner skeleton 2 nempel
-[05:12:20] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dmn ya
-[05:12:21] [Server thread/INFO]: [Not Secure] <ArcturusNeo> sayang bgt
-[05:15:17] [Server thread/INFO]: [Not Secure] <ArcturusNeo> slime spawn nih
-[05:15:19] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dapet
-[05:20:17] [Server thread/INFO]: Crysla has made the advancement [Fishy Business]
-[05:21:41] [Server thread/INFO]: [Not Secure] <Crysla> sat
-[05:21:43] [Server thread/INFO]: [Not Secure] <Crysla> iron lu gw smellt ya
-[05:21:43] [Server thread/INFO]: [Not Secure] <ArcturusNeo> oi
-[05:21:48] [Server thread/INFO]: [Not Secure] <Crysla> sama goldnya
-[05:21:51] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gpp
-[05:34:06] [Server thread/INFO]: [Not Secure] <Crysla> portal rumah tristan deket mining netherite ?
-[05:34:08] [Server thread/INFO]: [Not Secure] <Crysla> ada jalan kebawh ?
-[05:34:24] [Server thread/INFO]: [Not Secure] <ArcturusNeo> jalan ampe ketemu portal lagi
-[05:34:26] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada jalurnya
-[05:38:13] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gacor juga cavenya
-[05:39:58] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lang
-[05:40:03] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kasih plugin /afk
-[05:40:03] [Server thread/INFO]: [Not Secure] <ArcturusNeo> wkwwk
-[05:42:11] [Server thread/INFO]: [Not Secure] <ArcturusNeo> a
-[05:46:18] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal rawat
-[05:46:37] [Server thread/INFO]: [Not Secure] <Crysla> apaanm
-[05:47:56] [Server thread/INFO]: [Not Secure] <Crysla> lah ada cave
-[05:48:42] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kontol
-[05:51:28] [Server thread/INFO]: Crysla has made the advancement [Voluntary Exile]
-[05:54:30] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw siksa lu
-[06:04:25] [Server thread/INFO]: [Not Secure] <Crysla> lang
-[06:04:30] [Server thread/INFO]: [Not Secure] <Crysla> gajadi
-[06:05:41] [Server thread/INFO]: [Not Secure] <ArcturusNeo> makan
-[06:05:42] [Server thread/INFO]: ArcturusNeo lost connection: Disconnected
-[06:05:42] [Server thread/INFO]: ArcturusNeo left the game
-[06:09:07] [Server thread/INFO]: [Not Secure] <Crysla> bastion
-[06:13:57] [Server thread/INFO]: ArcturusNeo[/112.215.246.106:34198] logged in with entity id 60266 at (-16.543197231816823, 64.0, -46.15988850322526)
-[06:13:57] [Server thread/INFO]: ArcturusNeo joined the game
-[06:16:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal
-[06:16:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ketemu ga netheritenya
-[06:16:52] [Server thread/INFO]: [Not Secure] <ArcturusNeo> farmnya
-[06:16:55] [Server thread/INFO]: [Not Secure] <Crysla> gw ngambil kayu doang
-[06:17:07] [Server thread/INFO]: [Not Secure] <Crysla> buat bikin tavern
-[06:17:18] [Server thread/INFO]: [Not Secure] <ArcturusNeo> okok
-[06:17:25] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kapan nyari bastion
-[06:17:30] [Server thread/INFO]: [Not Secure] <Crysla> itu liat wa
-[06:21:47] [Server thread/INFO]: [Not Secure] <ArcturusNeo> u ngapain
-[06:22:10] [Server thread/INFO]: [Not Secure] <Crysla> nether
-[06:22:34] [Server thread/INFO]: ArcturusNeo lost connection: Disconnected
-[06:22:34] [Server thread/INFO]: ArcturusNeo left the game
-[06:33:54] [Server thread/INFO]: [Not Secure] <Lawey> si satria kemana
-[06:34:02] [Server thread/INFO]: [Not Secure] <Crysla> makan mungkin
-[06:40:01] [Server thread/INFO]: Crysla has made the advancement [Hidden in the Depths]
-[06:44:07] [Server thread/INFO]: Lawey has made the advancement [Getting an Upgrade]
-[06:51:30] [Server thread/INFO]: ArcturusNeo[/140.213.140.117:5399] logged in with entity id 77124 at (-18.631863011828752, 63.875, -45.60376786768831)
-[06:51:30] [Server thread/INFO]: ArcturusNeo joined the game
-[06:53:33] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bow infinity dr table ada?
-[06:53:36] [Server thread/INFO]: [Not Secure] <Crysla> ADA
-[06:53:45] [Server thread/INFO]: [Not Secure] <ArcturusNeo> susah ga itu
-[06:53:51] [Server thread/INFO]: [Not Secure] <Crysla> gatau dah
-[06:59:33] [Server thread/INFO]: [Not Secure] <Crysla> netherite butuh 4 debris ?
-[06:59:34] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bikin mob grinder gmn
-[06:59:43] [Server thread/INFO]: [Not Secure] <Lawey> 4 debri sama 3 gold
-[06:59:43] [Server thread/INFO]: [Not Secure] <ArcturusNeo> 6 gal
-[06:59:48] [Server thread/INFO]: [Not Secure] <Crysla> 6?
-[06:59:52] [Server thread/INFO]: [Not Secure] <Lawey> ko 6
-[06:59:54] [Server thread/INFO]: [Not Secure] <Lawey> buat apaan
-[07:00:05] [Server thread/INFO]: [Not Secure] <ArcturusNeo> yang 4 bukannya goldnya?
-[07:00:06] [Server thread/INFO]: [Not Secure] <ArcturusNeo> eh
-[07:00:08] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gatau wkwkw
-[07:00:20] [Server thread/INFO]: [Not Secure] <Crysla> 1 debris 1 scrap kan
-[07:00:24] [Server thread/INFO]: [Not Secure] <Lawey> iya
-[07:00:25] [Server thread/INFO]: [Not Secure] <Crysla> 4 scrap 1 netherite
-[07:00:31] [Server thread/INFO]: [Not Secure] <Crysla> ij
-[07:00:33] [Server thread/INFO]: [Not Secure] <Crysla> ok
-[07:01:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=94, y=13, z=211} class_2338{x=91, y=13, z=211}
-[07:01:53] [Server thread/INFO]: Crysla lost connection: Disconnected
-[07:01:53] [Server thread/INFO]: Crysla left the game
-[07:09:05] [Server thread/INFO]: [Not Secure] <Lawey> sat
-[07:09:08] [Server thread/INFO]: [Not Secure] <ArcturusNeo> oi
-[07:09:09] [Server thread/INFO]: [Not Secure] <Lawey> bikin mob grinder
-[07:09:16] [Server thread/INFO]: [Not Secure] <Lawey> butuh gunpowder
-[07:09:18] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lg di nether gw
-[07:09:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> soul sand ada nih
-[07:10:58] [Server thread/INFO]: [Not Secure] <ArcturusNeo> enak mining di souln sand
-[07:11:02] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dikit lavanya
-[07:11:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=78, y=14, z=204} class_2338{x=79, y=15, z=204}
-[07:11:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=78, y=14, z=204} class_2338{x=80, y=15, z=204}
-[07:12:32] [Server thread/INFO]: Made Lawey a server operator
-[07:12:37] [Server thread/INFO]: [Lawey: Set own game mode to Creative Mode]
-[07:13:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=84, y=14, z=85} class_2338{x=84, y=14, z=86}
-[07:16:53] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lang
-[07:16:58] [Server thread/INFO]: [Not Secure] <ArcturusNeo> netherite y brp
-[07:16:59] [Server thread/INFO]: [Not Secure] <Lawey> naon
-[07:16:59] [Server thread/INFO]: [Not Secure] <ArcturusNeo> 15?
-[07:17:06] [Server thread/INFO]: [Not Secure] <Lawey> 12-16
-[07:17:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> mending mana
-[07:17:21] [Server thread/INFO]: [Not Secure] <Lawey> 14 kyknya
-[07:17:23] [Server thread/INFO]: [Not Secure] <Lawey> lupa gw
-[07:17:28] [Server thread/INFO]: [Not Secure] <ArcturusNeo> okok
-[07:19:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=69, y=14, z=163} class_2338{x=69, y=15, z=165}
-[07:19:52] [Server thread/INFO]: [Not Secure] <Lawey> sat
-[07:19:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=69, y=14, z=163} class_2338{x=69, y=15, z=165}
-[07:19:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=69, y=14, z=163} class_2338{x=69, y=15, z=165}
-[07:19:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=69, y=14, z=163} class_2338{x=69, y=15, z=165}
-[07:19:55] [Server thread/INFO]: [Not Secure] <ArcturusNeo> o
-[07:19:56] [Server thread/INFO]: [Not Secure] <ArcturusNeo> oi
-[07:19:58] [Server thread/INFO]: [Not Secure] <Lawey> bikin kingdom
-[07:20:01] [Server thread/INFO]: [Lawey: Set own game mode to Survival Mode]
-[07:20:06] [Server thread/INFO]: [Not Secure] <ArcturusNeo> apaan
-[07:20:13] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kingdom cum?
-[07:20:15] [Server thread/INFO]: [Not Secure] <Lawey> bikin tembok besar alaska
-[07:20:23] [Server thread/INFO]: [Not Secure] <Lawey> terus bikin perumahan
-[07:20:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=69, y=13, z=187} class_2338{x=69, y=15, z=188}
-[07:20:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=69, y=13, z=187} class_2338{x=69, y=15, z=188}
-[07:20:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=69, y=13, z=187} class_2338{x=69, y=15, z=188}
-[07:20:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=69, y=13, z=187} class_2338{x=69, y=15, z=188}
-[07:20:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=69, y=13, z=187} class_2338{x=69, y=15, z=188}
-[07:20:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=69, y=13, z=187} class_2338{x=69, y=15, z=188}
-[07:20:36] [Server thread/INFO]: [Not Secure] <Lawey> i see a perfect place for a castle
-[07:20:42] [Server thread/INFO]: [Not Secure] <ArcturusNeo> jauh?
-[07:20:47] [Server thread/INFO]: [Not Secure] <Lawey> deket banget
-[07:20:53] [Server thread/INFO]: [Not Secure] <Lawey> itu gunung di belakang rumah gw
-[07:21:01] [Server thread/INFO]: [Lawey: Set own game mode to Creative Mode]
-[07:21:09] [Server thread/INFO]: [Not Secure] <ArcturusNeo> okoklh
-[07:21:11] [Server thread/INFO]: [Not Secure] <ArcturusNeo> eh
-[07:21:15] [Server thread/INFO]: [Not Secure] <ArcturusNeo> itu mob grinder
-[07:21:18] [Server thread/INFO]: [Not Secure] <ArcturusNeo> pake netherite aja bisa?
-[07:21:28] [Server thread/INFO]: [Not Secure] <Lawey> wat u mean by netherite
-[07:21:31] [Server thread/INFO]: [Not Secure] <ArcturusNeo> eh
-[07:21:36] [Server thread/INFO]: [Not Secure] <ArcturusNeo> netheracknjing
-[07:23:00] [Server thread/INFO]: [Not Secure] <Lawey> bisa aja
-[07:23:06] [Server thread/INFO]: [Not Secure] <Lawey> atau kalo mau aman
-[07:23:11] [Server thread/INFO]: [Not Secure] <Lawey> lu ajdiin nether brick dl
-[07:23:30] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gimana tuh
-[07:24:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=119, y=13, z=131} class_2338{x=120, y=13, z=131}
-[07:25:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=138, y=13, z=132} class_2338{x=156, y=14, z=131}
-[07:27:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=140, y=14, z=113} class_2338{x=140, y=16, z=114}
-[07:28:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=140, y=14, z=113} class_2338{x=139, y=14, z=97}
-[07:29:22] [Server thread/INFO]: [Not Secure] <Lawey> bakar
-[07:29:27] [Server thread/INFO]: [Not Secure] <Lawey> nti jdi brick
-[07:29:33] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lama ancrit
-[07:29:34] [Server thread/INFO]: [Not Secure] <Lawey> lu craft jadi nether brick
-[07:29:35] [Server thread/INFO]: [Not Secure] <ArcturusNeo> mending cobble
-[07:29:40] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gbs dicraft
-[07:29:52] [Server thread/INFO]: [Not Secure] <Lawey> tapi lebih cepet nether + lebih bagus warnanya
-[07:29:57] [Server thread/INFO]: [Lawey: Set own game mode to Survival Mode]
-[07:30:06] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lama bakarnya cooo
-[07:30:22] [Server thread/INFO]: [Not Secure] <Lawey> bntr
-[07:30:22] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lang chunk brp x brp
-[07:30:24] [Server thread/INFO]: [Not Secure] <ArcturusNeo> 8x8 ya
-[07:30:26] [Server thread/INFO]: [Not Secure] <Lawey> 16
-[07:30:32] [Server thread/INFO]: [Not Secure] <ArcturusNeo> 16x16?
-[07:30:40] [Server thread/INFO]: [Not Secure] <Lawey> iy
-[07:30:43] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gede amat
-[07:30:59] [Server thread/INFO]: [Not Secure] <Lawey> lu berharap brp emg
-[07:31:05] [Server thread/INFO]: [Not Secure] <ArcturusNeo> 4x4
-[07:31:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=135, y=15, z=96} class_2338{x=136, y=15, z=96}
-[07:31:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=135, y=15, z=96} class_2338{x=136, y=15, z=96}
-[07:31:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=135, y=15, z=96} class_2338{x=136, y=15, z=96}
-[07:31:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=135, y=15, z=96} class_2338{x=136, y=15, z=96}
-[07:31:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=135, y=15, z=96} class_2338{x=136, y=15, z=96}
-[07:31:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=135, y=15, z=96} class_2338{x=136, y=15, z=96}
-[07:31:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=135, y=15, z=96} class_2338{x=136, y=15, z=96}
-[07:31:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=135, y=15, z=96} class_2338{x=136, y=15, z=96}
-[07:31:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=135, y=15, z=96} class_2338{x=136, y=15, z=96}
-[07:31:23] [Server thread/INFO]: [Not Secure] <Lawey> f3 + g
-[07:31:25] [Server thread/INFO]: [Not Secure] <Lawey> keliatan chunk
-[07:31:45] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lahiya tyty
-[07:31:50] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ngilanginnya?
-[07:32:04] [Server thread/INFO]: [Not Secure] <Lawey> pncet lg aja
-[07:33:18] [Server thread/INFO]: [Not Secure] <ArcturusNeo> netherite sacm jinggg
-[07:33:21] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ccuma 1 masaaa
-[07:33:37] [Server thread/INFO]: Crysla[/103.156.118.22:9951] logged in with entity id 96728 at (41.85893798971981, 15.0, -406.6582462741292)
-[07:33:37] [Server thread/INFO]: Crysla joined the game
-[07:34:09] [Server thread/INFO]: [Not Secure] <ArcturusNeo> netherite di satu chunk cuma 1?
-[07:34:20] [Server thread/INFO]: [Not Secure] <Crysla> kurang tau gw
-[07:36:54] [Server thread/INFO]: [Not Secure] <ArcturusNeo> netherrack gaada gunanya?
-[07:36:59] [Server thread/INFO]: [Not Secure] <Crysla> ada
-[07:37:07] [Server thread/INFO]: [Not Secure] <ArcturusNeo> buat bakar2 doang kan
-[07:37:19] [Server thread/INFO]: [Not Secure] <Crysla> buat nambel bisa
-[07:37:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> uyeee
-[07:37:24] [Server thread/INFO]: [Not Secure] <Crysla> buat bridge bisa
-[07:38:53] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kalo ada eff 3 bagi yak
-[07:39:09] [Server thread/INFO]: [Not Secure] <Crysla> mau paek punya gw ga
-[07:39:10] [Server thread/INFO]: [Not Secure] <Crysla> tapi
-[07:39:16] [Server thread/INFO]: [Not Secure] <ArcturusNeo> udah ini
-[07:39:21] [Server thread/INFO]: [Not Secure] <Crysla> gw gatau cara keluar dari isni
-[07:39:27] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lu dimana anjir
-[07:39:35] [Server thread/INFO]: [Not Secure] <Crysla> gw jadi tikus tanaah
-[07:39:40] [Server thread/INFO]: [Not Secure] <ArcturusNeo> naek lah
-[07:39:46] [Server thread/INFO]: [Not Secure] <Crysla> lu mau ngapain
-[07:40:09] [Server thread/INFO]: [Not Secure] <ArcturusNeo> apaanm
-[07:40:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-84, y=14, z=-560} class_2338{x=-81, y=15, z=-560}
-[07:40:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-84, y=14, z=-560} class_2338{x=-81, y=15, z=-560}
-[07:41:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ga naek gal?
-[07:41:03] [Server thread/INFO]: [Not Secure] <Crysla> gatau gw
-[07:41:07] [Server thread/INFO]: [Not Secure] <Crysla> lu mau ke nether ga\
-[07:41:11] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ini gw di nether
-[07:41:16] [Server thread/INFO]: [Not Secure] <Crysla> portal siapa\
-[07:41:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> siapa kek
-[07:41:27] [Server thread/INFO]: [Not Secure] <ArcturusNeo> nempel itu portal
-[07:41:31] [Server thread/INFO]: [Not Secure] <Crysla> gw taunya dari portal tristgan
-[07:41:36] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kemana
-[07:41:47] [Server thread/INFO]: [Not Secure] <Crysla> pas masuk
-[07:41:57] [Server thread/INFO]: [Not Secure] <Crysla> tar pas di nether ada chisseled cobblestone
-[07:42:08] [Server thread/INFO]: [Not Secure] <ArcturusNeo> sek
-[07:42:11] [Server thread/INFO]: [Not Secure] <Crysla> belok kiri ada magma block
-[07:42:16] [Server thread/INFO]: [Not Secure] <Crysla> tar ada bridge, kebawah
-[07:42:23] [Server thread/INFO]: [Not Secure] <Crysla> nah ada lobang pas lurus ke depan kanan
-[07:43:02] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dikasih stairs farrmnya
-[07:43:08] [Server thread/INFO]: [Not Secure] <Crysla> ada
-[07:43:12] [Server thread/INFO]: [Not Secure] <Crysla> gw lupa koordinat nya
-[07:43:17] [Server thread/INFO]: [Not Secure] <Crysla> gabisa balik gw wkwkw
-[07:43:18] [Server thread/INFO]: [Not Secure] <ArcturusNeo> koor lu brp skrg
-[07:43:25] [Server thread/INFO]: [Not Secure] <Crysla> makany patokannya dari portal
-[07:43:28] [Server thread/INFO]: [Not Secure] <Crysla> gw ngasih jejak
-[07:43:38] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ke 0 -40
-[07:43:41] [Server thread/INFO]: [Not Secure] <Crysla> gabisaa
-[07:43:46] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dmn y
-[07:43:57] [Server thread/INFO]: [Not Secure] <Crysla> itu pas masuk ke portal tristan
-[07:44:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> udah ini
-[07:44:04] [Server thread/INFO]: [Not Secure] <Crysla> ada ubin dari cobble stone kan
-[07:44:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> udah
-[07:44:12] [Server thread/INFO]: [Not Secure] <ArcturusNeo> u mana
-[07:44:13] [Server thread/INFO]: [Not Secure] <Crysla> nah lu liat ke kiri ada magma bnlock
-[07:44:22] [Server thread/INFO]: [Not Secure] <Crysla> lu liat ada bridge dibawah
-[07:44:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada
-[07:44:27] [Server thread/INFO]: [Not Secure] <Crysla> nah
-[07:44:31] [Server thread/INFO]: [Not Secure] <Crysla> lu jalan ke bridge
-[07:44:32] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada brute
-[07:44:33] [Server thread/INFO]: [Not Secure] <Crysla> terus ke bawah
-[07:44:40] [Server thread/INFO]: [Not Secure] <Crysla> lu make gold ga wkwk
-[07:44:43] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kaga
-[07:44:45] [Server thread/INFO]: [Not Secure] <ArcturusNeo> sakit ga
-[07:44:47] [Server thread/INFO]: [Not Secure] <Crysla> sakit
-[07:44:54] [Server thread/INFO]: [Not Secure] <Crysla> brute harus make dm armor
-[07:45:03] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lu ga naek aja?
-[07:45:05] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw bantuin
-[07:45:06] [Server thread/INFO]: [Not Secure] <Crysla> gabisa
-[07:45:09] [Server thread/INFO]: [Not Secure] <Crysla> atuh gimana wkwk
-[07:45:13] [Server thread/INFO]: [Not Secure] <ArcturusNeo> emang ngapa
-[07:45:18] [Server thread/INFO]: [Not Secure] <Crysla> ini nethr sat wkwk
-[07:45:25] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lu nyebur co???
-[07:45:32] [Server thread/INFO]: [Not Secure] <Crysla> gw ga inget jalan baliknya
-[07:45:41] [Server thread/INFO]: [Not Secure] <Crysla> gw bisa ke kordinat awal turun di tangga
-[07:45:43] [Server thread/INFO]: [Not Secure] <Crysla> aman soalnya
-[07:45:49] [Server thread/INFO]: [Not Secure] <Crysla> tapi gw lupa ss kor dinatnya
-[07:45:51] [Server thread/INFO]: Crysla has completed the challenge [Hot Tourist Destinations]
-[07:45:54] [Server thread/INFO]: [Not Secure] <Crysla> anjg
-[07:46:00] [Server thread/INFO]: [Not Secure] <Crysla> gw gatau lagi
-[07:46:09] [Server thread/INFO]: [Not Secure] <Crysla> muter muter gw
-[07:46:14] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lah mati brutenya
-[07:46:16] [Server thread/INFO]: [Not Secure] <ArcturusNeo> 2 hit kocak
-[07:46:27] [Server thread/INFO]: [Not Secure] <ArcturusNeo> 10 10 koornya
-[07:46:28] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gali gal
-[07:46:31] [Server thread/INFO]: [Not Secure] <Crysla> gabisa
-[07:46:33] [Server thread/INFO]: [Not Secure] <Crysla> atasnya lava
-[07:46:41] [Server thread/INFO]: [Not Secure] <Crysla> gabisa naek gw
-[07:46:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lah lu skrg dimn
-[07:46:50] [Server thread/INFO]: [Not Secure] <Crysla> ada lobang di deket jemhbatan tadi
-[07:46:52] [Server thread/INFO]: [Not Secure] <Crysla> di bawah
-[07:47:08] [Server thread/INFO]: [Not Secure] <Crysla> pas dibawah jembatan lurus kedepan
-[07:47:11] [Server thread/INFO]: [Not Secure] <Crysla> di kanan ada lobang itu
-[07:47:18] [Server thread/INFO]: [Not Secure] <ArcturusNeo> mana nama u gaad
-[07:47:19] [Server thread/INFO]: [Not Secure] <Crysla> ada chest dibawah situ itu patokannya wkwkwk
-[07:47:27] [Server thread/INFO]: [Not Secure] <Crysla> lu nemu emang lobangnya ?
-[07:47:37] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ketutup lava
-[07:47:44] [Server thread/INFO]: Lawey has made the advancement [A Seedy Place]
-[07:47:45] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bener kan tapi
-[07:47:47] [Server thread/INFO]: [Not Secure] <Crysla> bukan di lava
-[07:47:58] [Server thread/INFO]: [Not Secure] <Crysla> pas arah lurus ke jembatan itu jangan naek
-[07:47:59] [Server thread/INFO]: [Not Secure] <Crysla> ke bawah
-[07:48:15] [Server thread/INFO]: [Not Secure] <Crysla> itu ada lobang di deket kanan" tapi jangan ke kanan arah lurus abis turun ke jembatan
-[07:48:28] [Server thread/INFO]: [Not Secure] <Crysla> nah ada chest disitu itu lobang gw ngegali
-[07:48:38] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ini gw yang tangga cobblestone
-[07:48:40] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dmnanya lu
-[07:48:45] [Server thread/INFO]: [Not Secure] <Crysla> tangga cobble ?
-[07:48:51] [Server thread/INFO]: [Not Secure] <ArcturusNeo> iya
-[07:48:51] [Server thread/INFO]: [Not Secure] <Crysla> ada chest ga di bawahnya
-[07:48:52] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw turun ini
-[07:49:01] [Server thread/INFO]: [Not Secure] <Crysla> coba liat
-[07:49:04] [Server thread/INFO]: [Not Secure] <Crysla> eh buykan itu
-[07:49:06] [Server thread/INFO]: [Not Secure] <Crysla> sat bukan itu
-[07:49:13] [Server thread/INFO]: [Not Secure] <ArcturusNeo> barru yg magma block
-[07:49:15] [Server thread/INFO]: [Not Secure] <ArcturusNeo> yg mana co
-[07:49:18] [Server thread/INFO]: [Not Secure] <Crysla> bukan yg tangga fcobble
-[07:49:20] [Server thread/INFO]: [Not Secure] <Crysla> itu mah beda
-[07:49:30] [Server thread/INFO]: [Not Secure] <ArcturusNeo> u lewat m,na
-[07:49:37] [Server thread/INFO]: [Not Secure] <Crysla> nih lu kan dari portal tuh
-[07:49:43] [Server thread/INFO]: [Not Secure] <Crysla> ada ubin cobble kan
-[07:49:43] [Server thread/INFO]: [Not Secure] <ArcturusNeo> oh ni ada
-[07:49:48] [Server thread/INFO]: [Not Secure] <Crysla> lu nengok ke kiri
-[07:49:50] [Server thread/INFO]: [Not Secure] <Crysla> ada jembatan tuh
-[07:50:00] [Server thread/INFO]: [Not Secure] <Crysla> turun terus lurus liat di kanan" ada lobang
-[07:50:09] [Server thread/INFO]: [Not Secure] <ArcturusNeo> terus dmn lu
-[07:50:11] [Server thread/INFO]: [Not Secure] <Crysla> di bawah
-[07:50:13] [Server thread/INFO]: [Not Secure] <Crysla> ada lorong ga ?
-[07:50:17] [Server thread/INFO]: [Not Secure] <Crysla> ada chest patokannya
-[07:50:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw diforst
-[07:50:26] [Server thread/INFO]: [Not Secure] <ArcturusNeo> koor lu brp kocak
-[07:50:28] [Server thread/INFO]: [Not Secure] <Crysla> jangan ke forest
-[07:50:29] [Server thread/INFO]: [Not Secure] <Crysla> gabisa
-[07:50:35] [Server thread/INFO]: [Not Secure] <Crysla> di jembatan
-[07:50:37] [Server thread/INFO]: [Not Secure] <Crysla> jangan ke atas lu nya
-[07:50:40] [Server thread/INFO]: [Not Secure] <Crysla> gaabakal keftgemu wkwkwk
-[07:50:42] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ini udah
-[07:50:46] [Server thread/INFO]: [Not Secure] <Crysla> kan lu dijemabtan tuh
-[07:50:53] [Server thread/INFO]: [Not Secure] <Crysla> arahnya lurus tapi lu turun
-[07:50:58] [Server thread/INFO]: [Not Secure] <Crysla> ada lobang disitu
-[07:51:03] [Server thread/INFO]: [Not Secure] <Crysla> di kanan" gitu
-[07:51:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=29, y=66, z=0} class_2338{x=64, y=48, z=-5}
-[07:51:25] [Server thread/INFO]: [Not Secure] <ArcturusNeo> yang dmn
-[07:51:28] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada dua jembatannya
-[07:51:30] [Server thread/INFO]: [Not Secure] <ArcturusNeo> yg dilava?
-[07:51:43] [Server thread/INFO]: [Not Secure] <Crysla> yg jemabtannya setelah lu ngelewatin magma block
-[07:51:47] [Server thread/INFO]: [Not Secure] <Crysla> jembatan pertama
-[07:51:51] [Server thread/INFO]: [Not Secure] <Crysla> terus lu kebawah
-[07:51:52] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw dihutan
-[07:51:56] [Server thread/INFO]: [Not Secure] <Crysla> jangan ke atas wkwk
-[07:51:56] [Server thread/INFO]: [Not Secure] <ArcturusNeo> yg jemb tan
-[07:51:57] [Server thread/INFO]: [Not Secure] <ArcturusNeo> terus
-[07:51:58] [Server thread/INFO]: [Not Secure] <Crysla> hutan itu di atas
-[07:51:58] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kemana
-[07:52:10] [Server thread/INFO]: [Not Secure] <Crysla> ya jembatan tuh
-[07:52:11] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lrus?
-[07:52:13] [Server thread/INFO]: [Not Secure] <Crysla> tapi jangan ke hutan
-[07:52:15] [Server thread/INFO]: [Not Secure] <Crysla> lu kebawah
-[07:52:20] [Server thread/INFO]: [Not Secure] <Crysla> lurus di deket kanan" ada lobang
-[07:52:30] [Server thread/INFO]: [Not Secure] <ArcturusNeo> patokannya apa
-[07:52:32] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ngikutin magma?
-[07:52:38] [Server thread/INFO]: [Not Secure] <Crysla> magma pas dari jemabtan
-[07:52:42] [Server thread/INFO]: [Not Secure] <Crysla> maksud gw magma itu
-[07:52:46] [Server thread/INFO]: [Not Secure] <Crysla> biar lu ke jembatan
-[07:52:47] [Server thread/INFO]: [Not Secure] <ArcturusNeo> udah
-[07:52:50] [Server thread/INFO]: [Not Secure] <ArcturusNeo> di magma ujungn gw
-[07:52:51] [Server thread/INFO]: [Not Secure] <Crysla> kalo udah sampe jembatan tinggal turun
-[07:53:01] [Server thread/INFO]: [Not Secure] <ArcturusNeo> u dmn
-[07:53:01] [Server thread/INFO]: [Not Secure] <Crysla> pokokny dari jembatan turun terus lurus
-[07:53:05] [Server thread/INFO]: [Not Secure] <Crysla> dibawah gw
-[07:53:06] [Server thread/INFO]: [Not Secure] <Crysla> ada lobang
-[07:53:17] [Server thread/INFO]: [Not Secure] <Lawey> eh dikasih lubang nih
-[07:53:18] [Server thread/INFO]: [Not Secure] <Lawey> aw
-[07:53:27] [Server thread/INFO]: [Not Secure] <ArcturusNeo> patokannya apa
-[07:53:40] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ini jembnatan ada dua kocak
-[07:53:44] [Server thread/INFO]: [Not Secure] <Crysla> ada 1
-[07:53:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> jembartan netherack apa yg batu
-[07:53:52] [Server thread/INFO]: [Not Secure] <Crysla> yg cobble
-[07:54:02] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dibawawh ada juga
-[07:54:05] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kirain lu
-[07:54:08] [Server thread/INFO]: [Not Secure] <Crysla> yg mid air
-[07:54:12] [Server thread/INFO]: [Not Secure] <Crysla> kan mid air jembatannya
-[07:54:14] [Server thread/INFO]: [Not Secure] <Crysla> lu turun kebawah
-[07:54:16] [Server thread/INFO]: [Not Secure] <Crysla> tinggal jalan lurus
-[07:54:20] [Server thread/INFO]: [Not Secure] <Crysla> ada lobnang deket kanan"
-[07:54:37] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ni gw di mid air
-[07:54:40] [Server thread/INFO]: [Not Secure] <ArcturusNeo> yangan da torchnya?
-[07:54:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dijembatannya
-[07:54:54] [Server thread/INFO]: [Not Secure] <Crysla> jembatan ke berapa itu
-[07:54:56] [Server thread/INFO]: [Not Secure] <Crysla> 1 apa ke 2
-[07:55:04] [Server thread/INFO]: [Not Secure] <ArcturusNeo> satu keknya
-[07:55:08] [Server thread/INFO]: [Not Secure] <ArcturusNeo> emg ada lagi?
-[07:55:11] [Server thread/INFO]: [Not Secure] <Crysla> gaada
-[07:55:19] [Server thread/INFO]: [Not Secure] <Crysla> pokokny abis magma block ad jembatan
-[07:55:27] [Server thread/INFO]: [Not Secure] <Crysla> nah itu lu turun jalan ke depan agak kanan dikit
-[07:55:29] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ini gw ngikutin magma block aja?
-[07:55:33] [Server thread/INFO]: [Not Secure] <Crysla> jangan
-[07:55:35] [Server thread/INFO]: [Not Secure] <Crysla> udah gausah \
-[07:55:42] [Server thread/INFO]: [Not Secure] <Crysla> dead endnya di jembatan
-[07:55:46] [Server thread/INFO]: [Not Secure] <Crysla> turun terus jalan lurus
-[07:55:49] [Server thread/INFO]: [Not Secure] <ArcturusNeo> adanya kayu ini
-[07:55:49] [Server thread/INFO]: [Not Secure] <Crysla> deket kanan"
-[07:55:52] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bukan chest
-[07:55:53] [Server thread/INFO]: [Not Secure] <Crysla> jangan naek
-[07:55:57] [Server thread/INFO]: [Not Secure] <ArcturusNeo> yg ungu
-[07:56:00] [Server thread/INFO]: [Not Secure] <Crysla> iya jangan naek
-[07:56:04] [Server thread/INFO]: [Not Secure] <Crysla> itu deeket situ loabngny dibawah
-[07:56:16] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw turun dl?
-[07:56:22] [Server thread/INFO]: [Not Secure] <Crysla> iya ada lobang
-[07:56:26] [Server thread/INFO]: [Not Secure] <Crysla> udah gw buat
-[07:56:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> oh
-[07:56:45] [Server thread/INFO]: [Not Secure] <ArcturusNeo> rterus
-[07:56:48] [Server thread/INFO]: [Not Secure] <Crysla> ada ?
-[07:56:49] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada
-[07:56:50] [Server thread/INFO]: [Not Secure] <Crysla> turun aja
-[07:56:51] [Server thread/INFO]: [Not Secure] <Crysla> ada chest
-[07:56:59] [Server thread/INFO]: [Not Secure] <Crysla> nah lu tulis kordinat chestnya
-[07:57:07] [Server thread/INFO]: [Not Secure] <Crysla> gw jemput imouto dulu
-[07:57:19] [Server thread/INFO]: [Not Secure] <ArcturusNeo> 94 -33
-[07:57:24] [Server thread/INFO]: [Not Secure] <Crysla> nah makasihh
-[07:57:29] [Server thread/INFO]: [Not Secure] <Crysla> brb
-[07:57:32] [Server thread/INFO]: [Not Secure] <ArcturusNeo> u ngapain ampe sini kocak
-[08:00:15] [Server thread/INFO]: [Not Secure] <ArcturusNeo> brb
-[08:05:20] [Server thread/INFO]: ArcturusNeo lost connection: Disconnected
-[08:05:20] [Server thread/INFO]: ArcturusNeo left the game
-[08:08:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-91, y=15, z=-635} class_2338{x=-91, y=14, z=-636}
-[08:08:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-90, y=16, z=-636} class_2338{x=-90, y=16, z=-637}
-[08:08:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-90, y=16, z=-636} class_2338{x=-90, y=16, z=-637}
-[08:08:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-90, y=16, z=-636} class_2338{x=-90, y=16, z=-637}
-[08:08:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-90, y=16, z=-636} class_2338{x=-90, y=16, z=-637}
-[08:15:42] [Server thread/INFO]: Lawey lost connection: Disconnected
-[08:15:42] [Server thread/INFO]: Lawey left the game
-[08:23:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=111, y=16, z=-290} class_2338{x=111, y=15, z=-289}
-[08:23:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=111, y=16, z=-290} class_2338{x=112, y=15, z=-289}
-[08:23:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=111, y=16, z=-290} class_2338{x=112, y=15, z=-289}
-[08:23:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=111, y=16, z=-290} class_2338{x=112, y=15, z=-289}
-[08:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=39, y=15, z=-258} class_2338{x=39, y=14, z=-258}
-[08:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=39, y=15, z=-258} class_2338{x=39, y=14, z=-258}
-[08:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=39, y=15, z=-258} class_2338{x=39, y=14, z=-258}
-[08:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=39, y=15, z=-258} class_2338{x=39, y=14, z=-258}
-[08:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=39, y=15, z=-258} class_2338{x=39, y=14, z=-258}
-[08:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=39, y=15, z=-258} class_2338{x=39, y=14, z=-258}
-[08:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=39, y=15, z=-258} class_2338{x=39, y=14, z=-258}
-[08:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=39, y=15, z=-258} class_2338{x=39, y=14, z=-258}
-[08:32:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=64, y=15, z=-130} class_2338{x=63, y=14, z=-130}
-[08:32:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=64, y=15, z=-130} class_2338{x=63, y=14, z=-130}
-[08:32:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=64, y=15, z=-130} class_2338{x=63, y=14, z=-130}
-[08:32:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=64, y=15, z=-130} class_2338{x=63, y=14, z=-130}
-[08:32:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=64, y=15, z=-130} class_2338{x=63, y=14, z=-130}
-[08:32:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=64, y=15, z=-130} class_2338{x=63, y=14, z=-130}
-[08:32:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=64, y=15, z=-130} class_2338{x=63, y=14, z=-130}
-[08:39:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=96, y=15, z=-25} class_2338{x=96, y=16, z=-25}
-[08:40:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=88, y=14, z=-33} class_2338{x=87, y=15, z=-33}
-[08:40:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=88, y=14, z=-33} class_2338{x=87, y=15, z=-33}
-[08:51:17] [Server thread/INFO]: Crysla lost connection: Disconnected
-[08:51:17] [Server thread/INFO]: Crysla left the game
-[08:51:23] [Server thread/INFO]: Crysla[/103.156.118.22:10129] logged in with entity id 134233 at (-43.893573326883896, 65.0, -80.87518294801264)
-[08:51:23] [Server thread/INFO]: Crysla joined the game
-[08:51:42] [Server thread/INFO]: Crysla lost connection: Disconnected
-[08:51:42] [Server thread/INFO]: Crysla left the game
-[09:31:33] [Server thread/INFO]: Crysla[/103.156.118.22:50634] logged in with entity id 134443 at (-43.330103592588465, 65.0, -81.6106525221161)
-[09:31:33] [Server thread/INFO]: Crysla joined the game
-[09:34:24] [Server thread/INFO]: ArcturusNeo[/140.213.138.246:43120] logged in with entity id 134929 at (-12.629223284167848, 63.0, -45.87200731927124)
-[09:34:24] [Server thread/INFO]: ArcturusNeo joined the game
-[09:34:31] [Server thread/INFO]: [Not Secure] <Crysla> nih mau make lu
-[09:34:55] [Server thread/INFO]: [Not Secure] <Crysla> mau make fortune ?
-[09:36:36] [Server thread/INFO]: [Not Secure] <ArcturusNeo> trade sama piglin gmn
-[09:36:41] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kok ingot gw ga diambil
-[09:36:41] [Server thread/INFO]: [Not Secure] <Crysla> pake gold lu nya
-[09:36:47] [Server thread/INFO]: [Not Secure] <Crysla> tar diserang lu
-[09:36:50] [Server thread/INFO]: [Not Secure] <Crysla> lempar gold ingot
-[09:36:54] [Server thread/INFO]: [Not Secure] <Crysla> tar dia ambil
-[09:37:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> oh bukan yg zombie ya
-[09:37:04] [Server thread/INFO]: [Not Secure] <Crysla> bukan
-[09:37:08] [Server thread/INFO]: [Not Secure] <ArcturusNeo> yg hgold apanya
-[09:37:13] [Server thread/INFO]: [Not Secure] <ArcturusNeo> armor apa bebas
-[09:37:25] [Server thread/INFO]: [Not Secure] <Crysla> sepatu aj
-[09:37:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> pala gpp kan
-[09:38:08] [Server thread/INFO]: [Not Secure] <ArcturusNeo> piglinnya dmn
-[09:38:15] [Server thread/INFO]: Disconnecting Crysla (/103.47.133.66:50684): §cPlayer Crysla is already online!
-[09:38:15] [Server thread/INFO]: Crysla (/103.47.133.66:50684) lost connection: §cPlayer Crysla is already online!
-[09:38:15] [Server thread/WARN]: handleDisconnection() called twice
-[09:38:17] [Server thread/INFO]: Disconnecting Crysla (/103.47.133.64:10459): §cPlayer Crysla is already online!
-[09:38:17] [Server thread/INFO]: Crysla (/103.47.133.64:10459) lost connection: §cPlayer Crysla is already online!
-[09:38:17] [Server thread/WARN]: handleDisconnection() called twice
-[09:38:19] [Server thread/INFO]: [Not Secure] <ArcturusNeo> adanya yg kecil co
-[09:38:20] [Server thread/INFO]: Disconnecting Crysla (/103.47.133.115:50696): §cPlayer Crysla is already online!
-[09:38:20] [Server thread/INFO]: Crysla (/103.47.133.115:50696) lost connection: §cPlayer Crysla is already online!
-[09:38:20] [Server thread/WARN]: handleDisconnection() called twice
-[09:38:23] [Server thread/INFO]: Disconnecting Crysla (/103.47.133.148:10471): §cPlayer Crysla is already online!
-[09:38:23] [Server thread/INFO]: Crysla (/103.47.133.148:10471) lost connection: §cPlayer Crysla is already online!
-[09:38:23] [Server thread/WARN]: handleDisconnection() called twice
-[09:38:25] [Server thread/INFO]: Disconnecting Crysla (/103.47.133.135:50704): §cPlayer Crysla is already online!
-[09:38:25] [Server thread/INFO]: Crysla (/103.47.133.135:50704) lost connection: §cPlayer Crysla is already online!
-[09:38:25] [Server thread/WARN]: handleDisconnection() called twice
-[09:38:26] [Server thread/INFO]: [Not Secure] <ArcturusNeo> malah diambil
-[09:38:31] [Server thread/INFO]: Disconnecting Crysla (/103.47.133.103:10485): §cPlayer Crysla is already online!
-[09:38:31] [Server thread/INFO]: Crysla (/103.47.133.103:10485) lost connection: §cPlayer Crysla is already online!
-[09:38:31] [Server thread/WARN]: handleDisconnection() called twice
-[09:38:33] [Server thread/INFO]: Crysla lost connection: Timed out
-[09:38:33] [Server thread/INFO]: Crysla left the game
-[09:38:36] [Server thread/INFO]: Crysla[/103.47.133.106:50724] logged in with entity id 136257 at (-54.7852367494348, 66.49520087700593, -65.43463552624131)
-[09:38:36] [Server thread/INFO]: Crysla joined the game
-[09:39:14] [Server thread/INFO]: [Not Secure] <ArcturusNeo> piglinnya dmn
-[09:39:20] [Server thread/INFO]: [Not Secure] <Crysla> kadang spawn
-[09:39:27] [Server thread/INFO]: [Not Secure] <Crysla> di netherack
-[09:39:43] [Server thread/INFO]: [Not Secure] <Crysla> di crimson forest ad
-[09:40:14] [Server thread/INFO]: Disconnecting Crysla (/103.156.118.22:10529): §cPlayer Crysla is already online!
-[09:40:14] [Server thread/INFO]: Crysla (/103.156.118.22:10529) lost connection: §cPlayer Crysla is already online!
-[09:40:14] [Server thread/WARN]: handleDisconnection() called twice
-[09:40:16] [Server thread/INFO]: Disconnecting Crysla (/103.156.118.22:50766): §cPlayer Crysla is already online!
-[09:40:16] [Server thread/INFO]: Crysla (/103.156.118.22:50766) lost connection: §cPlayer Crysla is already online!
-[09:40:16] [Server thread/WARN]: handleDisconnection() called twice
-[09:40:19] [Server thread/INFO]: Disconnecting Crysla (/103.156.118.22:10541): §cPlayer Crysla is already online!
-[09:40:19] [Server thread/INFO]: Crysla (/103.156.118.22:10541) lost connection: §cPlayer Crysla is already online!
-[09:40:19] [Server thread/WARN]: handleDisconnection() called twice
-[09:40:21] [Server thread/INFO]: Crysla lost connection: Timed out
-[09:40:21] [Server thread/INFO]: Crysla left the game
-[09:40:22] [Server thread/INFO]: Crysla[/103.156.118.22:10549] logged in with entity id 137149 at (175.54426281347511, 65.02442408821369, 51.68521242940252)
-[09:40:22] [Server thread/INFO]: Crysla joined the game
-[09:40:39] [Server thread/INFO]: Crysla lost connection: Disconnected
-[09:40:39] [Server thread/INFO]: Crysla left the game
-[09:40:41] [Server thread/INFO]: Crysla[/103.156.118.22:50786] logged in with entity id 137481 at (240.85763778603817, 63.0, 54.81333689141147)
-[09:40:41] [Server thread/INFO]: Crysla joined the game
-[09:41:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> jir ada babi gal
-[09:41:01] [Server thread/INFO]: [Not Secure] <ArcturusNeo> sakit ga
-[09:41:09] [Server thread/INFO]: [Not Secure] <Crysla> ribet doang
-[09:42:24] [Server thread/INFO]: [Not Secure] <ArcturusNeo> anuan dmn
-[09:42:26] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bastionnya
-[09:42:38] [Server thread/INFO]: [Not Secure] <Crysla> kalo lu ngikutin magma cube gw yg dibawh
-[09:42:40] [Server thread/INFO]: [Not Secure] <Crysla> itu ke bastion
-[09:42:44] [Server thread/INFO]: [Not Secure] <Crysla> ada juga di crimsonm forest
-[09:42:47] [Server thread/INFO]: [Not Secure] <Crysla> tinggal lurus aja
-[09:42:49] [Server thread/INFO]: [Not Secure] <Crysla> qada 2
-[09:42:56] [Server thread/INFO]: [Not Secure] <Crysla> susah itu
-[09:43:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> rame?
-[09:43:13] [Server thread/INFO]: [Not Secure] <Crysla> iya
-[09:43:53] [Server thread/INFO]: ArcturusNeo has made the advancement [Who is Cutting Onions?]
-[09:43:53] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dikasih arrow doang jir
-[09:43:55] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ama piglin
-[09:44:57] [Server thread/INFO]: [Not Secure] <ArcturusNeo> yg bagus apa tradenya
-[09:45:16] [Server thread/INFO]: [Not Secure] <Crysla> gw cuma ngambil eye ender
-[09:46:21] [Server thread/INFO]: [Not Secure] <ArcturusNeo> buku2 gitu gaada"
-[09:46:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ?
-[09:46:28] [Server thread/INFO]: [Not Secure] <Crysla> ngga kayanya
-[09:46:40] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gembel amat :v
-[09:49:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal bikin mob grinderrr
-[09:49:26] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw gatau
-[09:51:42] [Server thread/INFO]: [Not Secure] <Crysla> nanti
-[09:51:53] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw buat afk doang wkkwkwkw
-[09:52:52] [Server thread/INFO]: [Not Secure] <Crysla> jauh bikinnya
-[09:53:05] [Server thread/INFO]: [Not Secure] <ArcturusNeo> sabeb
-[09:54:00] [Server thread/INFO]: [Not Secure] <Crysla> 1443 144
-[09:54:03] [Server thread/INFO]: [Not Secure] <Crysla> disitu nanit
-[09:54:12] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bejir jauh bener
-[09:54:15] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada apa disitu emang
-[09:56:30] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! 10.352365604483794,0.0,0.8813753838402931
-[09:56:30] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! 10.751770728876181,0.0,0.8877122278133527
-[09:56:30] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! 11.15120878771927,0.0,0.8919584278321082
-[09:56:30] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! 11.550672430726081,0.0,0.8942157463606506
-[09:56:30] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! 11.95015539654105,0.0,0.894591107449294
-[09:56:30] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! 12.349652005241069,0.0,0.8931845827001723
-[09:56:30] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! 12.74915764780917,0.0,0.8901015689163501
-[09:56:30] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! 13.148668224559515,0.0,0.8854407599178487
-[09:56:30] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! 13.548180112829868,0.0,0.879294816141595
-[09:56:30] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! 13.947690529061447,0.0,0.8717586274095765
-[09:56:30] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! 14.347197090985901,0.0,0.862921428115861
-[09:56:30] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! 14.746697792397754,0.0,0.8528673620710379
-[09:56:30] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! 15.146191189065348,0.0,0.8416798202277889
-[09:56:30] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! 15.545675940201818,0.0,0.8294338565370225
-[09:56:30] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! 15.945151017912849,0.0,0.8162008507810086
-[09:56:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[09:58:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=92, y=14, z=171} class_2338{x=92, y=13, z=170}
-[10:03:02] [Netty Epoll Server IO #3/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
-	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
-	at net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
-	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[10:03:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=115, y=15, z=105} class_2338{x=115, y=13, z=96}
-[10:04:47] [Netty Epoll Server IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
-	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
-	at net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
-	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[10:10:06] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal ketemu fortress ga
-[10:10:10] [Server thread/INFO]: [Not Secure] <Crysla> engga
-[10:15:29] [Server thread/INFO]: [Not Secure] <ArcturusNeo> auyam kmn
-[10:15:30] [Server thread/INFO]: [Not Secure] <Crysla> waa pillager outpost
-[10:15:37] [Server thread/INFO]: [Not Secure] <ArcturusNeo> emang ada gal
-[10:15:41] [Server thread/INFO]: [Not Secure] <ArcturusNeo> deket outpost mah
-[10:15:48] [Server thread/INFO]: [Not Secure] <Crysla> gw di snowy biome
-[10:15:55] [Server thread/INFO]: [Not Secure] <ArcturusNeo> jauh bener maenya
-[10:16:07] [Server thread/INFO]: [Not Secure] <Crysla> gw mau nyari ancient city
-[10:16:21] [Server thread/INFO]: [Not Secure] <ArcturusNeo> cuma ada di snow?
-[10:16:35] [Server thread/INFO]: [Not Secure] <Crysla> ancient city cenderung ada di bawah gunung
-[10:16:43] [Server thread/INFO]: [Not Secure] <Crysla> gunung tinggi biasany di snowy biome
-[10:18:13] [Server thread/INFO]: Crysla has made the advancement [Ol' Betsy]
-[10:18:24] [Server thread/INFO]: [Not Secure] <ArcturusNeo> apatuh
-[10:21:20] [Server thread/INFO]: [Not Secure] <ArcturusNeo> jir ada skeleton gaje
-[10:22:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=34, y=12, z=52} class_2338{x=35, y=14, z=53}
-[10:25:36] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada piglin di overworld
-[10:25:39] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gbllk
-[10:27:06] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tidur ga
-[10:31:14] [Server thread/INFO]: ArcturusNeo lost connection: Timed out
-[10:31:14] [Server thread/INFO]: ArcturusNeo left the game
-[10:31:17] [Server thread/INFO]: ArcturusNeo[/140.213.142.48:62959] logged in with entity id 177039 at (-283.15777085856143, 88.0, -108.90964378314438)
-[10:31:17] [Server thread/INFO]: ArcturusNeo joined the game
-[10:32:13] [Server thread/INFO]: [Not Secure] <ArcturusNeo> agl
-[10:32:14] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal
-[10:32:20] [Server thread/INFO]: [Not Secure] <Crysla> oi
-[10:32:20] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada magma ga
-[10:32:26] [Server thread/INFO]: [Not Secure] <Crysla> gaada
-[10:32:34] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lu belom buat grindernya kan
-[10:32:38] [Server thread/INFO]: [Not Secure] <Crysla> belom
-[10:32:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw buat deh
-[10:37:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2947ms or 58 ticks behind
-[10:45:45] [Server thread/INFO]: [Not Secure] <Crysla> dm lu brp sat
-[10:45:49] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ambil aja
-[10:45:50] [Server thread/INFO]: [Not Secure] <ArcturusNeo> byk
-[10:45:56] [Server thread/INFO]: [Not Secure] <Crysla> gw dapet trim armor
-[10:46:01] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ambil
-[10:46:12] [Server thread/INFO]: [Not Secure] <ArcturusNeo> todir gal
-[10:46:18] [Server thread/INFO]: [Not Secure] <Crysla> udah pagi
-[10:46:27] [Server thread/INFO]: [Not Secure] <ArcturusNeo> oia
-[10:46:41] [Server thread/WARN]: ArcturusNeo moved too quickly! -0.28054437870198967,-14.862625116424809,-0.17341932216746514
-[10:46:41] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! -10.402661707856623,0.0,-4.241851625385493
-[10:46:41] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! -11.606738172167297,0.0,-4.776276529498432
-[10:46:41] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! -12.817213533610811,0.0,-5.325915552269294
-[10:46:41] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! -14.033217688110653,0.0,-5.891313155679768
-[10:46:41] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! -15.253887525193477,0.0,-6.472967769956085
-[10:46:41] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! -16.478371181983675,0.0,-7.071330427596308
-[10:46:41] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! -17.705829932696815,0.0,-7.686806552939061
-[10:46:41] [Server thread/WARN]: Cherry Boat (vehicle of Crysla) moved too quickly! -18.93543666640653,0.0,-8.31976012494215
-[10:46:43] [Server thread/WARN]: ArcturusNeo moved too quickly! 0.10441066674377453,-10.811596629254794,-0.1472393361690152
-[10:48:43] [Server thread/INFO]: [Not Secure] <ArcturusNeo> aa
-[10:50:08] [Server thread/WARN]: ArcturusNeo moved too quickly! -0.44869446484278797,-10.72812610848311,-0.06591586703505925
-[10:54:55] [Server thread/INFO]: [Not Secure] <Crysla> dimana lu sat
-[10:55:56] [Server thread/INFO]: [Not Secure] <ArcturusNeo> nyari kayu
-[10:55:57] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal
-[10:56:03] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada kelp ga
-[10:56:08] [Server thread/INFO]: [Not Secure] <Crysla> berapa
-[10:56:09] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kalo ke ocean ambil yak
-[10:56:12] [Server thread/INFO]: [Not Secure] <ArcturusNeo> 1 keknya
-[10:56:17] [Server thread/INFO]: [Not Secure] <Crysla> 1?
-[10:56:18] [Server thread/INFO]: [Not Secure] <ArcturusNeo> atau ambil aja gy byk
-[10:56:20] [Server thread/INFO]: [Not Secure] <Crysla> buat aapaan
-[10:56:26] [Server thread/INFO]: [Not Secure] <ArcturusNeo> elevator
-[11:04:01] [Server thread/INFO]: [Not Secure] <Crysla> gw taro chestr
-[11:07:36] [Server thread/INFO]: [Not Secure] <ArcturusNeo> trapdoor spruce beda ya bentuknya
-[11:09:35] [Server thread/INFO]: [Not Secure] <ArcturusNeo> buset kurang blocknya ajg
-[11:09:38] [Server thread/INFO]: [Not Secure] <ArcturusNeo> banyak amat
-[11:14:58] [Server thread/INFO]: [Not Secure] <Crysla> 64 trapdoor
-[11:15:08] [Server thread/INFO]: [Not Secure] <Crysla> item hopper 4
-[11:15:20] [Server thread/INFO]: [Not Secure] <ArcturusNeo> trapdoornya bikinin
-[11:15:21] [Server thread/INFO]: [Not Secure] <ArcturusNeo> sisa itu
-[11:15:21] [Server thread/INFO]: [Not Secure] <Crysla> atasnya kasih slab
-[11:15:38] [Server thread/INFO]: [Not Secure] <Crysla> lu bikin dimana
-[11:15:40] [Server thread/INFO]: [Not Secure] <Crysla> solat dulu gw
-[11:15:47] [Server thread/INFO]: [Not Secure] <ArcturusNeo> disungai
-[11:16:45] [Server thread/INFO]: ArcturusNeo lost connection: Disconnected
-[11:16:45] [Server thread/INFO]: ArcturusNeo left the game
-[11:23:01] [Server thread/INFO]: ArcturusNeo[/140.213.142.48:51997] logged in with entity id 203037 at (-222.30000001192093, 80.0, -72.69999998807907)
-[11:23:01] [Server thread/INFO]: ArcturusNeo joined the game
-[11:24:01] [Server thread/INFO]: [Not Secure] <Crysla> dimana
-[11:24:19] [Server thread/INFO]: [Not Secure] <Crysla> oh itu
-[11:24:28] [Server thread/INFO]: [Not Secure] <Crysla> pake block apa
-[11:24:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> cobble itu
-[11:24:50] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw afk dl
-[11:24:54] [Server thread/INFO]: [Not Secure] <Crysla> covvle yg nmana
-[11:27:04] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[11:27:04] [Server thread/INFO]: [A[A[A[A[A[A[A[A[A[A[A[A[A[B[B[B[B[B[B<--[HERE]
-[11:27:11] [Server thread/INFO]: A player is required to run this command here
-[11:27:23] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[11:27:23] [Server thread/INFO]: <--[HERE]
-[11:27:23] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[11:27:23] [Server thread/INFO]: <--[HERE]
-[11:27:23] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[11:27:23] [Server thread/INFO]: <--[HERE]
-[11:27:24] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[11:27:24] [Server thread/INFO]: <--[HERE]
-[11:27:25] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[11:27:25] [Server thread/INFO]: <--[HERE]
-[11:28:52] [Server thread/INFO]: Lawey[/104.28.245.128:45310] logged in with entity id 204720 at (-14.363260288547703, 68.875, -47.13078619904671)
-[11:28:52] [Server thread/INFO]: Lawey joined the game
-[11:28:55] [Server thread/INFO]: [Not Secure] <Crysla> lang
-[11:29:01] [Server thread/INFO]: [Not Secure] <Lawey> oit
-[11:29:04] [Server thread/INFO]: [Not Secure] <Crysla> tuh
-[11:29:11] [Server thread/INFO]: [Not Secure] <Crysla> satria bikin mob grinder disitu
-[11:29:18] [Server thread/INFO]: [Not Secure] <Crysla> arah kiri matahari terbenam
-[11:29:19] [Server thread/INFO]: [Not Secure] <Lawey> what's that brother
-[11:29:43] [Server thread/INFO]: [Not Secure] <Crysla> .
-[11:29:53] [Server thread/INFO]: [Not Secure] <Lawey> BROTHER EWWW
-[11:30:02] [Server thread/INFO]: [Not Secure] <Crysla> wkwkwk
-[11:30:05] [Server thread/INFO]: [Not Secure] <Lawey> so close
-[11:31:27] [Server thread/INFO]: Lawey lost connection: Disconnected
-[11:31:27] [Server thread/INFO]: Lawey left the game
-[11:33:36] [Server thread/INFO]: Lawey[/104.28.245.128:45192] logged in with entity id 205607 at (-68.49445907497145, 70.0, -103.84638502348163)
-[11:33:36] [Server thread/INFO]: Lawey joined the game
-[11:33:45] [Server thread/INFO]: [Not Secure] <Crysla> mana kejauhan lagi aernya wkwk
-[11:34:22] [Server thread/INFO]: [Not Secure] <Crysla> cobble deepslate ga ngaruh sama mob spawn rate kan yak
-[11:34:34] [Server thread/INFO]: [Not Secure] <Lawey> harusnya nggka
-[11:35:32] [Server thread/INFO]: [Not Secure] <Lawey> kepanjangan ?
-[11:38:05] [Server thread/INFO]: [Not Secure] <Crysla> aih kureang 4
-[11:38:11] [Server thread/INFO]: [Not Secure] <Crysla> ada kayu ?
-[11:38:15] [Server thread/INFO]: [Not Secure] <Crysla> 24
-[11:38:19] [Server thread/INFO]: [Not Secure] <Crysla> tenkyu
-[11:38:28] [Server thread/INFO]: [Not Secure] <Crysla> dag
-[11:38:46] [Thread-353/WARN]: failed to fetch skin on first join
+[04:38:47] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/gsapt/server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[04:38:47] [main/INFO]: Compatibility level set to JAVA_21
+[04:38:48] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[04:38:58] [main/INFO]: [EasyAuth]: EasyAuth mod by NikitaCartes
+[04:38:58] [main/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
+[04:38:58] [main/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
+[04:38:59] [main/WARN]: en_ is not a supported Floodgate language.
+[04:39:00] [main/INFO]: Loading extensions...
+[04:39:00] [main/INFO]: Loaded 0 extension(s)
+[04:39:00] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:39:04] [main/INFO]: Loaded 1292 recipes
+[04:39:04] [main/ERROR]: Failed to load function afkannouncer:afk_kick/announce_afk_kick
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:89) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[04:39:04] [main/ERROR]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[04:39:04] [main/INFO]: Loaded 1441 advancements
+[04:39:04] [Thread-3/INFO]: Loaded 36 translation keys
+[04:39:04] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[04:39:05] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.507 ms
+[04:39:05] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[04:39:05] [Server thread/INFO]: Loading properties
+[04:39:05] [Server thread/INFO]: Default game type: SURVIVAL
+[04:39:05] [Server thread/INFO]: Generating keypair
+[04:39:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:39:05] [Server thread/INFO]: Using epoll channel type
+[04:39:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:39:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:39:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:39:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:39:06] [Server thread/INFO]: Preparing level "world"
+[04:39:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:39:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:39:34] [Server thread/INFO]: Time elapsed: 905 ms
+[04:39:34] [Server thread/INFO]: Done (28.075s)! For help, type "help"
+[04:39:34] [Server thread/INFO]: Took 152ms to boot Floodgate
+[04:39:34] [Server thread/INFO]: ******************************************
+[04:39:34] [Server thread/INFO]: 
+[04:39:34] [Server thread/INFO]: Loading Geyser version 2.4.2-b654 (git-master-2274377)
+[04:39:34] [Server thread/INFO]: 
+[04:39:34] [Server thread/INFO]: ******************************************
+[04:39:38] [epollEventLoopGroup-3-1/INFO]: Started Geyser on UDP port 19132
+[04:39:38] [Server thread/INFO]: Done (3.914s)! Run /geyser help for help!
+[04:39:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4101ms or 82 ticks behind
+[08:05:37] [Server thread/INFO]: Crysla[/103.156.118.22:19457] logged in with entity id 28 at (-43.697630657389055, 65.0, -77.76714898228697)
+[08:05:37] [Server thread/INFO]: Crysla joined the game
+[08:05:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
+[08:15:40] [Server thread/INFO]: [Crysla: Skin changed]
+[08:34:50] [Server thread/INFO]: [Crysla: Triggered [afk]]
+[08:54:02] [Server thread/INFO]: ArcturusNeo[/140.213.4.87:27697] logged in with entity id 8497 at (-49.253625462046166, 64.0, 983.661194105887)
+[08:54:02] [Server thread/INFO]: ArcturusNeo joined the game
+[08:58:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3554ms or 71 ticks behind
+[09:01:04] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal
+[09:01:12] [Server thread/INFO]: [Not Secure] <Crysla> oi
+[09:01:25] [Server thread/INFO]: [Not Secure] <ArcturusNeo> cara biar lari cepet pake block apa
+[09:01:31] [Server thread/INFO]: [Not Secure] <Crysla> ice
+[09:01:39] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ice kan seluncur co
+[09:02:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-4, y=65, z=71} class_2338{x=-5, y=64, z=68}
+[09:03:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-5, y=65, z=50} class_2338{x=-2, y=66, z=32}
+[09:05:22] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lah
+[09:05:25] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw nemu netherite masa
+[09:05:31] [Server thread/INFO]: [Not Secure] <ArcturusNeo> di y 64??
+[09:05:35] [Server thread/INFO]: [Not Secure] <Crysla> kadang
+[09:10:04] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kalo mau ke village lewat nether aja
+[09:15:32] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tidur
+[09:16:33] [Server thread/INFO]: [Not Secure] <ArcturusNeo> pabrik cobblestonenya mati?
+[09:16:35] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ga nambah2 co
+[09:19:19] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal
+[09:19:26] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bastion deket sand valley udah dieksplor?
+[09:19:29] [Server thread/INFO]: [Not Secure] <Crysla> udah
+[09:19:41] [Server thread/INFO]: [Not Secure] [Server] ngelag gak ges
+[09:19:45] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ga
+[09:19:52] [Server thread/INFO]: [Not Secure] [Server] ram cuma 3.7gb
+[09:19:55] [Server thread/INFO]: [Not Secure] [Server] kuat ternyata
+[09:20:03] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ya lah ga ada pabrik co
+[09:20:04] [Server thread/INFO]: [Not Secure] <Crysla> udah ke load berapa
+[09:20:13] [Server thread/INFO]: [Not Secure] [Server] 2.09gb 
+[09:24:56] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lang
+[09:25:13] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lang
+[09:25:22] [Server thread/INFO]: [Not Secure] <ArcturusNeo> duh pea ilang anaknya
+[09:45:12] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal
+[09:45:16] [Server thread/INFO]: [Not Secure] <ArcturusNeo> sapi ternaknya gimana
+[09:45:26] [Server thread/INFO]: [Not Secure] <Crysla> pake wheat
+[09:45:38] [Server thread/INFO]: [Not Secure] <ArcturusNeo> perlu diternak ga
+[09:45:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> mumpung ketemu
+[09:46:03] [Server thread/INFO]: [Not Secure] <Crysla> bawa aja
+[09:46:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kejauhan njir
+[09:55:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lang
+[09:55:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ppp
+[10:08:01] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tidur ae
+[10:09:22] [Server thread/INFO]: [Not Secure] <ArcturusNeo> mw bikin apa bre
+[10:12:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=3, y=63, z=-103} class_2338{x=3, y=63, z=-102}
+[10:12:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=3, y=63, z=-104} class_2338{x=3, y=63, z=-102}
+[10:12:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=3, y=63, z=-103} class_2338{x=3, y=63, z=-102}
+[10:13:07] [Server thread/INFO]: [Not Secure] <Crysla> gudang
+[10:15:42] [Server thread/INFO]: [Not Secure] <ArcturusNeo> net template dmn
+[10:15:47] [Server thread/INFO]: [Not Secure] <ArcturusNeo> di chest siapa
+[10:16:01] [Server thread/INFO]: [Not Secure] <Crysla> di chest gw kayanya
+[10:16:20] [Server thread/INFO]: [Not Secure] <Crysla> duplicate aja sampe 6
+[10:16:41] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw ambil 1 ya
+[10:16:43] [Server thread/INFO]: [Not Secure] <Crysla> iya
+[10:16:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada 2
+[10:16:58] [Server thread/INFO]: [Not Secure] <Crysla> ambil aja diamondnyn
+[10:17:08] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lu mining dimana dah
+[10:17:09] [Server thread/INFO]: [Not Secure] <ArcturusNeo> banyak bener
+[10:17:11] [Server thread/INFO]: [Not Secure] <ArcturusNeo> cave?
+[10:17:12] [Server thread/INFO]: [Not Secure] <Crysla> ada
+[10:17:17] [Server thread/INFO]: [Not Secure] <Crysla> belom gw kelarin semua cavenya
+[10:17:21] [Server thread/INFO]: [Not Secure] <Crysla> 5 stack dptny gw
+[10:17:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> cave apa strip?
+[10:17:26] [Server thread/INFO]: [Not Secure] <Crysla> cave
+[10:17:30] [Server thread/INFO]: [Not Secure] <ArcturusNeo> jauh?
+[10:17:37] [Server thread/INFO]: [Not Secure] <Crysla> jalan aja lurus ampe ketemu laut
+[10:17:41] [Server thread/INFO]: [Not Secure] <Crysla> di sebelah laut ada lobang gede banget
+[10:17:44] [Server thread/INFO]: [Not Secure] <Crysla> itu cavebnya
+[10:17:50] [Server thread/INFO]: [Not Secure] <ArcturusNeo> okok
+[10:17:53] [Server thread/INFO]: [Not Secure] <Crysla> lurus matahari terbenam
+[10:17:59] [Server thread/INFO]: [Not Secure] <Crysla> sampe laut tar ada village
+[10:18:12] [Server thread/INFO]: [Not Secure] <Crysla> dsitu cavenya
+[10:18:20] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lu ada netherack?
+[10:18:25] [Server thread/INFO]: [Not Secure] <Crysla> ad jkayanya
+[10:18:42] [Server thread/INFO]: [Not Secure] <ArcturusNeo> oiya
+[10:19:08] [Server thread/INFO]: [Not Secure] <Crysla> gw bikin 300 double chest di gudang
+[10:19:17] [Server thread/INFO]: [Not Secure] <ArcturusNeo> buat apa bgst
+[10:19:26] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kalo autosort enak
+[10:19:28] [Server thread/INFO]: [Not Secure] <Crysla> 320 dah
+[10:19:32] [Server thread/INFO]: [Not Secure] <ArcturusNeo> eh ini
+[10:19:33] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gilang mana
+[10:19:38] [Server thread/INFO]: [Not Secure] <Crysla> gatau
+[10:19:40] [Server thread/INFO]: [Not Secure] <ArcturusNeo> pasang plugin buat naro sign di chest
+[10:19:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> enak buat info chestnya
+[10:19:51] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw suka lupa
+[10:20:04] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tidur ga
+[10:21:46] [Server thread/INFO]: [Not Secure] <ArcturusNeo> prot max 4 kan?
+[10:21:49] [Server thread/INFO]: [Not Secure] <Crysla> iya
+[10:21:49] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bukan v?
+[10:21:50] [Server thread/INFO]: [Not Secure] <ArcturusNeo> okok
+[10:28:56] [Server thread/INFO]: ArcturusNeo lost connection: Timed out
+[10:28:56] [Server thread/INFO]: ArcturusNeo left the game
+[10:28:56] [Server thread/WARN]: handleDisconnection() called twice
+[10:29:10] [Server thread/INFO]: ArcturusNeo[/112.215.224.67:60726] logged in with entity id 70196 at (-19.280133729999722, 67.5, -43.69529870861878)
+[10:29:10] [Server thread/INFO]: ArcturusNeo joined the game
+[10:29:35] [Server thread/INFO]: ArcturusNeo has made the advancement [Crafting a New Look]
+[10:31:04] [Thread-248/WARN]: failed to fetch skin on first join
 java.lang.IllegalStateException: not found
 	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:96) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
 	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
 	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
-	at net.minecraft.class_3248.md69b3b2$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:2056) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.mdb5d7a3$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:2056) ~[server-intermediary.jar:?]
 	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.md69b3b2$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:2055) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.mdb5d7a3$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:2055) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[11:38:47] [Server thread/INFO]: lazymonday27[/103.234.31.43:54178] logged in with entity id 206338 at (9.49889574287765, 63.0, -30.527447617932303)
-[11:38:47] [Server thread/INFO]: lazymonday27 joined the game
-[11:39:21] [Server thread/INFO]: [Not Secure] <Crysla> atas cloud masih spawn kan?
-[11:39:29] [Server thread/INFO]: [Not Secure] <lazymonday27> golem w ko ilang brayy
-[11:39:33] [Server thread/INFO]: [Not Secure] <Crysla> di belakang rumah lu
-[11:39:37] [Server thread/INFO]: [Not Secure] <Lawey> masih harusnya
-[11:39:50] [Server thread/INFO]: [Not Secure] <Lawey> yg penting light level ?
-[11:39:56] [Server thread/INFO]: [Not Secure] <Crysla> ya harusnya
-[11:42:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=62, z=-37} class_2338{x=26, y=63, z=-10}
-[11:42:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=62, z=-37} class_2338{x=27, y=63, z=-10}
-[11:42:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=62, z=-37} class_2338{x=27, y=63, z=-9}
-[11:42:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=62, z=-37} class_2338{x=28, y=63, z=-9}
-[11:42:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=62, z=-37} class_2338{x=29, y=63, z=-9}
-[11:42:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=62, z=-37} class_2338{x=30, y=63, z=-9}
-[11:42:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=62, z=-37} class_2338{x=31, y=63, z=-9}
-[11:42:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-6, y=62, z=-37} class_2338{x=32, y=63, z=-9}
-[11:43:03] [Server thread/INFO]: [Not Secure] <ArcturusNeo> jir nguli batu gituan dmn lu
-[11:43:09] [Server thread/INFO]: lazymonday27 lost connection: Disconnected
-[11:43:09] [Server thread/INFO]: lazymonday27 left the game
-[11:43:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ladenan jir lama ancurnya
-[11:43:41] [Server thread/INFO]: [Not Secure] <Crysla> double
-[11:43:46] [Server thread/INFO]: [Not Secure] <ArcturusNeo> apaan
-[11:43:51] [Server thread/INFO]: [Not Secure] <Lawey> atasnya kasih slab nnti gal jgn lupa
-[11:43:57] [Server thread/INFO]: [Not Secure] <Crysla> taro lagi lang
-[11:44:08] [Server thread/INFO]: [Not Secure] <ArcturusNeo> emg kenapa harus slab dah
-[11:44:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bedanya apaan
-[11:44:14] [Server thread/INFO]: [Not Secure] <Lawey> spawnproof
-[11:45:14] [Server thread/INFO]: [Not Secure] <ArcturusNeo> single block gabisa spawn?
-[11:45:26] [Server thread/INFO]: [Not Secure] <Lawey> gak
-[11:45:29] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bejir
-[11:45:32] [Server thread/INFO]: [Not Secure] <Lawey> singleblock justru spawn
-[11:45:45] [Server thread/INFO]: [Not Secure] <Lawey> biar di atap ga spawn mob dikasi slab
-[11:45:56] [Server thread/INFO]: [Not Secure] <Crysla> carpet jg bisa sat
-[11:46:06] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dikasih obor gitu gabisa ya
-[11:46:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kan ditutup dalemnya
-[11:46:17] [Server thread/INFO]: [Not Secure] <Crysla> kalo obor
-[11:46:30] [Server thread/INFO]: [Not Secure] <Crysla> pinggirny jangan ad yg kebuka sudut siku blocknya
-[11:46:33] [Server thread/INFO]: [Not Secure] <Crysla> masuk cahayanya
-[11:46:44] [Server thread/INFO]: [Not Secure] <Crysla> tapi gatau gw skrg masih apa ga
-[11:47:03] [Server thread/INFO]: [Not Secure] <Lawey> cari aman sj
-[11:47:23] [Server thread/INFO]: [Not Secure] <Crysla> ambilin lagi sat
-[11:47:25] [Server thread/INFO]: [Not Secure] <Crysla> vlock
-[11:47:34] [Server thread/INFO]: [Not Secure] <ArcturusNeo> yang mana
-[11:47:37] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw cu,a ada cobble
-[11:47:39] [Server thread/INFO]: [Not Secure] <Lawey> bikin cbble generator aja sat
-[11:47:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tadi gw kasih 5 stack dibuangin
-[11:47:50] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gmn dah
-[11:47:55] [Server thread/INFO]: [Not Secure] <Crysla> rumah tristan coba
-[11:48:03] [Server thread/INFO]: [Not Secure] <ArcturusNeo> deepslate apa coobble
-[11:48:06] [Server thread/INFO]: [Not Secure] <Crysla> apa aja
-[11:48:29] [Server thread/INFO]: [Not Secure] <ArcturusNeo> btr
-[11:49:10] [Server thread/INFO]: [Not Secure] <Lawey> ini gimana sat projek mangkrak
-[11:49:15] [Server thread/INFO]: [Not Secure] <ArcturusNeo> owaoawaowk
-[11:49:18] [Server thread/INFO]: [Not Secure] <Lawey> diberesin
-[11:49:37] [Server thread/INFO]: ArcturusNeo fell off a ladder
-[11:49:41] [Server thread/INFO]: [Not Secure] <Crysla> jeh
-[11:49:48] [Server thread/INFO]: [Not Secure] <Lawey> skill issue
-[11:51:19] [Server thread/INFO]: [Lawey: Set the weather to clear]
-[11:51:28] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kok ilang ya
-[11:51:31] [Server thread/INFO]: [Not Secure] <Crysla> apa?
-[11:51:32] [Server thread/INFO]: [Not Secure] <Lawey> apaan
-[11:51:36] [Server thread/INFO]: [Not Secure] <ArcturusNeo> legging
-[11:51:39] [Server thread/INFO]: [Not Secure] <Crysla> ?
-[11:51:40] [Server thread/INFO]: [Not Secure] <Lawey> di laut
-[11:52:02] [Server thread/INFO]: [Not Secure] <Lawey> kalo jatoh mencar meledak gitu soalnya
-[11:52:15] [Server thread/INFO]: [Not Secure] <Crysla> oiioii\
-[11:52:23] [Server thread/INFO]: [Not Secure] <Crysla> mana olagi ini
-[11:52:31] [Server thread/INFO]: [Not Secure] <ArcturusNeo> nilang
-[11:52:34] [Server thread/INFO]: [Not Secure] <Lawey> pak jokowi
-[11:52:40] [Server thread/INFO]: [Not Secure] <ArcturusNeo> oi
-[11:52:42] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bawa naek
-[11:52:42] [Server thread/INFO]: [Not Secure] <Crysla> pak proyekny gimana ini
-[11:52:45] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw nyari dl
-[11:52:49] [Server thread/INFO]: [Not Secure] <Lawey> pak dananya kurang
-[11:53:09] [Server thread/INFO]: [Not Secure] <Crysla> kok bisa kurang pak
-[11:53:43] [Server thread/INFO]: [Not Secure] <Lawey> dipake buat naik jet pak
-[11:53:57] [Server thread/INFO]: [Not Secure] <Lawey> permisi paket
-[11:54:03] [Server thread/INFO]: [Not Secure] <Crysla> berapa itu jet sekali naik pak
-[11:54:36] [Server thread/INFO]: [Not Secure] <Lawey> 271t
-[11:54:45] [Server thread/INFO]: [Not Secure] <Crysla> astaga
-[11:55:16] [Server thread/INFO]: [Not Secure] <Crysla> trrapdoornya
-[11:55:20] [Server thread/INFO]: [Not Secure] <Crysla> hilang
-[11:56:02] [Server thread/INFO]: [Not Secure] <Lawey> ni mau berapa lantai pak
-[11:56:04] [Server thread/INFO]: [Not Secure] <Crysla> 2
-[11:56:49] [Server thread/INFO]: [Not Secure] <Crysla> makan siang
-[11:56:59] [Server thread/INFO]: [Not Secure] <Lawey> alarmnya menacing
-[11:57:14] [Server thread/INFO]: [Not Secure] <ArcturusNeo> nghotnol
-[11:57:24] [Server thread/INFO]: [Not Secure] <ArcturusNeo> hampir tewas lg
-[11:57:27] [Server thread/INFO]: [Not Secure] <Crysla> habis pak
-[11:57:29] [Server thread/INFO]: [Not Secure] <Lawey> skill issue
-[11:57:41] [Server thread/INFO]: [Not Secure] <Lawey> ini divisi logistik gimana
-[11:58:05] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw sambil multitaskin co
-[11:58:43] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tai lah
-[11:58:45] [Server thread/INFO]: [Not Secure] <ArcturusNeo> exp gw ilang 20an
-[11:58:46] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tolol
-[11:59:24] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ini stoonenya
-[12:00:00] [Server thread/INFO]: [Not Secure] <Lawey> bingung
-[12:00:09] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ngape
-[12:00:23] [Server thread/INFO]: [Not Secure] <Lawey> kowakowaowak
-[12:00:42] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bgst macem2 gini
-[12:00:43] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kwakwk
-[12:00:48] [Server thread/INFO]: [Not Secure] <Crysla> kurang pak
-[12:00:53] [Server thread/INFO]: [Not Secure] <ArcturusNeo> diversity
-[12:00:53] [Server thread/INFO]: [Not Secure] <Crysla> ini saya harus turun tangan kayanya
-[12:01:04] [Server thread/INFO]: [Not Secure] <Crysla> sat
-[12:01:04] [Server thread/INFO]: [Not Secure] <Lawey> waduh pak
-[12:01:05] [Server thread/INFO]: [Not Secure] <Crysla> sini
-[12:01:14] [Server thread/INFO]: [Not Secure] <ArcturusNeo> cobble biasa yak
-[12:01:51] [Server thread/INFO]: [Not Secure] <Crysla> apa saja
-[12:01:57] [Server thread/INFO]: [Not Secure] <ArcturusNeo> nyari dl
-[12:02:10] [Server thread/INFO]: [Not Secure] <Lawey> cbble generator saja pak
-[12:02:22] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gbsa w
-[12:02:24] [Server thread/INFO]: Crysla fell from a high place
-[12:02:27] [Server thread/INFO]: [Not Secure] <Crysla> lmao
-[12:02:28] [Server thread/INFO]: [Not Secure] <Lawey> skill issue
-[12:02:34] [Server thread/INFO]: [Not Secure] <ArcturusNeo> mangap
-[12:02:38] [Server thread/INFO]: [Not Secure] <Crysla> exp gw 33 wklwkwkw
-[12:02:56] [Server thread/INFO]: [Not Secure] <Lawey> dudududu
-[12:03:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> pelaku
-[12:03:18] [Server thread/INFO]: [Not Secure] <Lawey> harusnya disana semua itemnya
-[12:03:33] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ko0k bs ampe atas
-[12:03:33] [Server thread/INFO]: [Not Secure] <Lawey> ada yang di dalem aer tadi
-[12:03:46] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ngambang kudunya kan
-[12:04:09] [Server thread/INFO]: [Not Secure] <Crysla> ;lava
-[12:04:20] [Server thread/INFO]: [Not Secure] <ArcturusNeo> aoaan
-[12:04:39] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ayam kmn gal
-[12:04:57] [Server thread/INFO]: [Not Secure] <Lawey> wtf
-[12:05:03] [Server thread/INFO]: [Not Secure] <Lawey> left click gw bisa
-[12:05:37] [Server thread/INFO]: [Not Secure] <Crysla> bikin dimana
-[12:05:49] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ini gw lg ngebelah gunung co
-[12:05:51] [Server thread/INFO]: [Not Secure] <Lawey> di bekas
-[12:06:15] [Server thread/INFO]: [Not Secure] <Crysla> dunaba
-[12:06:18] [Server thread/INFO]: [Not Secure] <Crysla> dimana
-[12:06:23] [Server thread/INFO]: [Not Secure] <Lawey> disini
-[12:06:26] [Server thread/INFO]: [Not Secure] <Crysla> kok ad iron
-[12:06:28] [Server thread/INFO]: [Not Secure] <Crysla> di inv gw
-[12:06:35] [Server thread/INFO]: [Not Secure] <Lawey> kayanya bekas satria
-[12:06:35] [Server thread/INFO]: [Not Secure] <ArcturusNeo> item gw galih
-[12:06:43] [Server thread/INFO]: [Not Secure] <Crysla> gw gaada batu
-[12:06:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> makanya gw bingung
-[12:06:52] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kok bs ampe atas :v
-[12:07:07] [Server thread/INFO]: ArcturusNeo lost connection: Disconnected
-[12:07:07] [Server thread/INFO]: ArcturusNeo left the game
-[12:07:08] [Server thread/INFO]: [Not Secure] <Crysla> sini ?
-[12:07:12] [Server thread/INFO]: [Not Secure] <Crysla> yg normal aja ya
-[12:07:13] [Server thread/INFO]: [Not Secure] <Crysla> bikin 2
-[12:07:15] [Server thread/INFO]: [Not Secure] <Crysla> 3 ?
-[12:07:15] [Server thread/INFO]: [Not Secure] <Lawey> iya
-[12:07:17] [Server thread/INFO]: [Not Secure] <Lawey> biasa aja
-[12:07:18] [Server thread/INFO]: ArcturusNeo[/140.213.142.48:27642] logged in with entity id 213181 at (-231.7144295375046, 80.0, -117.93878386480674)
-[12:07:18] [Server thread/INFO]: ArcturusNeo joined the game
-[12:07:25] [Server thread/INFO]: [Not Secure] <Crysla> sat
-[12:07:26] [Server thread/INFO]: [Not Secure] <ArcturusNeo> nih batu
-[12:07:28] [Server thread/INFO]: [Not Secure] <Lawey> sat
-[12:07:31] [Server thread/INFO]: [Not Secure] <Crysla> rumah adek lu berubah jadi pabrik
-[12:07:31] [Server thread/INFO]: [Not Secure] <Lawey> belajar sini
-[12:07:50] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dasar antek2 jokowi
-[12:07:53] [Server thread/INFO]: [Not Secure] <Lawey> reuse reduce ecycy
-[12:08:29] [Server thread/INFO]: [Not Secure] <Crysla> anvil
-[12:08:31] [Server thread/INFO]: [Not Secure] <Crysla> 10
-[12:08:33] [Server thread/INFO]: [Not Secure] <Crysla> kurang 6
-[12:09:17] [Server thread/INFO]: [Not Secure] <ArcturusNeo> afk
-[12:09:22] [Server thread/INFO]: [Not Secure] <Lawey> milku rasanya kaya sintetis banget anjir
-[12:09:34] [Server thread/INFO]: [Not Secure] <Crysla> milku emang pake susu yak ?
-[12:09:53] [Server thread/INFO]: [Not Secure] <Lawey> fukin hell it isnt
-[12:09:57] [Server thread/INFO]: [Not Secure] <Lawey> susu rekonstruksi anjir
-[12:10:01] [Server thread/INFO]: [Not Secure] <Lawey> the fuk does that mean
-[12:12:59] [Server thread/INFO]: [Not Secure] <Crysla> quartz
-[12:13:10] [Server thread/INFO]: Lawey lost connection: Timed out
-[12:13:10] [Server thread/INFO]: Lawey left the game
-[12:15:17] [Server thread/INFO]: Lawey[/104.28.245.128:14677] logged in with entity id 214426 at (-69.26628906758425, 68.0, -61.727360911843604)
-[12:15:17] [Server thread/INFO]: Lawey joined the game
-[12:15:20] [Server thread/INFO]: [Not Secure] <Crysla> quartz
-[12:15:34] [Server thread/INFO]: [Not Secure] <Lawey> here sir
-[12:16:02] [Server thread/INFO]: Lawey lost connection: Timed out
-[12:16:02] [Server thread/INFO]: Lawey left the game
-[12:19:04] [Server thread/INFO]: Lawey[/104.28.213.128:24308] logged in with entity id 215013 at (-69.26628906758425, 68.0, -61.727360911843604)
-[12:19:04] [Server thread/INFO]: Lawey joined the game
-[12:20:48] [Server thread/INFO]: [Not Secure] <Lawey> afk
-[12:22:34] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ayam kmn gal
-[12:22:36] [Server thread/INFO]: [Not Secure] <Crysla> gatauu
-[12:30:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=40, y=14, z=108} class_2338{x=40, y=15, z=108}
-[12:31:10] [Server thread/INFO]: [Not Secure] <Crysla> lu ada lava ?
-[12:31:12] [Server thread/INFO]: [Not Secure] <Crysla> 2
-[12:31:22] [Server thread/INFO]: ArcturusNeo lost connection: Disconnected
-[12:31:22] [Server thread/INFO]: ArcturusNeo left the game
-[12:31:32] [Server thread/INFO]: ArcturusNeo[/140.213.20.194:22023] logged in with entity id 218001 at (40.59913027691361, 14.0, 111.9756181354491)
-[12:31:32] [Server thread/INFO]: ArcturusNeo joined the game
-[12:31:38] [Server thread/INFO]: [Not Secure] <Crysla> brb
-[12:32:30] [Server thread/INFO]: [Not Secure] <ArcturusNeo> farmnya udah?
-[12:36:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=47, y=13, z=76} class_2338{x=47, y=14, z=75}
-[12:37:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=51, y=15, z=99} class_2338{x=50, y=15, z=99}
-[12:40:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=59, y=13, z=105} class_2338{x=58, y=15, z=104}
-[12:40:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=59, y=13, z=105} class_2338{x=58, y=15, z=104}
-[12:40:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=59, y=13, z=105} class_2338{x=58, y=15, z=104}
-[12:40:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=59, y=13, z=105} class_2338{x=58, y=15, z=104}
-[12:40:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=59, y=13, z=105} class_2338{x=58, y=15, z=104}
-[12:40:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=59, y=13, z=105} class_2338{x=58, y=15, z=104}
-[12:40:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=59, y=13, z=105} class_2338{x=58, y=15, z=104}
-[12:41:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=59, y=14, z=75} class_2338{x=58, y=15, z=74}
-[12:41:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=59, y=14, z=75} class_2338{x=58, y=15, z=74}
-[12:41:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=59, y=14, z=75} class_2338{x=58, y=15, z=74}
-[12:42:37] [Server thread/INFO]: [Not Secure] <Crysla> udah tinggal tinggal naek
-[12:45:32] [Server thread/INFO]: [Not Secure] <Lawey> sup all y'all
-[12:45:39] [Server thread/INFO]: [Not Secure] <ArcturusNeo> apaan
-[12:45:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=67, y=15, z=65} class_2338{x=67, y=14, z=53}
-[12:45:50] [Server thread/INFO]: [Not Secure] <Crysla> server closed
-[12:45:51] [Server thread/INFO]: [Not Secure] <Lawey> bikin elevator dong
-[12:46:02] [Server thread/INFO]: [Not Secure] <ArcturusNeo> itu tinggal direcreate
-[12:46:04] [Server thread/INFO]: [Not Secure] <Crysla> itu satria
-[12:46:04] [Server thread/INFO]: [Not Secure] <Lawey> server dmca due to makar
-[12:46:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> udah gw kasih 3 blovk
-[12:46:11] [Server thread/INFO]: [Not Secure] <Crysla> satria sudah berjanji ingin bikin elevator
-[12:46:19] [Server thread/INFO]: [Not Secure] <Crysla> saya sudah berikan bahan pokoknya
-[12:46:22] [Server thread/INFO]: [Not Secure] <Crysla> sebanyak 1 stack
-[12:46:28] [Server thread/INFO]: [Not Secure] <Crysla> sudah 1 minggu berlalu
-[12:46:30] [Server thread/INFO]: [Not Secure] <Crysla> belum dibuat
-[12:46:36] [Server thread/INFO]: [Not Secure] <Lawey> waduh
-[12:46:41] [Server thread/INFO]: [Not Secure] <Lawey> apakah perlu di audit
-[12:46:41] [Server thread/INFO]: [Not Secure] <ArcturusNeo> sex
-[12:47:04] [Server thread/INFO]: [Lawey: Set own game mode to Spectator Mode]
-[12:47:15] [Server thread/INFO]: [Lawey: Set own game mode to Survival Mode]
-[12:47:43] [Server thread/INFO]: [Not Secure] <ArcturusNeo> blocknya nyisa ga
-[12:47:50] [Server thread/INFO]: [Not Secure] <Crysla> ga
-[12:47:51] [Server thread/INFO]: [Not Secure] <Crysla> ga tau
-[12:48:45] [Server thread/INFO]: [Not Secure] <Crysla> done
-[12:48:52] [Server thread/INFO]: [Not Secure] <ArcturusNeo> naon
-[12:49:35] [Server thread/INFO]: [Not Secure] <Lawey> done gak bang
-[12:49:39] [Server thread/INFO]: [Not Secure] <Crysla> done
-[12:49:51] [Server thread/INFO]: [Not Secure] <Lawey> test drive bang
-[12:49:55] [Server thread/INFO]: [Lawey: Set own game mode to Spectator Mode]
-[12:50:09] [Server thread/INFO]: [Not Secure] <Lawey> afk
-[12:52:11] [Server thread/WARN]: Crysla moved too quickly! -0.26030492469124056,-10.556602614620118,0.3895738566177567
-[12:52:13] [Server thread/WARN]: Crysla moved too quickly! 0.0,-10.867409983895072,0.0
-[12:52:14] [Server thread/WARN]: Crysla moved too quickly! 0.0,-11.19886200217772,0.0
-[12:52:16] [Server thread/WARN]: Crysla moved too quickly! 0.0,-11.842011517166327,0.0
-[12:52:17] [Server thread/WARN]: Crysla moved too quickly! 0.0,-11.846113595412135,0.0
-[12:52:51] [Server thread/INFO]: [Not Secure] <ArcturusNeo> mobsnya ga ada?
-[12:52:56] [Server thread/INFO]: [Not Secure] <ArcturusNeo> apa gara2 malem
-[12:53:11] [Server thread/INFO]: [Not Secure] <Crysla> saya tidak tahu
-[12:53:26] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kwaoawkaw
-[12:53:42] [Server thread/INFO]: [Not Secure] <Crysla> salah ini
-[12:53:47] [Server thread/INFO]: [Not Secure] <Crysla> pake obsidian harusny
-[12:53:55] [Server thread/INFO]: [Not Secure] <ArcturusNeo> apanya
-[12:53:56] [Server thread/INFO]: [Not Secure] <Crysla> ga juga si
-[12:53:59] [Server thread/INFO]: [Not Secure] <ArcturusNeo> itu udah
-[12:53:59] [Server thread/INFO]: [Not Secure] <Crysla> pake dispenser jgbisa
-[12:55:58] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dikit dah jatohnya
-[12:59:45] [Server thread/INFO]: [Lawey: Set own game mode to Survival Mode]
-[13:06:54] [Server thread/WARN]: Lawey moved too quickly! 0.12031739416553933,-11.105110008958206,-0.171420756970452
-[13:06:56] [Server thread/WARN]: Lawey moved too quickly! 0.0,-11.0269827123402,0.0
-[13:07:20] [Server thread/INFO]: [Not Secure] <ArcturusNeo> siang2 gacorr
-[13:07:25] [Server thread/INFO]: Lawey drowned
-[13:07:30] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lah
-[13:07:41] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gbs ngapa itu
-[13:07:44] [Server thread/INFO]: [Not Secure] <Crysla> gatau dah
-[13:07:47] [Server thread/INFO]: [Not Secure] <ArcturusNeo> awkoawkoawkowako
-[13:08:00] [Server thread/INFO]: [Not Secure] <Crysla> dimaan dia
-[13:08:08] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dibawah spawner keknya
-[13:08:17] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lah ini kok ada ayam gal
-[13:08:24] [Server thread/INFO]: [Not Secure] <ArcturusNeo> apaan itu
-[13:08:31] [Server thread/INFO]: [Not Secure] <Crysla> baby zombie
-[13:08:43] [Server thread/INFO]: [Not Secure] <ArcturusNeo> langka?
-[13:09:43] [Server thread/INFO]: [Not Secure] <Lawey> perasan gw diatas
-[13:09:48] [Server thread/INFO]: [Not Secure] <Lawey> ko tiba tiba respawn
-[13:10:07] [Server thread/INFO]: [Not Secure] <Crysla> mana u
-[13:11:17] [Server thread/INFO]: [Not Secure] <Lawey> lho
-[13:11:19] [Server thread/INFO]: [Not Secure] <Lawey> ko tb tb ada item
-[13:11:56] [Server thread/INFO]: Crysla has made the advancement [Crafting a New Look]
-[13:13:42] [Server thread/INFO]: [Not Secure] <Lawey> barnya jadi tidak pak
-[13:13:50] [Server thread/INFO]: [Not Secure] <Crysla> udah kekumpul
-[13:13:59] [Server thread/INFO]: [Not Secure] <Crysla> diriku sedang sakit gigi
-[13:14:01] [Server thread/INFO]: [Not Secure] <Lawey> aku nak pisang goreng satu
-[13:14:13] [Server thread/INFO]: [Not Secure] <Crysla> besok
-[13:14:32] [Server thread/INFO]: [Not Secure] <Crysla> dimaan ya biikinnya
-[13:15:05] [Server thread/INFO]: [Not Secure] <Lawey> bikin layout jalanan kali ya
-[13:15:08] [Server thread/INFO]: [Not Secure] <Crysla> bikin
-[13:15:13] [Server thread/INFO]: [Not Secure] <Lawey> dari sini sampe merauke
-[13:15:17] [Server thread/INFO]: [Not Secure] <Crysla> gas
-[13:15:18] [Server thread/INFO]: [Not Secure] <Lawey> tapi gada pribumi yang bisa digaji
-[13:17:20] [Server thread/INFO]: Lawey has made the advancement [Diamonds!]
-[13:17:43] [Server thread/INFO]: [Not Secure] <Crysla> bikin gudang dimana lang
-[13:18:05] [Server thread/INFO]: [Not Secure] <Lawey> sementara dulu aja ga sih
-[13:35:19] [Server thread/INFO]: [Not Secure] <Lawey> i sleep
-[13:37:37] [Server thread/INFO]: [Not Secure] <ArcturusNeo> weh gal
-[13:37:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> hopperrnya ga masuk ke chest
-[13:37:49] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kenapa itu Lv
-[13:37:51] [Server thread/INFO]: [Not Secure] <ArcturusNeo> :v
-[13:40:11] [Server thread/INFO]: [Not Secure] <Lawey> no zombies
-[13:40:19] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw matiin tadi
-[13:40:27] [Server thread/INFO]: [Not Secure] <ArcturusNeo> hoppernya benerrin dah lang\
-[13:40:29] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw ga ngerti
-[13:40:38] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tp dikit bgt yang jatoh co
-[13:40:40] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ngapa dah
-[13:41:08] [Server thread/INFO]: [Not Secure] <Crysla> lu arahin ke chest atuh
-[13:41:12] [Server thread/INFO]: [Not Secure] <Crysla> lu naronya gimana tadi
-[13:41:24] [Server thread/INFO]: [Not Secure] <Crysla> tahan shift
-[13:43:36] [Server thread/INFO]: [Not Secure] <ArcturusNeo> udah
-[13:43:43] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tp spawn ratenya ngapa ini
-[13:43:47] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada yg salah kah
-[13:51:38] [Server thread/INFO]: Crysla lost connection: Disconnected
-[13:51:38] [Server thread/INFO]: Crysla left the game
-[13:55:12] [Server thread/INFO]: [Lawey: Set own game mode to Creative Mode]
-[13:55:13] [Server thread/INFO]: [Lawey: Set own game mode to Adventure Mode]
-[13:55:14] [Server thread/INFO]: [Lawey: Set own game mode to Survival Mode]
-[13:55:15] [Server thread/INFO]: [Lawey: Set own game mode to Spectator Mode]
-[13:55:26] [Server thread/INFO]: [Lawey: The difficulty has been set to Hard]
-[13:55:42] [Server thread/INFO]: [Lawey: Set own game mode to Adventure Mode]
-[13:59:56] [Server thread/INFO]: [Not Secure] <Lawey> ni banyak
-[13:59:59] [Server thread/INFO]: [Not Secure] <Lawey> normal inimah
-[14:00:05] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tadi dikit
-[14:00:13] [Server thread/INFO]: [Not Secure] <ArcturusNeo> abis gw terangin bawah
-[14:00:16] [Server thread/INFO]: [Not Secure] <ArcturusNeo> baru banyak
-[14:00:23] [Server thread/INFO]: [Not Secure] <Lawey> kalo lu diatas
-[14:00:25] [Server thread/INFO]: [Not Secure] <Lawey> udh ga ngaru
-[14:00:30] [Server thread/INFO]: [Not Secure] <Lawey> soalnya over 128 blok
-[14:00:45] [Server thread/INFO]: [Not Secure] <ArcturusNeo> nah itu gatau
-[14:00:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tadi dikit co
-[14:00:55] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw ketiduran setengah jam cuma nambah 2 level
-[14:01:10] [Server thread/INFO]: [Not Secure] <Lawey> bikin endermen farm aja
-[14:01:13] [Server thread/INFO]: [Not Secure] <Lawey> exp brutal itu
-[14:01:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> susah jir
-[14:01:49] [Server thread/INFO]: [Not Secure] <Lawey> lebih gampang dari yg lu pikirin
-[14:01:53] [Server thread/INFO]: [Not Secure] <Lawey> cuma butuh effort
-[14:02:39] [Server thread/INFO]: [Not Secure] <ArcturusNeo> cok coba daritadi gini
-[14:02:40] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gaje
-[14:02:43] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ini cepet banget
-[14:06:36] [Server thread/INFO]: [Not Secure] <Lawey> skill issue
-[14:06:38] [Server thread/INFO]: [Not Secure] <Lawey> sat
-[14:06:42] [Server thread/INFO]: [Not Secure] <Lawey> gw mau nambahin mod
-[14:06:50] [Server thread/INFO]: [Not Secure] <Lawey> tapi semuanya harus donlot
-[14:06:57] [Server thread/INFO]: [Lawey: Set own game mode to Creative Mode]
-[14:06:58] [Server thread/INFO]: [Lawey: Set own game mode to Survival Mode]
-[14:10:04] [Server thread/INFO]: [Not Secure] <ArcturusNeo> apatuh
-[14:11:48] [Server thread/INFO]: [Not Secure] <Lawey> nvm
-[14:11:51] [Server thread/INFO]: [Not Secure] <Lawey> found something interesting
-[14:11:54] [Server thread/INFO]: [Not Secure] <Lawey> mau try gak
-[14:12:02] [Server thread/INFO]: [Not Secure] <ArcturusNeo> apaan eamng
-[14:12:09] [Server thread/INFO]: [Not Secure] <Lawey> datapack buat nambahin structure
-[14:12:13] [Server thread/INFO]: [Not Secure] <Lawey> sama ada enhancement baru
-[14:12:19] [Server thread/INFO]: [Not Secure] <ArcturusNeo> conflict ga
-[14:12:24] [Server thread/INFO]: [Not Secure] <ArcturusNeo> backup dlo kl mw
-[14:12:26] [Server thread/INFO]: [Not Secure] <Lawey> well
-[14:12:29] [Server thread/INFO]: [Not Secure] <Lawey> gada mod
-[14:12:33] [Server thread/INFO]: [Not Secure] <Lawey> yg ubah sih
-[14:12:38] [Server thread/INFO]: [Not Secure] <Lawey> ini gw lagi backup worl
-[14:12:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> backup dolo
+[10:31:06] [Server thread/INFO]: lazymonday27[/103.234.31.43:51913] logged in with entity id 70523 at (-54.07962620002044, 66.0, -66.84503024786643)
+[10:31:06] [Server thread/INFO]: lazymonday27 joined the game
+[10:31:20] [Server thread/INFO]: lazymonday27 lost connection: Disconnected
+[10:31:20] [Server thread/INFO]: lazymonday27 left the game
+[10:32:03] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal ada spyglass?
+[10:32:09] [Server thread/INFO]: [Not Secure] <ArcturusNeo> craft apa gmn si itu
+[10:32:10] [Server thread/INFO]: [Not Secure] <Crysla> di chest
+[10:32:16] [Server thread/INFO]: [Not Secure] <Crysla> pake crystal
+[10:32:23] [Thread-249/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:96) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
+	at net.minecraft.class_3248.mdb5d7a3$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:2056) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.mdb5d7a3$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:2055) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[10:32:24] [Server thread/INFO]: lazymonday27[/103.234.31.43:51984] logged in with entity id 70992 at (-54.07962620002044, 66.0, -66.84503024786643)
+[10:32:24] [Server thread/INFO]: lazymonday27 joined the game
+[10:32:29] [Server thread/INFO]: [Not Secure] <ArcturusNeo> crystal yg ungu>?
+[10:32:39] [Server thread/INFO]: [Not Secure] <Crysla> gw si make optifine tinggal mencet c udah zoom wkwkwk
+[10:32:41] [Server thread/INFO]: [Not Secure] <Crysla> iya ungu
+[10:32:47] [Server thread/INFO]: [Not Secure] <Crysla> crystal juga bisa buat dye armor
+[10:32:50] [Server thread/INFO]: [Not Secure] <Crysla> dia juga ore
+[10:33:00] [Server thread/INFO]: [Not Secure] <Crysla> crystal sama copper
+[10:33:09] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bisa diatur ga gall
+[10:33:13] [Server thread/INFO]: [Not Secure] <ArcturusNeo> itunya
+[10:33:14] [Server thread/INFO]: [Not Secure] <Crysla> apanya
+[10:33:14] [Server thread/INFO]: [Not Secure] <ArcturusNeo> apasi namanya
+[10:33:20] [Server thread/INFO]: [Not Secure] <Crysla> zoom fov?
+[10:33:22] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kontrasnya
+[10:33:25] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kalo warnain armor
+[10:33:30] [Server thread/INFO]: [Not Secure] <Crysla> engga
+[10:33:54] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tan
+[10:34:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> mw eksplor ga
+[10:34:08] [Server thread/INFO]: [Not Secure] <lazymonday27> nanti
+[10:34:33] [Server thread/INFO]: [Not Secure] <ArcturusNeo> banner pattern buat apasi
+[10:40:51] [Server thread/INFO]: [Not Secure] <lazymonday27> tambang dinether dlu deket portal siapa sat
+[10:41:06] [Server thread/INFO]: [Not Secure] <ArcturusNeo> yang mana
+[10:41:18] [Server thread/INFO]: [Not Secure] <lazymonday27> yg pas itu nyari debris
+[10:41:18] [Server thread/INFO]: [Not Secure] <Crysla> diportal lu yg balok putih tambang itu bre
+[10:41:39] [Server thread/INFO]: [Not Secure] <ArcturusNeo> hah yang mana
+[10:41:39] [Server thread/INFO]: [Not Secure] <lazymonday27> lupa w gal yg balok putih
+[10:41:49] [Server thread/INFO]: [Not Secure] <ArcturusNeo> coba gw ke nether nih
+[10:41:50] [Server thread/INFO]: [Not Secure] <ArcturusNeo> unjukin
+[10:41:58] [Server thread/INFO]: [Not Secure] <lazymonday27> gmna unjukin w aja lupa
+[10:42:05] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lu mau ke tambang?
+[10:42:09] [Server thread/INFO]: [Not Secure] <lazymonday27> iya
+[10:42:20] [Server thread/INFO]: [Not Secure] <ArcturusNeo> sini
+[10:42:39] [Server thread/INFO]: [Not Secure] <ArcturusNeo> mana lu
+[10:43:26] [Server thread/INFO]: [Not Secure] <lazymonday27> okoko
+[10:44:34] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw lanjutmalem
+[10:44:36] [Server thread/INFO]: ArcturusNeo lost connection: Disconnected
+[10:44:36] [Server thread/INFO]: ArcturusNeo left the game
+[10:49:12] [Server thread/INFO]: [Not Secure] <lazymonday27> wah anj udh ketemu ancur ama lava
+[10:49:34] [Server thread/INFO]: [Not Secure] <Crysla> apatuh
+[10:49:37] [Server thread/INFO]: [Not Secure] <lazymonday27> debris
+[10:49:39] [Server thread/INFO]: [Not Secure] <Crysla> bre
+[10:49:43] [Server thread/INFO]: [Not Secure] <Crysla> lu lempar armor lu ke lava dah
+[10:49:52] [Server thread/INFO]: [Not Secure] <Crysla> kalo ilang gw gantiin
+[10:49:58] [Server thread/INFO]: [Not Secure] <lazymonday27> udh u coba?
+[10:50:05] [Server thread/INFO]: [Not Secure] <Crysla> kalo ilang gw gantiin
+[10:50:10] [Server thread/INFO]: [Not Secure] <Crysla> lempar ke 1 block alva aja\
+[10:50:15] [Server thread/INFO]: [Not Secure] <Crysla> biar ga jatoh dalem"
+[10:50:17] [Server thread/INFO]: [Not Secure] <lazymonday27> nanti bre lgi ga make armor ny w
+[10:50:25] [Server thread/INFO]: [Not Secure] <Crysla> debrisny ga dapet lu ?
+[10:50:35] [Server thread/INFO]: [Not Secure] <lazymonday27> kagak ada lava ny
+[10:50:46] [Server thread/INFO]: [Not Secure] <Crysla> ilang ?
+[10:51:02] [Server thread/INFO]: [Not Secure] <lazymonday27> iya kayanya
+[10:51:14] [Server thread/INFO]: [Not Secure] <Crysla> semua yg dibuat dari debris gabisa kebakar
+[10:51:21] [Server thread/INFO]: [Not Secure] <Crysla> sebelum despawn
+[10:52:02] [Server thread/INFO]: [Not Secure] <lazymonday27> ini u bre yg nambang?
+[10:52:07] [Server thread/INFO]: [Not Secure] <Crysla> iya
+[10:52:10] [Server thread/INFO]: [Not Secure] <Crysla> bnyk netherack ya
+[10:52:15] [Server thread/INFO]: [Not Secure] <lazymonday27> dpt brpa u seluas ini wkwk
+[10:52:41] [Server thread/INFO]: [Not Secure] <Crysla> 22
+[10:52:53] [Server thread/INFO]: [Not Secure] <Crysla> 22 apa 24
+[10:52:54] [Server thread/INFO]: [Not Secure] <Crysla> 24 deh
+[10:53:05] [Server thread/INFO]: [Not Secure] <Crysla> 1 nya gw kasih ke elu netheriteny klao ga salah
+[10:53:10] [Server thread/INFO]: [Not Secure] <Crysla> 24 debris
+[10:53:23] [Server thread/INFO]: [Not Secure] <Crysla> keluarny juga minta bantuin satria gw wkwk
+[10:53:33] [Server thread/INFO]: [Not Secure] <Crysla> patokanny chest kordinat ny
+[10:53:33] [Server thread/INFO]: [Not Secure] <lazymonday27> 6 netherite berarti ya
+[10:53:37] [Server thread/INFO]: [Not Secure] <Crysla> iya 6
+[10:53:52] [Server thread/INFO]: [Not Secure] <Crysla> eh gw pake semua deng ntheritenya
+[10:53:58] [Server thread/INFO]: [Not Secure] <Crysla> ama tools lupa gw
+[10:54:45] [Server thread/INFO]: [Not Secure] <lazymonday27> gacor bre tambangnya
+[10:54:53] [Server thread/INFO]: [Not Secure] <lazymonday27> dpt 6 gua wkwkwk
+[10:54:55] [Server thread/INFO]: [Not Secure] <Crysla> kalo ada 1 netherite
+[10:55:05] [Server thread/INFO]: [Not Secure] <Crysla> mining sekelilingnya sedikit kali aja ada hbeberrapa
+[10:55:32] [Server thread/INFO]: [Not Secure] <lazymonday27> gua cuma buth 1 doang si buat pickax
+[11:00:03] [Server thread/INFO]: Crysla lost connection: Disconnected
+[11:00:03] [Server thread/INFO]: Crysla left the game
+[11:03:32] [Server thread/INFO]: lazymonday27 lost connection: Disconnected
+[11:03:32] [Server thread/INFO]: lazymonday27 left the game
+[11:15:27] [Server thread/INFO]: Crysla[/103.156.118.22:63000] logged in with entity id 82560 at (12.7000453158647, 71.5, -116.77103702463555)
+[11:15:27] [Server thread/INFO]: Crysla joined the game
+[11:15:42] [Server thread/INFO]: [Crysla: Triggered [afk]]
+[11:23:03] [Server thread/INFO]: ArcturusNeo[/112.215.224.67:31861] logged in with entity id 84003 at (1.3440753347761758, 64.0, -14.5)
+[11:23:03] [Server thread/INFO]: ArcturusNeo joined the game
+[11:23:13] [Server thread/INFO]: [Not Secure] <Crysla> sat
+[11:23:17] [Server thread/INFO]: [Not Secure] <Crysla> ada emerald ga di chest?
+[11:23:24] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada cuma gw lupa naro dmn
+[11:23:25] [Server thread/INFO]: [Not Secure] <ArcturusNeo> cuma 11
+[11:23:32] [Server thread/INFO]: [Not Secure] <Crysla> minta 2 gw
+[11:23:51] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ambil aja kalo ketemu mah
+[11:23:55] [Server thread/INFO]: [Not Secure] <ArcturusNeo> diatas apa bawah gitu
+[11:25:04] [Server thread/INFO]: [Not Secure] <Crysla> lu ga di base ya
+[11:25:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kagak
+[11:27:32] [Server thread/INFO]: [Not Secure] <Crysla> lu di vilagaer >?
+[11:27:36] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kagak
+[11:28:09] [Server thread/INFO]: [Not Secure] <Crysla> gw minta eme 2
+[11:28:17] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ambil kalo ada jir
+[11:28:22] [Server thread/INFO]: [Not Secure] <ArcturusNeo> di chest cek aja
+[11:29:39] [Server thread/WARN]: ArcturusNeo moved too quickly! 9.305807592315887,-2.0,-3.848944116104505
+[11:29:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2280ms or 45 ticks behind
+[11:29:52] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lu dmn
+[11:29:54] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tidur dah
+[11:32:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal ocean dmn dah
+[11:32:14] [Server thread/INFO]: [Not Secure] <Crysla> arah terbenam sama terbit matahari
+[11:32:17] [Server thread/INFO]: [Crysla: Triggered [afk_notification]]
+[11:32:21] [Server thread/INFO]: [Crysla: Triggered [afk]]
+[11:32:28] [Server thread/INFO]: [Crysla: Triggered [afk]]
+[11:33:07] [Server thread/INFO]: [Not Secure] <ArcturusNeo> x1500 ada ocean juga
+[11:33:09] [Server thread/INFO]: [Not Secure] <ArcturusNeo> disitu?
+[11:33:17] [Server thread/INFO]: [Not Secure] <Crysla> pokony arah terbit sama terbenam
+[11:33:37] [Server thread/INFO]: [Crysla: Triggered [afk]]
+[11:33:42] [Server thread/INFO]: [Crysla [AFK]: Triggered [afk]]
+[11:35:04] [Server thread/INFO]: Crysla lost connection: Disconnected
+[11:35:04] [Server thread/INFO]: Crysla [AFK] left the game
+[11:37:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1519, y=53, z=-133} class_2338{x=1519, y=52, z=-133}
+[11:38:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1524, y=51, z=-145} class_2338{x=1524, y=50, z=-145}
+[11:40:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1591, y=53, z=-198} class_2338{x=1591, y=52, z=-198}
+[11:47:29] [Server thread/WARN]: ArcturusNeo moved too quickly! -3.4681661768609047,-3.233632006042484,-8.931039552366201
+[11:47:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2502ms or 50 ticks behind
+[11:51:13] [Worker-Main-15/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
+[11:51:19] [Worker-Main-14/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[11:53:30] [Server thread/INFO]: Crysla[/103.156.118.22:20613] logged in with entity id 105383 at (-42.32646395030167, 65.0, -80.64765615838549)
+[11:53:30] [Server thread/INFO]: Crysla [AFK] joined the game
+[11:53:50] [Server thread/INFO]: [Not Secure] <ArcturusNeo> 1100 -1100 ocean
+[11:54:16] [Server thread/INFO]: Crysla lost connection: Timed out
+[11:54:16] [Server thread/INFO]: Crysla left the game
+[11:56:14] [Server thread/INFO]: Crysla[/103.156.118.22:63207] logged in with entity id 107743 at (-42.32646395030167, 65.0, -80.64765615838549)
+[11:56:14] [Server thread/INFO]: Crysla joined the game
+[11:57:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> mau trident?
+[11:57:54] [Server thread/INFO]: [Not Secure] <Crysla> ga make gw
+[11:59:38] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal
+[11:59:42] [Server thread/INFO]: [Not Secure] <ArcturusNeo> obsi bisa difarm ga
+[11:59:49] [Server thread/INFO]: [Not Secure] <Crysla> bisa
+[11:59:53] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bikin dah
+[12:00:02] [Server thread/INFO]: [Not Secure] <Crysla> lavanya yg di farm
+[12:00:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> respiration ada di trade ga?
+[12:00:54] [Server thread/INFO]: [Not Secure] <Crysla> ada semua
+[12:00:54] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kalolg trade nemu ambilin dah
+[12:02:53] [Server thread/INFO]: [Not Secure] <ArcturusNeo> u udah cek outpost?
+[12:03:04] [Server thread/INFO]: [Not Secure] <ArcturusNeo> 100 -440
+[12:03:07] [Server thread/INFO]: [Not Secure] <ArcturusNeo> yg tu
+[12:03:19] [Server thread/INFO]: [Not Secure] <Crysla> udah
+[12:14:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=50, y=72, z=-33} class_2338{x=50, y=73, z=-33}
+[12:14:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=50, y=72, z=-33} class_2338{x=50, y=73, z=-33}
+[12:14:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=50, y=72, z=-33} class_2338{x=50, y=73, z=-33}
+[12:14:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=50, y=72, z=-33} class_2338{x=50, y=73, z=-33}
+[12:14:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=50, y=72, z=-33} class_2338{x=50, y=73, z=-33}
+[12:14:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=50, y=72, z=-33} class_2338{x=50, y=73, z=-33}
+[12:14:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=50, y=72, z=-33} class_2338{x=50, y=73, z=-33}
+[12:16:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=68, y=72, z=-31} class_2338{x=60, y=71, z=-50}
+[12:16:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> weh
+[12:16:14] [Server thread/INFO]: [Not Secure] <ArcturusNeo> warped forest biome apa?
+[12:16:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=68, y=72, z=-31} class_2338{x=58, y=73, z=-52}
+[12:16:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=68, y=72, z=-31} class_2338{x=58, y=73, z=-52}
+[12:16:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=68, y=72, z=-31} class_2338{x=58, y=73, z=-52}
+[12:16:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=68, y=72, z=-31} class_2338{x=58, y=73, z=-52}
+[12:16:35] [Server thread/INFO]: [Not Secure] <Crysla> yg ijo di nethre
+[12:18:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=104, y=74, z=-88} class_2338{x=116, y=79, z=-105}
+[12:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=116, y=90, z=-118} class_2338{x=116, y=90, z=-119}
+[12:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=116, y=90, z=-118} class_2338{x=116, y=90, z=-119}
+[12:18:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=116, y=90, z=-118} class_2338{x=116, y=90, z=-119}
+[12:18:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=117, y=91, z=-120} class_2338{x=117, y=88, z=-123}
+[12:28:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=72, y=76, z=-90} class_2338{x=38, y=91, z=-89}
+[12:29:11] [Server thread/INFO]: ArcturusNeo lost connection: Timed out
+[12:29:11] [Server thread/INFO]: ArcturusNeo left the game
+[12:29:20] [Server thread/INFO]: ArcturusNeo[/140.213.30.30:21193] logged in with entity id 131454 at (-13.702248735645446, 95.0, -69.94024126446699)
+[12:29:20] [Server thread/INFO]: ArcturusNeo joined the game
+[12:34:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> diatas bastion kemaren gw bikin portal ya
+[12:34:25] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tembusnya laut
+[12:42:55] [Server thread/INFO]: [Not Secure] <ArcturusNeo> u ngapain
+[12:51:04] [Server thread/INFO]: Crysla lost connection: Timed out
+[12:51:04] [Server thread/INFO]: Crysla left the game
+[12:51:49] [Server thread/INFO]: Crysla[/103.156.118.22:63640] logged in with entity id 146536 at (-42.94577551820871, 65.0, -74.76369437208575)
+[12:51:49] [Server thread/INFO]: Crysla joined the game
+[12:55:09] [Server thread/INFO]: [Not Secure] <ArcturusNeo> anjir spawner creeper ada?
+[12:55:13] [Server thread/INFO]: [Not Secure] <Crysla> gatau dah
+[12:55:16] [Server thread/INFO]: [Not Secure] <Crysla> belom liat
+[12:57:34] [Server thread/INFO]: Crysla lost connection: Disconnected
+[12:57:34] [Server thread/INFO]: Crysla left the game
+[13:02:52] [Server thread/INFO]: Crysla[/103.156.118.22:21069] logged in with entity id 152608 at (17.567793254238655, 63.0, -57.79591075987891)
+[13:02:52] [Server thread/INFO]: Crysla joined the game
+[13:05:19] [Server thread/INFO]: [Not Secure] [Server] creeper
+[13:05:22] [Server thread/INFO]: [Not Secure] [Server] oww man
+[13:10:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lang login co
+[13:16:18] [Server thread/INFO]: [Not Secure] [Server] lu udh nemu blom mod nya
+[13:16:59] [Server thread/INFO]: [Not Secure] <ArcturusNeo> blm nyari :v
+[13:19:21] [Server thread/INFO]: Lawey[/104.28.213.127:39678] logged in with entity id 164977 at (-21.125028674290636, 67.0, -53.48753791188299)
+[13:19:21] [Server thread/INFO]: Lawey joined the game
+[13:19:40] [Server thread/INFO]: [Not Secure] <Lawey> boys
+[13:19:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> hah
+[13:21:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lang cari fortress alng
+[13:21:26] [Server thread/INFO]: [Not Secure] <Lawey> cari ayo
+[13:21:35] [Server thread/INFO]: [Not Secure] <ArcturusNeo> btr gw jauh bgt
+[13:23:52] [Server thread/INFO]: [Lawey: Triggered [afk]]
+[13:25:31] [Server thread/INFO]: [Not Secure] <Crysla [AFK]> gw mo makan mie ayam dulu malem paling lanjut
+[13:25:38] [Server thread/INFO]: [Not Secure] <Crysla> lang jadi nih warehouse
+[13:25:39] [Server thread/INFO]: [Not Secure] <ArcturusNeo> okeh
+[13:25:48] [Server thread/INFO]: [Not Secure] <Lawey> men
+[13:25:58] [Server thread/INFO]: [Not Secure] <Lawey> vibe pabrik bir bintang
+[13:26:11] [Server thread/INFO]: [Not Secure] <Crysla> 740 single chest
+[13:26:18] [Server thread/INFO]: [Not Secure] <Lawey> damn
+[13:26:38] [Server thread/INFO]: [Not Secure] <Lawey> 740 x 54
+[13:26:41] [Server thread/INFO]: [Not Secure] <Lawey> that's a lot of slots
+[13:26:59] [Server thread/INFO]: [Not Secure] <Crysla> off
+[13:27:01] [Server thread/INFO]: Crysla lost connection: Disconnected
+[13:27:01] [Server thread/INFO]: Crysla left the game
+[13:27:12] [Server thread/INFO]: [Lawey: Triggered [afk]]
+[13:27:17] [Server thread/INFO]: [Not Secure] <ArcturusNeo> command afk gmn
+[13:31:54] [Server thread/INFO]: [Not Secure] <Lawey [AFK]> ./trigger afk
+[13:32:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> okok
+[13:39:23] [Server thread/INFO]: Lawey lost connection: Timed out
+[13:39:23] [Server thread/INFO]: Lawey [AFK] left the game
+[13:45:11] [Thread-373/WARN]: failed to fetch skin on first join
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:96) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
+	at net.minecraft.class_3248.mdb5d7a3$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:2056) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.mdb5d7a3$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:2055) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[13:45:13] [Server thread/INFO]: lazymonday27[/103.234.31.43:52645] logged in with entity id 173940 at (-20.755614652282922, 67.0, -52.84679024537713)
+[13:45:13] [Server thread/INFO]: lazymonday27 joined the game
+[13:48:20] [Server thread/INFO]: [Not Secure] <ArcturusNeo> galih mane
+[13:48:27] [Server thread/INFO]: [Not Secure] <lazymonday27> blm on dritadi?
+[13:48:32] [Server thread/INFO]: [Not Secure] <ArcturusNeo> baru off deng
+[13:48:34] [Server thread/INFO]: [Not Secure] <ArcturusNeo> makan katanya
+[13:49:55] [Server thread/INFO]: [Not Secure] <lazymonday27> dih ada witch bre di farm xp
+[13:50:05] [Server thread/INFO]: [Not Secure] <ArcturusNeo> wkwkwk
+[13:50:18] [Server thread/INFO]: [Not Secure] <lazymonday27> sejak kapan u disini wkwk
+[13:50:33] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ngebenerin sesuatu daritadi
+[13:51:11] [Server thread/INFO]: [ArcturusNeo: Triggered [afk]]
+[13:51:21] [Server thread/INFO]: [ArcturusNeo [AFK]: Triggered [afk]]
+[13:51:28] [Server thread/INFO]: [ArcturusNeo [AFK]: Triggered [noafk]]
+[13:51:31] [Server thread/INFO]: [Not Secure] <ArcturusNeo [AFK]> a
+[13:51:38] [Server thread/INFO]: [ArcturusNeo [AFK]: Triggered [noafk]]
+[13:52:04] [Server thread/INFO]: [ArcturusNeo [AFK]: Triggered [afk_timer] (set value to 1200)]
+[13:52:08] [Server thread/INFO]: [Not Secure] <ArcturusNeo [AFK]> brb
+[13:52:17] [Server thread/INFO]: [Not Secure] <ArcturusNeo [AFK]> disini mah afk bre
+[13:52:18] [Server thread/INFO]: [Not Secure] <ArcturusNeo [AFK]> diem aja
+[13:52:20] [Server thread/INFO]: [Not Secure] <ArcturusNeo [AFK]> nanti jatoh
+[13:52:31] [Server thread/INFO]: [Not Secure] <lazymonday27> ga dikill?
+[13:55:08] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gausah lu kill kocak
+[13:55:12] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ntar pas udah banyak
+[13:55:15] [Server thread/INFO]: [Not Secure] <ArcturusNeo> baru ratain wkwkwkwkw
+[13:55:23] [Server thread/INFO]: [Not Secure] <lazymonday27> cara afk gmn
+[13:55:24] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ga mati itu
+[13:55:33] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ./trigger afk
+[13:55:34] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gitu
+[13:55:39] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tapi ya afk diem aja
+[13:55:45] [Server thread/INFO]: [Not Secure] <lazymonday27> ./trigger afk
+[13:55:46] [Server thread/INFO]: [Not Secure] <ArcturusNeo> nah nanti selesai afk bunuhin
+[13:55:49] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gausah pake titik co
+[13:55:50] [Server thread/INFO]: [Not Secure] <ArcturusNeo> wkwkwk
+[13:55:59] [Server thread/INFO]: [Not Secure] <lazymonday27> lu pake titik wkwkw
+[13:56:26] [Server thread/INFO]: [ArcturusNeo: Triggered [afk_timer] (set value to 1200)]
+[13:56:41] [Server thread/INFO]: [ArcturusNeo: Triggered [afk]]
+[13:56:46] [Server thread/INFO]: [Not Secure] <lazymonday27> g bisa dah
+[13:57:01] [Server thread/INFO]: [lazymonday27: Triggered [afk]]
+[13:57:02] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ya gausah gapapa sih
+[13:57:06] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ga ngaruh co
+[13:57:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tuh gacor
+[13:57:33] [Server thread/INFO]: [Not Secure] <lazymonday27> ada string g u
+[13:57:35] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw tinggal dl
+[13:57:36] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gaada
+[13:58:14] [Server thread/INFO]: [lazymonday27: Triggered [afk]]
+[14:12:18] [Server thread/INFO]: [Not Secure] <lazymonday27> sat
+[14:14:06] [Server thread/INFO]: [Not Secure] <ArcturusNeo> oi
+[14:15:24] [Server thread/INFO]: [ArcturusNeo: Triggered [afk]]
+[14:15:39] [Server thread/INFO]: [ArcturusNeo [AFK]: Triggered [afk]]
+[14:23:57] [Server thread/INFO]: lazymonday27 lost connection: Disconnected
+[14:23:57] [Server thread/INFO]: lazymonday27 left the game
+[14:27:00] [Server thread/INFO]: [ArcturusNeo: Triggered [noafk]]
+[14:29:05] [Server thread/INFO]: Disconnecting ArcturusNeo (/140.213.4.141:1794): §cPlayer ArcturusNeo is already online!
+[14:29:05] [Server thread/INFO]: ArcturusNeo (/140.213.4.141:1794) lost connection: §cPlayer ArcturusNeo is already online!
+[14:29:05] [Server thread/WARN]: handleDisconnection() called twice
+[14:29:09] [Server thread/INFO]: Disconnecting ArcturusNeo (/140.213.4.141:56674): §cPlayer ArcturusNeo is already online!
+[14:29:09] [Server thread/INFO]: ArcturusNeo (/140.213.4.141:56674) lost connection: §cPlayer ArcturusNeo is already online!
+[14:29:09] [Server thread/WARN]: handleDisconnection() called twice
+[14:29:12] [Server thread/INFO]: ArcturusNeo lost connection: Timed out
+[14:29:12] [Server thread/INFO]: ArcturusNeo left the game
+[14:29:15] [Server thread/INFO]: ArcturusNeo[/140.213.4.141:36398] logged in with entity id 186951 at (-17.011382643237734, 63.875, -48.105311640891294)
+[14:29:15] [Server thread/INFO]: ArcturusNeo joined the game
+[14:34:14] [Server thread/INFO]: ArcturusNeo lost connection: Disconnected
+[14:34:14] [Server thread/INFO]: ArcturusNeo left the game
+[14:34:21] [Server thread/INFO]: ArcturusNeo[/140.213.4.141:44791] logged in with entity id 189453 at (3.504177034375591, 71.0, 1104.0845015280047)
+[14:34:21] [Server thread/INFO]: ArcturusNeo joined the game
+[14:39:27] [Server thread/INFO]: ArcturusNeo lost connection: Disconnected
+[14:39:27] [Server thread/INFO]: ArcturusNeo left the game
+[14:39:33] [Server thread/INFO]: ArcturusNeo[/140.213.4.141:5742] logged in with entity id 192023 at (-48.503192545208236, 65.5, -65.0747716256346)
+[14:39:33] [Server thread/INFO]: ArcturusNeo joined the game
+[14:53:39] [Server thread/INFO]: ArcturusNeo lost connection: Disconnected
+[14:53:39] [Server thread/INFO]: ArcturusNeo left the game
+[15:02:28] [Server thread/INFO]: Crysla[/103.156.118.22:21511] logged in with entity id 195657 at (8.777776465903852, 64.0, -94.50502078830397)
+[15:02:28] [Server thread/INFO]: Crysla joined the game
+[15:15:21] [Server thread/INFO]: [Not Secure] <Crysla> .
+[15:16:11] [Server thread/INFO]: [Not Secure] <Crysla> .
+[15:17:04] [Server thread/INFO]: [Not Secure] <Crysla> .
+[15:24:45] [Server thread/INFO]: Crysla lost connection: Timed out
+[15:24:45] [Server thread/INFO]: Crysla left the game
+[15:24:57] [Server thread/INFO]: Crysla[/103.156.118.22:50156] logged in with entity id 201879 at (6.454448853108941, 65.17675927506424, -101.66425356884628)
+[15:24:57] [Server thread/INFO]: Crysla joined the game
+[15:26:38] [Server thread/INFO]: Crysla lost connection: Disconnected
+[15:26:38] [Server thread/INFO]: Crysla left the game
+[15:26:49] [Server thread/INFO]: Crysla[/103.156.118.22:50188] logged in with entity id 202598 at (-47.30000001192093, 66.79673560066871, -78.03624230997514)
+[15:26:49] [Server thread/INFO]: Crysla joined the game
+[15:32:58] [Server thread/INFO]: [Not Secure] <Crysla> .
+[15:49:36] [Server thread/INFO]: [Not Secure] <Crysla> .
+[15:49:44] [Server thread/INFO]: Crysla lost connection: Timed out
+[15:49:44] [Server thread/INFO]: Crysla left the game
+[15:49:51] [Server thread/INFO]: Crysla[/103.156.118.22:22001] logged in with entity id 215690 at (11.5041399478102, 65.0, 98.12976862363443)
+[15:49:51] [Server thread/INFO]: Crysla joined the game
+[15:50:46] [Server thread/INFO]: Crysla lost connection: Disconnected
+[15:50:46] [Server thread/INFO]: Crysla left the game
+[15:50:51] [Server thread/INFO]: Crysla[/103.156.118.22:50360] logged in with entity id 216307 at (17.338778490350496, 65.79673560066871, 5.4909931431387164)
+[15:50:51] [Server thread/INFO]: Crysla joined the game
+[15:54:33] [Server thread/INFO]: [Not Secure] <Crysla> .
+[15:55:51] [Server thread/INFO]: Crysla lost connection: Timed out
+[15:55:51] [Server thread/INFO]: Crysla left the game
+[16:19:21] [Netty Epoll Server IO #3/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:23:55] [Netty Epoll Server IO #3/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:45:29] [Server thread/INFO]: ArcturusNeo[/112.215.251.119:16419] logged in with entity id 217599 at (-23.015295162432242, 67.0, -44.30617416056832)
+[16:45:29] [Server thread/INFO]: ArcturusNeo joined the game
+[16:47:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-10, y=64, z=-9} class_2338{x=3, y=65, z=11}
+[16:48:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> aaa
+[16:48:24] [Server thread/INFO]: Crysla[/103.156.118.22:22715] logged in with entity id 218557 at (-43.090396457772, 65.0, -77.69999998807907)
+[16:48:24] [Server thread/INFO]: Crysla joined the game
+[16:49:20] [Server thread/INFO]: [Not Secure] <Crysla> ada buku sat ?
+[16:49:28] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kagak wkwwk
+[16:51:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-60, y=70, z=21} class_2338{x=-60, y=70, z=20}
+[16:53:32] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal gudangnya bwt nyimpen apa aja
+[16:53:38] [Server thread/INFO]: [Not Secure] <Crysla> semua
+[16:53:48] [Server thread/INFO]: [Not Secure] <Crysla> ada 370 chest
+[16:53:55] [Server thread/INFO]: [Not Secure] <Crysla> makany itu pake item frame
+[16:54:00] [Server thread/INFO]: [Not Secure] <Crysla> 370 item frame
+[16:54:03] [Server thread/INFO]: [Not Secure] <Crysla> 370 leather
+[16:54:05] [Server thread/INFO]: [Not Secure] <Crysla> biar enak
+[16:54:25] [Server thread/INFO]: [Not Secure] <Crysla> yg setipe mah 1 chest aja
+[16:54:27] [Server thread/INFO]: [Not Secure] <Crysla> kyk tools
+[16:54:32] [Server thread/INFO]: [Not Secure] <Crysla> batu tanah
+[16:54:35] [Server thread/INFO]: [Not Secure] <Crysla> kayu
+[16:54:38] [Server thread/INFO]: [Not Secure] <Crysla> setipe kanm itu
+[16:55:06] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dirt gw numpuk :v
+[16:55:13] [Server thread/INFO]: [Not Secure] <Crysla> masukin aja kesana\
+[16:55:22] [Server thread/INFO]: [Not Secure] <Crysla> makany gw bikin gede
+[16:55:32] [Server thread/INFO]: [Not Secure] <Crysla> biar enak make item frame\
+[16:55:34] [Server thread/INFO]: [Not Secure] <Crysla> biar ga pusing
+[16:55:44] [Server thread/INFO]: Disconnecting ArcturusNeo (/112.215.246.212:3113): §cPlayer ArcturusNeo is already online!
+[16:55:44] [Server thread/INFO]: ArcturusNeo (/112.215.246.212:3113) lost connection: §cPlayer ArcturusNeo is already online!
+[16:55:44] [Server thread/WARN]: handleDisconnection() called twice
+[16:55:46] [Server thread/INFO]: [Not Secure] <Crysla> nah ini sapiny aja gw galiat
+[16:55:48] [Server thread/INFO]: Disconnecting ArcturusNeo (/112.215.246.212:61934): §cPlayer ArcturusNeo is already online!
+[16:55:48] [Server thread/INFO]: ArcturusNeo (/112.215.246.212:61934) lost connection: §cPlayer ArcturusNeo is already online!
+[16:55:48] [Server thread/WARN]: handleDisconnection() called twice
+[16:55:49] [Server thread/INFO]: ArcturusNeo lost connection: Timed out
+[16:55:49] [Server thread/INFO]: ArcturusNeo left the game
+[16:55:51] [Server thread/INFO]: ArcturusNeo[/112.215.246.212:39418] logged in with entity id 222197 at (-62.338840824142416, 70.0, 5.873969876623796)
+[16:55:51] [Server thread/INFO]: ArcturusNeo joined the game
+[16:57:26] [Server thread/INFO]: [Not Secure] <Crysla> yg dapet leather tuh kuda keledai sapi\
+[16:57:33] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kuda juga?
+[16:57:36] [Server thread/INFO]: [Not Secure] <Crysla> tapi kuda dikit
+[16:57:38] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tapi sayang jir bunuh kuda :v
+[16:57:41] [Server thread/INFO]: [Not Secure] <Crysla> ga dikit juga si
+[16:57:42] [Server thread/INFO]: [Not Secure] <Crysla> sama aja
+[16:57:47] [Server thread/INFO]: [Not Secure] <Crysla> cm sapi kan dapet daging
+[16:57:56] [Server thread/INFO]: [Not Secure] <Crysla> berkembangny gampang
+[16:57:58] [Server thread/INFO]: [Not Secure] <Crysla> sapi murah
+[16:58:51] [Server thread/INFO]: ArcturusNeo has made the advancement [A Throwaway Joke]
+[16:59:07] [Server thread/INFO]: [Not Secure] <ArcturusNeo> nambah damage trident pake apa
+[16:59:15] [Server thread/INFO]: [Not Secure] <Crysla> gabisa pake sharpness
+[16:59:21] [Server thread/INFO]: [Not Secure] <Crysla> nambah damage ngaruh ke mosnter aer doang
+[16:59:26] [Server thread/INFO]: [Not Secure] <Crysla> impaling
+[16:59:35] [Server thread/INFO]: [Not Secure] <ArcturusNeo> oalah
+[17:01:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bre
+[17:01:27] [Server thread/INFO]: [Not Secure] <ArcturusNeo> creeper drop kaset?
+[17:01:34] [Server thread/INFO]: [Not Secure] <Crysla> kalo mati sama skeleton
+[17:01:43] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lah ini gw drop
+[17:01:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> wkwkwkw
+[17:01:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ditembak skeleton berarti
+[17:05:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal
+[17:05:52] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dispenser bisa pake bow sekarat?
+[17:06:24] [Server thread/INFO]: [Not Secure] <Crysla> dispenser itu tools active
+[17:06:36] [Server thread/INFO]: [Not Secure] <ArcturusNeo> craftnya
+[17:06:44] [Server thread/INFO]: [Not Secure] <Crysla> bisa
+[17:07:03] [Server thread/INFO]: [Not Secure] <ArcturusNeo> okokk
+[17:07:08] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada cobblestone?
+[17:10:31] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gabisa bre
+[17:10:34] [Server thread/INFO]: [Not Secure] <Crysla> gabisa ?
+[17:10:37] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ga
+[17:10:48] [Server thread/INFO]: [Not Secure] <Crysla> yaudah repair aja bownya
+[17:10:54] [Server thread/INFO]: [Not Secure] <ArcturusNeo> pake xp ya
+[17:10:55] [Server thread/INFO]: [Not Secure] <Crysla> kan ada banyak di atas
+[17:10:57] [Server thread/INFO]: [Not Secure] <Crysla> kagak lol
+[17:11:02] [Server thread/INFO]: [Not Secure] <Crysla> bow + bow di craft e
+[17:11:14] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ohiya hanjir
+[17:11:18] [Server thread/INFO]: [Not Secure] <ArcturusNeo> repair kek gitu doang?
+[17:11:22] [Server thread/INFO]: [Not Secure] <ArcturusNeo> apa cuma bow?
+[17:11:22] [Server thread/INFO]: [Not Secure] <Crysla> iya
+[17:11:26] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw biasa di anvil cok
+[17:11:45] [Server thread/INFO]: [Not Secure] <Crysla> kalo maen mc coba dlu di craft table abru yg laen
+[17:12:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=80, y=14, z=-1} class_2338{x=80, y=14, z=-2}
+[17:12:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=80, y=14, z=-1} class_2338{x=80, y=14, z=-2}
+[17:22:36] [Server thread/INFO]: [Not Secure] <ArcturusNeo> enakan pake bow bre
+[17:22:40] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ketimbang trident
+[17:22:54] [Server thread/INFO]: [Not Secure] <Crysla> trident enchantny enakan riptide kalo gw
+[17:30:11] [Server thread/INFO]: [Crysla: Skin changed]
+[17:30:17] [Server thread/INFO]: [Crysla: Skin changed]
+[17:30:23] [Server thread/INFO]: [Crysla: Skin changed]
+[17:30:39] [Server thread/INFO]: [Crysla: Skin changed]
+[17:33:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-89, y=65, z=9} class_2338{x=-89, y=64, z=8}
+[17:33:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-89, y=65, z=9} class_2338{x=-89, y=64, z=8}
+[17:34:55] [Server thread/INFO]: [Not Secure] <Crysla> lu masih ada sat tridentnya ?
+[17:35:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada 1
+[17:35:03] [Server thread/INFO]: [Not Secure] <Crysla> dimana
+[17:35:05] [Server thread/INFO]: [Not Secure] <Crysla> gw enchant
+[17:35:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> di chest bawah
+[17:35:14] [Server thread/INFO]: [Not Secure] <Crysla> ok
+[17:38:45] [Server thread/INFO]: [Not Secure] <Crysla> besok gw rapihin mob grindernya
+[17:38:49] [Server thread/INFO]: [Not Secure] <ArcturusNeo> okeoke
+[17:39:05] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw mau buat rumah beneran :v
+[17:39:14] [Server thread/INFO]: [Not Secure] <Crysla> lah itu bukan rumah lu emang
+[17:47:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ribet wkwkwk
+[17:47:36] [Server thread/INFO]: [Not Secure] <Crysla> lu bikin rumah yg gede skalian wkwkwk
+[17:54:37] [Server thread/INFO]: [Not Secure] <ArcturusNeo> off dl gw
+[17:54:40] [Server thread/INFO]: [Not Secure] <ArcturusNeo> sembari nyari snapshot
+[17:54:48] [Server thread/INFO]: ArcturusNeo lost connection: Disconnected
+[17:54:48] [Server thread/INFO]: ArcturusNeo left the game
+[17:55:08] [Server thread/INFO]: [Not Secure] <Crysla [AFK]> sat
+[17:55:25] [Server thread/INFO]: Crysla lost connection: Disconnected
+[17:55:25] [Server thread/INFO]: Crysla left the game
+[17:55:27] [Server thread/INFO]: Crysla[/103.156.118.22:50464] logged in with entity id 256015 at (-179.69999998807907, 164.0, 14.377267339179392)
+[17:55:27] [Server thread/INFO]: Crysla joined the game
+[18:07:20] [Server thread/INFO]: Crysla lost connection: Disconnected
+[18:07:20] [Server thread/INFO]: Crysla left the game
+[19:34:00] [Netty Epoll Server IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:00:23] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecraft.class_3176$1.run(class_3176.java:103) [server-intermediary.jar:?]
