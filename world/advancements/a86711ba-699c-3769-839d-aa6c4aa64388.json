@@ -1,0 +1,46 @@
+{
+  "jodek:afk_announcer": {
+    "criteria": {
+      "tick": "2024-08-31 14:13:23 +0000"
+    },
+    "done": true
+  },
+  "jodek:root": {
+    "criteria": {
+      "tick": "2024-08-31 14:13:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-08-31 14:13:23 +0000"
+    },
+    "done": true
+  },
+  "jodek:utility": {
+    "criteria": {
+      "tick": "2024-08-31 14:13:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2024-08-31 14:13:51 +0000",
+      "minecraft:river": "2024-08-31 14:15:15 +0000"
+    },
+    "done": false
+  },
+  "pk_be_co:events/once/prepare": {
+    "criteria": {
+      "requirement": "2024-08-31 14:13:23 +0000"
+    },
+    "done": true
+  },
+  "jodek:sleep": {
+    "criteria": {
+      "tick": "2024-08-31 14:13:23 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

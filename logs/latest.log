@@ -1,637 +1,4 @@
-[04:38:46] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.2
-[04:38:47] [main/INFO]: Loading 112 mods:
-	- easyauth 3.0.25
-	   |-- at_favre_lib_bcrypt 0.10.2
-	   |-- at_favre_lib_bytes 1.6.1
-	   |-- com_mysql_mysql-connector-j 8.2.0
-	   |-- com_typesafe_config 1.4.3
-	   |-- de_mkammerer_argon2-jvm 2.11
-	   |-- de_mkammerer_argon2-jvm-nolibs 2.11
-	   |-- fabric-permissions-api-v0 0.3.1
-	   |-- net_java_dev_jna_jna 5.13.0
-	   |-- org_apache_commons_commons-text 1.10.0
-	   |-- org_iq80_leveldb_leveldb 0.12
-	   |-- org_iq80_leveldb_leveldb-api 0.12
-	   |-- org_mongodb_bson 4.11.1
-	   |-- org_mongodb_mongodb-driver-core 4.11.1
-	   |-- org_mongodb_mongodb-driver-sync 4.11.1
-	   |-- org_spongepowered_configurate-core 4.1.2
-	   |-- org_spongepowered_configurate-hocon 4.1.2
-	   \-- server_translations_api 2.3.1+1.21-pre2
-	        \-- packet_tweaker 0.5.1+24w03b
-	- fabric-api 0.102.1+1.21.1
-	   |-- fabric-api-base 0.4.42+6573ed8c6a
-	   |-- fabric-api-lookup-api-v1 1.6.68+b55973446a
-	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bc6a
-	   |-- fabric-block-api-v1 1.0.22+0af3f5a76a
-	   |-- fabric-block-view-api-v2 1.0.10+6573ed8c6a
-	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a76a
-	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c6a
-	   |-- fabric-command-api-v1 1.2.49+f71b366f6a
-	   |-- fabric-command-api-v2 2.2.28+6ced4dd96a
-	   |-- fabric-commands-v0 0.2.66+df3654b36a
-	   |-- fabric-content-registries-v0 8.0.16+b55973446a
-	   |-- fabric-convention-tags-v1 2.0.20+7f945d5b6a
-	   |-- fabric-convention-tags-v2 2.6.0+605f22ad6a
-	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a76a
-	   |-- fabric-data-attachment-api-v1 1.1.27+1daea2156a
-	   |-- fabric-data-generation-api-v1 20.2.17+16c4ae256a
-	   |-- fabric-dimensions-v1 4.0.0+6fc22b996a
-	   |-- fabric-entity-events-v1 1.6.12+6fc22b996a
-	   |-- fabric-events-interaction-v0 0.7.12+ba9dae066a
-	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd96a
-	   |-- fabric-item-api-v1 11.0.0+afdfc9216a
-	   |-- fabric-item-group-api-v1 4.1.4+780172706a
-	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a76a
-	   |-- fabric-keybindings-v0 0.2.45+df3654b36a
-	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df3606a
-	   |-- fabric-loot-api-v2 3.0.14+3f89f5a56a
-	   |-- fabric-loot-api-v3 1.0.2+3f89f5a56a
-	   |-- fabric-message-api-v1 6.0.13+6573ed8c6a
-	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b6a
-	   |-- fabric-networking-api-v1 4.2.2+60c3209b6a
-	   |-- fabric-object-builder-api-v1 15.2.0+40875a936a
-	   |-- fabric-particles-v1 4.0.2+6573ed8c6a
-	   |-- fabric-recipe-api-v1 5.0.12+650897126a
-	   |-- fabric-registry-sync-v0 5.1.2+60c3209b6a
-	   |-- fabric-renderer-api-v1 3.4.0+c705a49c6a
-	   |-- fabric-renderer-indigo 1.7.0+c705a49c6a
-	   |-- fabric-renderer-registries-v1 3.2.68+df3654b36a
-	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2e6a
-	   |-- fabric-rendering-fluids-v1 3.1.6+1daea2156a
-	   |-- fabric-rendering-v0 1.1.71+df3654b36a
-	   |-- fabric-rendering-v1 5.0.5+df16efd06a
-	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b16a
-	   |-- fabric-resource-loader-v0 1.3.0+565991296a
-	   |-- fabric-screen-api-v1 2.0.25+8b68f1c76a
-	   |-- fabric-screen-handler-api-v1 1.3.86+b55973446a
-	   |-- fabric-sound-api-v1 1.0.23+6573ed8c6a
-	   |-- fabric-transfer-api-v1 5.1.17+1db1cc1f6a
-	   \-- fabric-transitive-access-wideners-v1 6.1.0+1daea2156a
-	- fabricloader 0.16.2
-	   \-- mixinextras 0.4.1
-	- floodgate 2.2.3-SNAPSHOT
-	   |-- aopalliance_aopalliance 1.0
-	   |-- jakarta_inject_jakarta_inject-api 2.0.1
-	   |-- javax_inject_javax_inject 1
-	   |-- org_geysermc_cumulus_cumulus 1.1.2
-	   |-- org_geysermc_event_events 1.1-SNAPSHOT
-	   |-- org_geysermc_geyser_common 2.2.3-SNAPSHOT
-	   |-- org_java-websocket_java-websocket 1.5.2
-	   \-- org_lanternpowered_lmbda 2.0.0
-	- geyser-fabric 2.4.2-SNAPSHOT
-	   |-- cloud 2.0.0-beta.7
-	   |    |-- fabric-permissions-api-v0 0.3.1
-	   |    |-- io_leangen_geantyref_geantyref 1.3.15
-	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.8
-	   |    |-- org_incendo_cloud-core 2.0.0-rc.2
-	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack_ 2.0.0-beta.7
-	   |    \-- org_incendo_cloud-services 2.0.0-rc.2
-	   |-- com_fasterxml_jackson_core_jackson-annotations 2.17.0
-	   |-- com_fasterxml_jackson_core_jackson-core 2.17.0
-	   |-- com_fasterxml_jackson_core_jackson-databind 2.17.0
-	   |-- com_fasterxml_jackson_dataformat_jackson-dataformat-yaml 2.17.0
-	   |-- com_google_errorprone_error_prone_annotations 2.27.0
-	   |-- com_nukkitx_natives 1.0.3
-	   |-- io_airlift_aircompressor 0.25
-	   |-- io_jsonwebtoken_jjwt-api 0.12.6
-	   |-- io_jsonwebtoken_jjwt-gson 0.12.6
-	   |-- io_jsonwebtoken_jjwt-impl 0.12.6
-	   |-- io_netty_netty-codec-dns 4.1.107
-	   |-- io_netty_netty-codec-haproxy 4.1.107
-	   |-- io_netty_netty-resolver-dns-classes-macos 4.1.107
-	   |-- net_bytebuddy_byte-buddy 1.14.9
-	   |-- net_jodah_expiringmap 0.5.10
-	   |-- net_kyori_adventure-api 4.15.0
-	   |-- net_kyori_adventure-key 4.15.0
-	   |-- net_kyori_adventure-nbt 4.15.0
-	   |-- net_kyori_adventure-text-serializer-gson 4.15.0
-	   |-- net_kyori_adventure-text-serializer-json 4.15.0
-	   |-- net_kyori_adventure-text-serializer-json-legacy-impl 4.15.0
-	   |-- net_kyori_adventure-text-serializer-legacy 4.15.0
-	   |-- net_kyori_adventure-text-serializer-plain 4.15.0
-	   |-- net_kyori_examination-api 1.3.0
-	   |-- net_kyori_examination-string 1.3.0
-	   |-- net_kyori_option 1.0.0
-	   |-- net_lenni0451_commons_httpclient 1.5.1
-	   |-- net_raphimc_minecraftauth 4.1.1-20240806.235051-7
-	   |-- org_bitbucket_b_c_jose4j 0.9.6
-	   |-- org_cloudburstmc_math_api 2.0
-	   |-- org_cloudburstmc_math_immutable 2.0
-	   |-- org_cloudburstmc_nbt 3.0.3
-	   |-- org_geysermc_api_base-api 1.0.1
-	   |-- org_geysermc_cumulus_cumulus 1.1.2
-	   |-- org_geysermc_event_events 1.1-SNAPSHOT
-	   |-- org_lanternpowered_lmbda 2.0.0
-	   \-- org_yaml_snakeyaml 2.2
-	- java 21
-	- manic-miner 0.1.0
-	- minecraft 1.21.1
-	- skinrestorer 2.0.3+1.21
-[04:38:47] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/gsapt/server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[04:38:47] [main/INFO]: Compatibility level set to JAVA_21
-[04:38:48] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[04:38:58] [main/INFO]: [EasyAuth]: EasyAuth mod by NikitaCartes
-[04:38:58] [main/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
-[04:38:58] [main/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
-[04:38:59] [main/WARN]: en_ is not a supported Floodgate language.
-[04:39:00] [main/INFO]: Loading extensions...
-[04:39:00] [main/INFO]: Loaded 0 extension(s)
-[04:39:00] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:39:04] [main/INFO]: Loaded 1292 recipes
-[04:39:04] [main/ERROR]: Failed to load function afkannouncer:afk_kick/announce_afk_kick
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown or incomplete command, see below for error at position 0: <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown or incomplete command, see below for error at position 0: <--[HERE]
-	at net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
-	at net.minecraft.class_5349.method_29451(class_5349.java:89) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 6 more
-[04:39:04] [main/ERROR]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[04:39:04] [main/INFO]: Loaded 1441 advancements
-[04:39:04] [Thread-3/INFO]: Loaded 36 translation keys
-[04:39:04] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
-[04:39:05] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.507 ms
-[04:39:05] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[04:39:05] [Server thread/INFO]: Loading properties
-[04:39:05] [Server thread/INFO]: Default game type: SURVIVAL
-[04:39:05] [Server thread/INFO]: Generating keypair
-[04:39:05] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:39:05] [Server thread/INFO]: Using epoll channel type
-[04:39:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:39:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:39:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:39:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:39:06] [Server thread/INFO]: Preparing level "world"
-[04:39:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:39:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:39:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:39:34] [Server thread/INFO]: Time elapsed: 905 ms
-[04:39:34] [Server thread/INFO]: Done (28.075s)! For help, type "help"
-[04:39:34] [Server thread/INFO]: Took 152ms to boot Floodgate
-[04:39:34] [Server thread/INFO]: ******************************************
-[04:39:34] [Server thread/INFO]: 
-[04:39:34] [Server thread/INFO]: Loading Geyser version 2.4.2-b654 (git-master-2274377)
-[04:39:34] [Server thread/INFO]: 
-[04:39:34] [Server thread/INFO]: ******************************************
-[04:39:38] [epollEventLoopGroup-3-1/INFO]: Started Geyser on UDP port 19132
-[04:39:38] [Server thread/INFO]: Done (3.914s)! Run /geyser help for help!
-[04:39:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4101ms or 82 ticks behind
-[08:05:37] [Server thread/INFO]: Crysla[/103.156.118.22:19457] logged in with entity id 28 at (-43.697630657389055, 65.0, -77.76714898228697)
-[08:05:37] [Server thread/INFO]: Crysla joined the game
-[08:05:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
-[08:15:40] [Server thread/INFO]: [Crysla: Skin changed]
-[08:34:50] [Server thread/INFO]: [Crysla: Triggered [afk]]
-[08:54:02] [Server thread/INFO]: ArcturusNeo[/140.213.4.87:27697] logged in with entity id 8497 at (-49.253625462046166, 64.0, 983.661194105887)
-[08:54:02] [Server thread/INFO]: ArcturusNeo joined the game
-[08:58:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3554ms or 71 ticks behind
-[09:01:04] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal
-[09:01:12] [Server thread/INFO]: [Not Secure] <Crysla> oi
-[09:01:25] [Server thread/INFO]: [Not Secure] <ArcturusNeo> cara biar lari cepet pake block apa
-[09:01:31] [Server thread/INFO]: [Not Secure] <Crysla> ice
-[09:01:39] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ice kan seluncur co
-[09:02:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-4, y=65, z=71} class_2338{x=-5, y=64, z=68}
-[09:03:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-5, y=65, z=50} class_2338{x=-2, y=66, z=32}
-[09:05:22] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lah
-[09:05:25] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw nemu netherite masa
-[09:05:31] [Server thread/INFO]: [Not Secure] <ArcturusNeo> di y 64??
-[09:05:35] [Server thread/INFO]: [Not Secure] <Crysla> kadang
-[09:10:04] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kalo mau ke village lewat nether aja
-[09:15:32] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tidur
-[09:16:33] [Server thread/INFO]: [Not Secure] <ArcturusNeo> pabrik cobblestonenya mati?
-[09:16:35] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ga nambah2 co
-[09:19:19] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal
-[09:19:26] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bastion deket sand valley udah dieksplor?
-[09:19:29] [Server thread/INFO]: [Not Secure] <Crysla> udah
-[09:19:41] [Server thread/INFO]: [Not Secure] [Server] ngelag gak ges
-[09:19:45] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ga
-[09:19:52] [Server thread/INFO]: [Not Secure] [Server] ram cuma 3.7gb
-[09:19:55] [Server thread/INFO]: [Not Secure] [Server] kuat ternyata
-[09:20:03] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ya lah ga ada pabrik co
-[09:20:04] [Server thread/INFO]: [Not Secure] <Crysla> udah ke load berapa
-[09:20:13] [Server thread/INFO]: [Not Secure] [Server] 2.09gb 
-[09:24:56] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lang
-[09:25:13] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lang
-[09:25:22] [Server thread/INFO]: [Not Secure] <ArcturusNeo> duh pea ilang anaknya
-[09:45:12] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal
-[09:45:16] [Server thread/INFO]: [Not Secure] <ArcturusNeo> sapi ternaknya gimana
-[09:45:26] [Server thread/INFO]: [Not Secure] <Crysla> pake wheat
-[09:45:38] [Server thread/INFO]: [Not Secure] <ArcturusNeo> perlu diternak ga
-[09:45:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> mumpung ketemu
-[09:46:03] [Server thread/INFO]: [Not Secure] <Crysla> bawa aja
-[09:46:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kejauhan njir
-[09:55:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lang
-[09:55:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ppp
-[10:08:01] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tidur ae
-[10:09:22] [Server thread/INFO]: [Not Secure] <ArcturusNeo> mw bikin apa bre
-[10:12:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=3, y=63, z=-103} class_2338{x=3, y=63, z=-102}
-[10:12:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=3, y=63, z=-104} class_2338{x=3, y=63, z=-102}
-[10:12:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=3, y=63, z=-103} class_2338{x=3, y=63, z=-102}
-[10:13:07] [Server thread/INFO]: [Not Secure] <Crysla> gudang
-[10:15:42] [Server thread/INFO]: [Not Secure] <ArcturusNeo> net template dmn
-[10:15:47] [Server thread/INFO]: [Not Secure] <ArcturusNeo> di chest siapa
-[10:16:01] [Server thread/INFO]: [Not Secure] <Crysla> di chest gw kayanya
-[10:16:20] [Server thread/INFO]: [Not Secure] <Crysla> duplicate aja sampe 6
-[10:16:41] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw ambil 1 ya
-[10:16:43] [Server thread/INFO]: [Not Secure] <Crysla> iya
-[10:16:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada 2
-[10:16:58] [Server thread/INFO]: [Not Secure] <Crysla> ambil aja diamondnyn
-[10:17:08] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lu mining dimana dah
-[10:17:09] [Server thread/INFO]: [Not Secure] <ArcturusNeo> banyak bener
-[10:17:11] [Server thread/INFO]: [Not Secure] <ArcturusNeo> cave?
-[10:17:12] [Server thread/INFO]: [Not Secure] <Crysla> ada
-[10:17:17] [Server thread/INFO]: [Not Secure] <Crysla> belom gw kelarin semua cavenya
-[10:17:21] [Server thread/INFO]: [Not Secure] <Crysla> 5 stack dptny gw
-[10:17:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> cave apa strip?
-[10:17:26] [Server thread/INFO]: [Not Secure] <Crysla> cave
-[10:17:30] [Server thread/INFO]: [Not Secure] <ArcturusNeo> jauh?
-[10:17:37] [Server thread/INFO]: [Not Secure] <Crysla> jalan aja lurus ampe ketemu laut
-[10:17:41] [Server thread/INFO]: [Not Secure] <Crysla> di sebelah laut ada lobang gede banget
-[10:17:44] [Server thread/INFO]: [Not Secure] <Crysla> itu cavebnya
-[10:17:50] [Server thread/INFO]: [Not Secure] <ArcturusNeo> okok
-[10:17:53] [Server thread/INFO]: [Not Secure] <Crysla> lurus matahari terbenam
-[10:17:59] [Server thread/INFO]: [Not Secure] <Crysla> sampe laut tar ada village
-[10:18:12] [Server thread/INFO]: [Not Secure] <Crysla> dsitu cavenya
-[10:18:20] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lu ada netherack?
-[10:18:25] [Server thread/INFO]: [Not Secure] <Crysla> ad jkayanya
-[10:18:42] [Server thread/INFO]: [Not Secure] <ArcturusNeo> oiya
-[10:19:08] [Server thread/INFO]: [Not Secure] <Crysla> gw bikin 300 double chest di gudang
-[10:19:17] [Server thread/INFO]: [Not Secure] <ArcturusNeo> buat apa bgst
-[10:19:26] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kalo autosort enak
-[10:19:28] [Server thread/INFO]: [Not Secure] <Crysla> 320 dah
-[10:19:32] [Server thread/INFO]: [Not Secure] <ArcturusNeo> eh ini
-[10:19:33] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gilang mana
-[10:19:38] [Server thread/INFO]: [Not Secure] <Crysla> gatau
-[10:19:40] [Server thread/INFO]: [Not Secure] <ArcturusNeo> pasang plugin buat naro sign di chest
-[10:19:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> enak buat info chestnya
-[10:19:51] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw suka lupa
-[10:20:04] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tidur ga
-[10:21:46] [Server thread/INFO]: [Not Secure] <ArcturusNeo> prot max 4 kan?
-[10:21:49] [Server thread/INFO]: [Not Secure] <Crysla> iya
-[10:21:49] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bukan v?
-[10:21:50] [Server thread/INFO]: [Not Secure] <ArcturusNeo> okok
-[10:28:56] [Server thread/INFO]: ArcturusNeo lost connection: Timed out
-[10:28:56] [Server thread/INFO]: ArcturusNeo left the game
-[10:28:56] [Server thread/WARN]: handleDisconnection() called twice
-[10:29:10] [Server thread/INFO]: ArcturusNeo[/112.215.224.67:60726] logged in with entity id 70196 at (-19.280133729999722, 67.5, -43.69529870861878)
-[10:29:10] [Server thread/INFO]: ArcturusNeo joined the game
-[10:29:35] [Server thread/INFO]: ArcturusNeo has made the advancement [Crafting a New Look]
-[10:31:04] [Thread-248/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:96) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
-	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
-	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
-	at net.minecraft.class_3248.mdb5d7a3$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:2056) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.mdb5d7a3$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:2055) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[10:31:06] [Server thread/INFO]: lazymonday27[/103.234.31.43:51913] logged in with entity id 70523 at (-54.07962620002044, 66.0, -66.84503024786643)
-[10:31:06] [Server thread/INFO]: lazymonday27 joined the game
-[10:31:20] [Server thread/INFO]: lazymonday27 lost connection: Disconnected
-[10:31:20] [Server thread/INFO]: lazymonday27 left the game
-[10:32:03] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal ada spyglass?
-[10:32:09] [Server thread/INFO]: [Not Secure] <ArcturusNeo> craft apa gmn si itu
-[10:32:10] [Server thread/INFO]: [Not Secure] <Crysla> di chest
-[10:32:16] [Server thread/INFO]: [Not Secure] <Crysla> pake crystal
-[10:32:23] [Thread-249/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:96) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
-	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
-	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
-	at net.minecraft.class_3248.mdb5d7a3$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:2056) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.mdb5d7a3$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:2055) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[10:32:24] [Server thread/INFO]: lazymonday27[/103.234.31.43:51984] logged in with entity id 70992 at (-54.07962620002044, 66.0, -66.84503024786643)
-[10:32:24] [Server thread/INFO]: lazymonday27 joined the game
-[10:32:29] [Server thread/INFO]: [Not Secure] <ArcturusNeo> crystal yg ungu>?
-[10:32:39] [Server thread/INFO]: [Not Secure] <Crysla> gw si make optifine tinggal mencet c udah zoom wkwkwk
-[10:32:41] [Server thread/INFO]: [Not Secure] <Crysla> iya ungu
-[10:32:47] [Server thread/INFO]: [Not Secure] <Crysla> crystal juga bisa buat dye armor
-[10:32:50] [Server thread/INFO]: [Not Secure] <Crysla> dia juga ore
-[10:33:00] [Server thread/INFO]: [Not Secure] <Crysla> crystal sama copper
-[10:33:09] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bisa diatur ga gall
-[10:33:13] [Server thread/INFO]: [Not Secure] <ArcturusNeo> itunya
-[10:33:14] [Server thread/INFO]: [Not Secure] <Crysla> apanya
-[10:33:14] [Server thread/INFO]: [Not Secure] <ArcturusNeo> apasi namanya
-[10:33:20] [Server thread/INFO]: [Not Secure] <Crysla> zoom fov?
-[10:33:22] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kontrasnya
-[10:33:25] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kalo warnain armor
-[10:33:30] [Server thread/INFO]: [Not Secure] <Crysla> engga
-[10:33:54] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tan
-[10:34:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> mw eksplor ga
-[10:34:08] [Server thread/INFO]: [Not Secure] <lazymonday27> nanti
-[10:34:33] [Server thread/INFO]: [Not Secure] <ArcturusNeo> banner pattern buat apasi
-[10:40:51] [Server thread/INFO]: [Not Secure] <lazymonday27> tambang dinether dlu deket portal siapa sat
-[10:41:06] [Server thread/INFO]: [Not Secure] <ArcturusNeo> yang mana
-[10:41:18] [Server thread/INFO]: [Not Secure] <lazymonday27> yg pas itu nyari debris
-[10:41:18] [Server thread/INFO]: [Not Secure] <Crysla> diportal lu yg balok putih tambang itu bre
-[10:41:39] [Server thread/INFO]: [Not Secure] <ArcturusNeo> hah yang mana
-[10:41:39] [Server thread/INFO]: [Not Secure] <lazymonday27> lupa w gal yg balok putih
-[10:41:49] [Server thread/INFO]: [Not Secure] <ArcturusNeo> coba gw ke nether nih
-[10:41:50] [Server thread/INFO]: [Not Secure] <ArcturusNeo> unjukin
-[10:41:58] [Server thread/INFO]: [Not Secure] <lazymonday27> gmna unjukin w aja lupa
-[10:42:05] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lu mau ke tambang?
-[10:42:09] [Server thread/INFO]: [Not Secure] <lazymonday27> iya
-[10:42:20] [Server thread/INFO]: [Not Secure] <ArcturusNeo> sini
-[10:42:39] [Server thread/INFO]: [Not Secure] <ArcturusNeo> mana lu
-[10:43:26] [Server thread/INFO]: [Not Secure] <lazymonday27> okoko
-[10:44:34] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw lanjutmalem
-[10:44:36] [Server thread/INFO]: ArcturusNeo lost connection: Disconnected
-[10:44:36] [Server thread/INFO]: ArcturusNeo left the game
-[10:49:12] [Server thread/INFO]: [Not Secure] <lazymonday27> wah anj udh ketemu ancur ama lava
-[10:49:34] [Server thread/INFO]: [Not Secure] <Crysla> apatuh
-[10:49:37] [Server thread/INFO]: [Not Secure] <lazymonday27> debris
-[10:49:39] [Server thread/INFO]: [Not Secure] <Crysla> bre
-[10:49:43] [Server thread/INFO]: [Not Secure] <Crysla> lu lempar armor lu ke lava dah
-[10:49:52] [Server thread/INFO]: [Not Secure] <Crysla> kalo ilang gw gantiin
-[10:49:58] [Server thread/INFO]: [Not Secure] <lazymonday27> udh u coba?
-[10:50:05] [Server thread/INFO]: [Not Secure] <Crysla> kalo ilang gw gantiin
-[10:50:10] [Server thread/INFO]: [Not Secure] <Crysla> lempar ke 1 block alva aja\
-[10:50:15] [Server thread/INFO]: [Not Secure] <Crysla> biar ga jatoh dalem"
-[10:50:17] [Server thread/INFO]: [Not Secure] <lazymonday27> nanti bre lgi ga make armor ny w
-[10:50:25] [Server thread/INFO]: [Not Secure] <Crysla> debrisny ga dapet lu ?
-[10:50:35] [Server thread/INFO]: [Not Secure] <lazymonday27> kagak ada lava ny
-[10:50:46] [Server thread/INFO]: [Not Secure] <Crysla> ilang ?
-[10:51:02] [Server thread/INFO]: [Not Secure] <lazymonday27> iya kayanya
-[10:51:14] [Server thread/INFO]: [Not Secure] <Crysla> semua yg dibuat dari debris gabisa kebakar
-[10:51:21] [Server thread/INFO]: [Not Secure] <Crysla> sebelum despawn
-[10:52:02] [Server thread/INFO]: [Not Secure] <lazymonday27> ini u bre yg nambang?
-[10:52:07] [Server thread/INFO]: [Not Secure] <Crysla> iya
-[10:52:10] [Server thread/INFO]: [Not Secure] <Crysla> bnyk netherack ya
-[10:52:15] [Server thread/INFO]: [Not Secure] <lazymonday27> dpt brpa u seluas ini wkwk
-[10:52:41] [Server thread/INFO]: [Not Secure] <Crysla> 22
-[10:52:53] [Server thread/INFO]: [Not Secure] <Crysla> 22 apa 24
-[10:52:54] [Server thread/INFO]: [Not Secure] <Crysla> 24 deh
-[10:53:05] [Server thread/INFO]: [Not Secure] <Crysla> 1 nya gw kasih ke elu netheriteny klao ga salah
-[10:53:10] [Server thread/INFO]: [Not Secure] <Crysla> 24 debris
-[10:53:23] [Server thread/INFO]: [Not Secure] <Crysla> keluarny juga minta bantuin satria gw wkwk
-[10:53:33] [Server thread/INFO]: [Not Secure] <Crysla> patokanny chest kordinat ny
-[10:53:33] [Server thread/INFO]: [Not Secure] <lazymonday27> 6 netherite berarti ya
-[10:53:37] [Server thread/INFO]: [Not Secure] <Crysla> iya 6
-[10:53:52] [Server thread/INFO]: [Not Secure] <Crysla> eh gw pake semua deng ntheritenya
-[10:53:58] [Server thread/INFO]: [Not Secure] <Crysla> ama tools lupa gw
-[10:54:45] [Server thread/INFO]: [Not Secure] <lazymonday27> gacor bre tambangnya
-[10:54:53] [Server thread/INFO]: [Not Secure] <lazymonday27> dpt 6 gua wkwkwk
-[10:54:55] [Server thread/INFO]: [Not Secure] <Crysla> kalo ada 1 netherite
-[10:55:05] [Server thread/INFO]: [Not Secure] <Crysla> mining sekelilingnya sedikit kali aja ada hbeberrapa
-[10:55:32] [Server thread/INFO]: [Not Secure] <lazymonday27> gua cuma buth 1 doang si buat pickax
-[11:00:03] [Server thread/INFO]: Crysla lost connection: Disconnected
-[11:00:03] [Server thread/INFO]: Crysla left the game
-[11:03:32] [Server thread/INFO]: lazymonday27 lost connection: Disconnected
-[11:03:32] [Server thread/INFO]: lazymonday27 left the game
-[11:15:27] [Server thread/INFO]: Crysla[/103.156.118.22:63000] logged in with entity id 82560 at (12.7000453158647, 71.5, -116.77103702463555)
-[11:15:27] [Server thread/INFO]: Crysla joined the game
-[11:15:42] [Server thread/INFO]: [Crysla: Triggered [afk]]
-[11:23:03] [Server thread/INFO]: ArcturusNeo[/112.215.224.67:31861] logged in with entity id 84003 at (1.3440753347761758, 64.0, -14.5)
-[11:23:03] [Server thread/INFO]: ArcturusNeo joined the game
-[11:23:13] [Server thread/INFO]: [Not Secure] <Crysla> sat
-[11:23:17] [Server thread/INFO]: [Not Secure] <Crysla> ada emerald ga di chest?
-[11:23:24] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada cuma gw lupa naro dmn
-[11:23:25] [Server thread/INFO]: [Not Secure] <ArcturusNeo> cuma 11
-[11:23:32] [Server thread/INFO]: [Not Secure] <Crysla> minta 2 gw
-[11:23:51] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ambil aja kalo ketemu mah
-[11:23:55] [Server thread/INFO]: [Not Secure] <ArcturusNeo> diatas apa bawah gitu
-[11:25:04] [Server thread/INFO]: [Not Secure] <Crysla> lu ga di base ya
-[11:25:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kagak
-[11:27:32] [Server thread/INFO]: [Not Secure] <Crysla> lu di vilagaer >?
-[11:27:36] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kagak
-[11:28:09] [Server thread/INFO]: [Not Secure] <Crysla> gw minta eme 2
-[11:28:17] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ambil kalo ada jir
-[11:28:22] [Server thread/INFO]: [Not Secure] <ArcturusNeo> di chest cek aja
-[11:29:39] [Server thread/WARN]: ArcturusNeo moved too quickly! 9.305807592315887,-2.0,-3.848944116104505
-[11:29:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2280ms or 45 ticks behind
-[11:29:52] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lu dmn
-[11:29:54] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tidur dah
-[11:32:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal ocean dmn dah
-[11:32:14] [Server thread/INFO]: [Not Secure] <Crysla> arah terbenam sama terbit matahari
-[11:32:17] [Server thread/INFO]: [Crysla: Triggered [afk_notification]]
-[11:32:21] [Server thread/INFO]: [Crysla: Triggered [afk]]
-[11:32:28] [Server thread/INFO]: [Crysla: Triggered [afk]]
-[11:33:07] [Server thread/INFO]: [Not Secure] <ArcturusNeo> x1500 ada ocean juga
-[11:33:09] [Server thread/INFO]: [Not Secure] <ArcturusNeo> disitu?
-[11:33:17] [Server thread/INFO]: [Not Secure] <Crysla> pokony arah terbit sama terbenam
-[11:33:37] [Server thread/INFO]: [Crysla: Triggered [afk]]
-[11:33:42] [Server thread/INFO]: [Crysla [AFK]: Triggered [afk]]
-[11:35:04] [Server thread/INFO]: Crysla lost connection: Disconnected
-[11:35:04] [Server thread/INFO]: Crysla [AFK] left the game
-[11:37:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1519, y=53, z=-133} class_2338{x=1519, y=52, z=-133}
-[11:38:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1524, y=51, z=-145} class_2338{x=1524, y=50, z=-145}
-[11:40:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1591, y=53, z=-198} class_2338{x=1591, y=52, z=-198}
-[11:47:29] [Server thread/WARN]: ArcturusNeo moved too quickly! -3.4681661768609047,-3.233632006042484,-8.931039552366201
-[11:47:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2502ms or 50 ticks behind
-[11:51:13] [Worker-Main-15/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
-[11:51:19] [Worker-Main-14/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[11:53:30] [Server thread/INFO]: Crysla[/103.156.118.22:20613] logged in with entity id 105383 at (-42.32646395030167, 65.0, -80.64765615838549)
-[11:53:30] [Server thread/INFO]: Crysla [AFK] joined the game
-[11:53:50] [Server thread/INFO]: [Not Secure] <ArcturusNeo> 1100 -1100 ocean
-[11:54:16] [Server thread/INFO]: Crysla lost connection: Timed out
-[11:54:16] [Server thread/INFO]: Crysla left the game
-[11:56:14] [Server thread/INFO]: Crysla[/103.156.118.22:63207] logged in with entity id 107743 at (-42.32646395030167, 65.0, -80.64765615838549)
-[11:56:14] [Server thread/INFO]: Crysla joined the game
-[11:57:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> mau trident?
-[11:57:54] [Server thread/INFO]: [Not Secure] <Crysla> ga make gw
-[11:59:38] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal
-[11:59:42] [Server thread/INFO]: [Not Secure] <ArcturusNeo> obsi bisa difarm ga
-[11:59:49] [Server thread/INFO]: [Not Secure] <Crysla> bisa
-[11:59:53] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bikin dah
-[12:00:02] [Server thread/INFO]: [Not Secure] <Crysla> lavanya yg di farm
-[12:00:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> respiration ada di trade ga?
-[12:00:54] [Server thread/INFO]: [Not Secure] <Crysla> ada semua
-[12:00:54] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kalolg trade nemu ambilin dah
-[12:02:53] [Server thread/INFO]: [Not Secure] <ArcturusNeo> u udah cek outpost?
-[12:03:04] [Server thread/INFO]: [Not Secure] <ArcturusNeo> 100 -440
-[12:03:07] [Server thread/INFO]: [Not Secure] <ArcturusNeo> yg tu
-[12:03:19] [Server thread/INFO]: [Not Secure] <Crysla> udah
-[12:14:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=50, y=72, z=-33} class_2338{x=50, y=73, z=-33}
-[12:14:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=50, y=72, z=-33} class_2338{x=50, y=73, z=-33}
-[12:14:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=50, y=72, z=-33} class_2338{x=50, y=73, z=-33}
-[12:14:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=50, y=72, z=-33} class_2338{x=50, y=73, z=-33}
-[12:14:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=50, y=72, z=-33} class_2338{x=50, y=73, z=-33}
-[12:14:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=50, y=72, z=-33} class_2338{x=50, y=73, z=-33}
-[12:14:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=50, y=72, z=-33} class_2338{x=50, y=73, z=-33}
-[12:16:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=68, y=72, z=-31} class_2338{x=60, y=71, z=-50}
-[12:16:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> weh
-[12:16:14] [Server thread/INFO]: [Not Secure] <ArcturusNeo> warped forest biome apa?
-[12:16:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=68, y=72, z=-31} class_2338{x=58, y=73, z=-52}
-[12:16:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=68, y=72, z=-31} class_2338{x=58, y=73, z=-52}
-[12:16:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=68, y=72, z=-31} class_2338{x=58, y=73, z=-52}
-[12:16:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=68, y=72, z=-31} class_2338{x=58, y=73, z=-52}
-[12:16:35] [Server thread/INFO]: [Not Secure] <Crysla> yg ijo di nethre
-[12:18:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=104, y=74, z=-88} class_2338{x=116, y=79, z=-105}
-[12:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=116, y=90, z=-118} class_2338{x=116, y=90, z=-119}
-[12:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=116, y=90, z=-118} class_2338{x=116, y=90, z=-119}
-[12:18:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=116, y=90, z=-118} class_2338{x=116, y=90, z=-119}
-[12:18:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=117, y=91, z=-120} class_2338{x=117, y=88, z=-123}
-[12:28:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=72, y=76, z=-90} class_2338{x=38, y=91, z=-89}
-[12:29:11] [Server thread/INFO]: ArcturusNeo lost connection: Timed out
-[12:29:11] [Server thread/INFO]: ArcturusNeo left the game
-[12:29:20] [Server thread/INFO]: ArcturusNeo[/140.213.30.30:21193] logged in with entity id 131454 at (-13.702248735645446, 95.0, -69.94024126446699)
-[12:29:20] [Server thread/INFO]: ArcturusNeo joined the game
-[12:34:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> diatas bastion kemaren gw bikin portal ya
-[12:34:25] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tembusnya laut
-[12:42:55] [Server thread/INFO]: [Not Secure] <ArcturusNeo> u ngapain
-[12:51:04] [Server thread/INFO]: Crysla lost connection: Timed out
-[12:51:04] [Server thread/INFO]: Crysla left the game
-[12:51:49] [Server thread/INFO]: Crysla[/103.156.118.22:63640] logged in with entity id 146536 at (-42.94577551820871, 65.0, -74.76369437208575)
-[12:51:49] [Server thread/INFO]: Crysla joined the game
-[12:55:09] [Server thread/INFO]: [Not Secure] <ArcturusNeo> anjir spawner creeper ada?
-[12:55:13] [Server thread/INFO]: [Not Secure] <Crysla> gatau dah
-[12:55:16] [Server thread/INFO]: [Not Secure] <Crysla> belom liat
-[12:57:34] [Server thread/INFO]: Crysla lost connection: Disconnected
-[12:57:34] [Server thread/INFO]: Crysla left the game
-[13:02:52] [Server thread/INFO]: Crysla[/103.156.118.22:21069] logged in with entity id 152608 at (17.567793254238655, 63.0, -57.79591075987891)
-[13:02:52] [Server thread/INFO]: Crysla joined the game
-[13:05:19] [Server thread/INFO]: [Not Secure] [Server] creeper
-[13:05:22] [Server thread/INFO]: [Not Secure] [Server] oww man
-[13:10:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lang login co
-[13:16:18] [Server thread/INFO]: [Not Secure] [Server] lu udh nemu blom mod nya
-[13:16:59] [Server thread/INFO]: [Not Secure] <ArcturusNeo> blm nyari :v
-[13:19:21] [Server thread/INFO]: Lawey[/104.28.213.127:39678] logged in with entity id 164977 at (-21.125028674290636, 67.0, -53.48753791188299)
-[13:19:21] [Server thread/INFO]: Lawey joined the game
-[13:19:40] [Server thread/INFO]: [Not Secure] <Lawey> boys
-[13:19:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> hah
-[13:21:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lang cari fortress alng
-[13:21:26] [Server thread/INFO]: [Not Secure] <Lawey> cari ayo
-[13:21:35] [Server thread/INFO]: [Not Secure] <ArcturusNeo> btr gw jauh bgt
-[13:23:52] [Server thread/INFO]: [Lawey: Triggered [afk]]
-[13:25:31] [Server thread/INFO]: [Not Secure] <Crysla [AFK]> gw mo makan mie ayam dulu malem paling lanjut
-[13:25:38] [Server thread/INFO]: [Not Secure] <Crysla> lang jadi nih warehouse
-[13:25:39] [Server thread/INFO]: [Not Secure] <ArcturusNeo> okeh
-[13:25:48] [Server thread/INFO]: [Not Secure] <Lawey> men
-[13:25:58] [Server thread/INFO]: [Not Secure] <Lawey> vibe pabrik bir bintang
-[13:26:11] [Server thread/INFO]: [Not Secure] <Crysla> 740 single chest
-[13:26:18] [Server thread/INFO]: [Not Secure] <Lawey> damn
-[13:26:38] [Server thread/INFO]: [Not Secure] <Lawey> 740 x 54
-[13:26:41] [Server thread/INFO]: [Not Secure] <Lawey> that's a lot of slots
-[13:26:59] [Server thread/INFO]: [Not Secure] <Crysla> off
-[13:27:01] [Server thread/INFO]: Crysla lost connection: Disconnected
-[13:27:01] [Server thread/INFO]: Crysla left the game
-[13:27:12] [Server thread/INFO]: [Lawey: Triggered [afk]]
-[13:27:17] [Server thread/INFO]: [Not Secure] <ArcturusNeo> command afk gmn
-[13:31:54] [Server thread/INFO]: [Not Secure] <Lawey [AFK]> ./trigger afk
-[13:32:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> okok
-[13:39:23] [Server thread/INFO]: Lawey lost connection: Timed out
-[13:39:23] [Server thread/INFO]: Lawey [AFK] left the game
-[13:45:11] [Thread-373/WARN]: failed to fetch skin on first join
-java.lang.IllegalStateException: not found
-	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:96) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
-	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getUuid(MojangSkinProvider.java:73) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
-	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getSkin(MojangSkinProvider.java:51) ~[skinrestorer-fabric-2.0.3+1.21.jar:?]
-	at net.minecraft.class_3248.mdb5d7a3$skinrestorer$lambda$waitForSkin$0$1(class_3248.java:2056) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.class_3248.mdb5d7a3$skinrestorer$lambda$waitForSkin$1$0(class_3248.java:2055) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[13:45:13] [Server thread/INFO]: lazymonday27[/103.234.31.43:52645] logged in with entity id 173940 at (-20.755614652282922, 67.0, -52.84679024537713)
-[13:45:13] [Server thread/INFO]: lazymonday27 joined the game
-[13:48:20] [Server thread/INFO]: [Not Secure] <ArcturusNeo> galih mane
-[13:48:27] [Server thread/INFO]: [Not Secure] <lazymonday27> blm on dritadi?
-[13:48:32] [Server thread/INFO]: [Not Secure] <ArcturusNeo> baru off deng
-[13:48:34] [Server thread/INFO]: [Not Secure] <ArcturusNeo> makan katanya
-[13:49:55] [Server thread/INFO]: [Not Secure] <lazymonday27> dih ada witch bre di farm xp
-[13:50:05] [Server thread/INFO]: [Not Secure] <ArcturusNeo> wkwkwk
-[13:50:18] [Server thread/INFO]: [Not Secure] <lazymonday27> sejak kapan u disini wkwk
-[13:50:33] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ngebenerin sesuatu daritadi
-[13:51:11] [Server thread/INFO]: [ArcturusNeo: Triggered [afk]]
-[13:51:21] [Server thread/INFO]: [ArcturusNeo [AFK]: Triggered [afk]]
-[13:51:28] [Server thread/INFO]: [ArcturusNeo [AFK]: Triggered [noafk]]
-[13:51:31] [Server thread/INFO]: [Not Secure] <ArcturusNeo [AFK]> a
-[13:51:38] [Server thread/INFO]: [ArcturusNeo [AFK]: Triggered [noafk]]
-[13:52:04] [Server thread/INFO]: [ArcturusNeo [AFK]: Triggered [afk_timer] (set value to 1200)]
-[13:52:08] [Server thread/INFO]: [Not Secure] <ArcturusNeo [AFK]> brb
-[13:52:17] [Server thread/INFO]: [Not Secure] <ArcturusNeo [AFK]> disini mah afk bre
-[13:52:18] [Server thread/INFO]: [Not Secure] <ArcturusNeo [AFK]> diem aja
-[13:52:20] [Server thread/INFO]: [Not Secure] <ArcturusNeo [AFK]> nanti jatoh
-[13:52:31] [Server thread/INFO]: [Not Secure] <lazymonday27> ga dikill?
-[13:55:08] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gausah lu kill kocak
-[13:55:12] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ntar pas udah banyak
-[13:55:15] [Server thread/INFO]: [Not Secure] <ArcturusNeo> baru ratain wkwkwkwkw
-[13:55:23] [Server thread/INFO]: [Not Secure] <lazymonday27> cara afk gmn
-[13:55:24] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ga mati itu
-[13:55:33] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ./trigger afk
-[13:55:34] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gitu
-[13:55:39] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tapi ya afk diem aja
-[13:55:45] [Server thread/INFO]: [Not Secure] <lazymonday27> ./trigger afk
-[13:55:46] [Server thread/INFO]: [Not Secure] <ArcturusNeo> nah nanti selesai afk bunuhin
-[13:55:49] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gausah pake titik co
-[13:55:50] [Server thread/INFO]: [Not Secure] <ArcturusNeo> wkwkwk
-[13:55:59] [Server thread/INFO]: [Not Secure] <lazymonday27> lu pake titik wkwkw
-[13:56:26] [Server thread/INFO]: [ArcturusNeo: Triggered [afk_timer] (set value to 1200)]
-[13:56:41] [Server thread/INFO]: [ArcturusNeo: Triggered [afk]]
-[13:56:46] [Server thread/INFO]: [Not Secure] <lazymonday27> g bisa dah
-[13:57:01] [Server thread/INFO]: [lazymonday27: Triggered [afk]]
-[13:57:02] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ya gausah gapapa sih
-[13:57:06] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ga ngaruh co
-[13:57:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tuh gacor
-[13:57:33] [Server thread/INFO]: [Not Secure] <lazymonday27> ada string g u
-[13:57:35] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw tinggal dl
-[13:57:36] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gaada
-[13:58:14] [Server thread/INFO]: [lazymonday27: Triggered [afk]]
-[14:12:18] [Server thread/INFO]: [Not Secure] <lazymonday27> sat
-[14:14:06] [Server thread/INFO]: [Not Secure] <ArcturusNeo> oi
-[14:15:24] [Server thread/INFO]: [ArcturusNeo: Triggered [afk]]
-[14:15:39] [Server thread/INFO]: [ArcturusNeo [AFK]: Triggered [afk]]
-[14:23:57] [Server thread/INFO]: lazymonday27 lost connection: Disconnected
-[14:23:57] [Server thread/INFO]: lazymonday27 left the game
-[14:27:00] [Server thread/INFO]: [ArcturusNeo: Triggered [noafk]]
-[14:29:05] [Server thread/INFO]: Disconnecting ArcturusNeo (/140.213.4.141:1794): §cPlayer ArcturusNeo is already online!
-[14:29:05] [Server thread/INFO]: ArcturusNeo (/140.213.4.141:1794) lost connection: §cPlayer ArcturusNeo is already online!
-[14:29:05] [Server thread/WARN]: handleDisconnection() called twice
-[14:29:09] [Server thread/INFO]: Disconnecting ArcturusNeo (/140.213.4.141:56674): §cPlayer ArcturusNeo is already online!
-[14:29:09] [Server thread/INFO]: ArcturusNeo (/140.213.4.141:56674) lost connection: §cPlayer ArcturusNeo is already online!
-[14:29:09] [Server thread/WARN]: handleDisconnection() called twice
-[14:29:12] [Server thread/INFO]: ArcturusNeo lost connection: Timed out
-[14:29:12] [Server thread/INFO]: ArcturusNeo left the game
-[14:29:15] [Server thread/INFO]: ArcturusNeo[/140.213.4.141:36398] logged in with entity id 186951 at (-17.011382643237734, 63.875, -48.105311640891294)
-[14:29:15] [Server thread/INFO]: ArcturusNeo joined the game
-[14:34:14] [Server thread/INFO]: ArcturusNeo lost connection: Disconnected
-[14:34:14] [Server thread/INFO]: ArcturusNeo left the game
-[14:34:21] [Server thread/INFO]: ArcturusNeo[/140.213.4.141:44791] logged in with entity id 189453 at (3.504177034375591, 71.0, 1104.0845015280047)
-[14:34:21] [Server thread/INFO]: ArcturusNeo joined the game
-[14:39:27] [Server thread/INFO]: ArcturusNeo lost connection: Disconnected
-[14:39:27] [Server thread/INFO]: ArcturusNeo left the game
-[14:39:33] [Server thread/INFO]: ArcturusNeo[/140.213.4.141:5742] logged in with entity id 192023 at (-48.503192545208236, 65.5, -65.0747716256346)
-[14:39:33] [Server thread/INFO]: ArcturusNeo joined the game
-[14:53:39] [Server thread/INFO]: ArcturusNeo lost connection: Disconnected
-[14:53:39] [Server thread/INFO]: ArcturusNeo left the game
-[15:02:28] [Server thread/INFO]: Crysla[/103.156.118.22:21511] logged in with entity id 195657 at (8.777776465903852, 64.0, -94.50502078830397)
-[15:02:28] [Server thread/INFO]: Crysla joined the game
-[15:15:21] [Server thread/INFO]: [Not Secure] <Crysla> .
-[15:16:11] [Server thread/INFO]: [Not Secure] <Crysla> .
-[15:17:04] [Server thread/INFO]: [Not Secure] <Crysla> .
-[15:24:45] [Server thread/INFO]: Crysla lost connection: Timed out
-[15:24:45] [Server thread/INFO]: Crysla left the game
-[15:24:57] [Server thread/INFO]: Crysla[/103.156.118.22:50156] logged in with entity id 201879 at (6.454448853108941, 65.17675927506424, -101.66425356884628)
-[15:24:57] [Server thread/INFO]: Crysla joined the game
-[15:26:38] [Server thread/INFO]: Crysla lost connection: Disconnected
-[15:26:38] [Server thread/INFO]: Crysla left the game
-[15:26:49] [Server thread/INFO]: Crysla[/103.156.118.22:50188] logged in with entity id 202598 at (-47.30000001192093, 66.79673560066871, -78.03624230997514)
-[15:26:49] [Server thread/INFO]: Crysla joined the game
-[15:32:58] [Server thread/INFO]: [Not Secure] <Crysla> .
-[15:49:36] [Server thread/INFO]: [Not Secure] <Crysla> .
-[15:49:44] [Server thread/INFO]: Crysla lost connection: Timed out
-[15:49:44] [Server thread/INFO]: Crysla left the game
-[15:49:51] [Server thread/INFO]: Crysla[/103.156.118.22:22001] logged in with entity id 215690 at (11.5041399478102, 65.0, 98.12976862363443)
-[15:49:51] [Server thread/INFO]: Crysla joined the game
-[15:50:46] [Server thread/INFO]: Crysla lost connection: Disconnected
-[15:50:46] [Server thread/INFO]: Crysla left the game
-[15:50:51] [Server thread/INFO]: Crysla[/103.156.118.22:50360] logged in with entity id 216307 at (17.338778490350496, 65.79673560066871, 5.4909931431387164)
-[15:50:51] [Server thread/INFO]: Crysla joined the game
-[15:54:33] [Server thread/INFO]: [Not Secure] <Crysla> .
-[15:55:51] [Server thread/INFO]: Crysla lost connection: Timed out
-[15:55:51] [Server thread/INFO]: Crysla left the game
-[16:19:21] [Netty Epoll Server IO #3/ERROR]: Error sending packet clientbound/minecraft:disconnect
+[00:01:31] [Netty Epoll Server IO #7/ERROR]: Error sending packet clientbound/minecraft:disconnect
 io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
 	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
 	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
@@ -670,7 +37,7 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:23:55] [Netty Epoll Server IO #3/ERROR]: Error sending packet clientbound/minecraft:disconnect
+[01:39:13] [Netty Epoll Server IO #7/ERROR]: Error sending packet clientbound/minecraft:disconnect
 io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
 	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
 	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
@@ -709,120 +76,7 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:45:29] [Server thread/INFO]: ArcturusNeo[/112.215.251.119:16419] logged in with entity id 217599 at (-23.015295162432242, 67.0, -44.30617416056832)
-[16:45:29] [Server thread/INFO]: ArcturusNeo joined the game
-[16:47:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-10, y=64, z=-9} class_2338{x=3, y=65, z=11}
-[16:48:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> aaa
-[16:48:24] [Server thread/INFO]: Crysla[/103.156.118.22:22715] logged in with entity id 218557 at (-43.090396457772, 65.0, -77.69999998807907)
-[16:48:24] [Server thread/INFO]: Crysla joined the game
-[16:49:20] [Server thread/INFO]: [Not Secure] <Crysla> ada buku sat ?
-[16:49:28] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kagak wkwwk
-[16:51:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-60, y=70, z=21} class_2338{x=-60, y=70, z=20}
-[16:53:32] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal gudangnya bwt nyimpen apa aja
-[16:53:38] [Server thread/INFO]: [Not Secure] <Crysla> semua
-[16:53:48] [Server thread/INFO]: [Not Secure] <Crysla> ada 370 chest
-[16:53:55] [Server thread/INFO]: [Not Secure] <Crysla> makany itu pake item frame
-[16:54:00] [Server thread/INFO]: [Not Secure] <Crysla> 370 item frame
-[16:54:03] [Server thread/INFO]: [Not Secure] <Crysla> 370 leather
-[16:54:05] [Server thread/INFO]: [Not Secure] <Crysla> biar enak
-[16:54:25] [Server thread/INFO]: [Not Secure] <Crysla> yg setipe mah 1 chest aja
-[16:54:27] [Server thread/INFO]: [Not Secure] <Crysla> kyk tools
-[16:54:32] [Server thread/INFO]: [Not Secure] <Crysla> batu tanah
-[16:54:35] [Server thread/INFO]: [Not Secure] <Crysla> kayu
-[16:54:38] [Server thread/INFO]: [Not Secure] <Crysla> setipe kanm itu
-[16:55:06] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dirt gw numpuk :v
-[16:55:13] [Server thread/INFO]: [Not Secure] <Crysla> masukin aja kesana\
-[16:55:22] [Server thread/INFO]: [Not Secure] <Crysla> makany gw bikin gede
-[16:55:32] [Server thread/INFO]: [Not Secure] <Crysla> biar enak make item frame\
-[16:55:34] [Server thread/INFO]: [Not Secure] <Crysla> biar ga pusing
-[16:55:44] [Server thread/INFO]: Disconnecting ArcturusNeo (/112.215.246.212:3113): §cPlayer ArcturusNeo is already online!
-[16:55:44] [Server thread/INFO]: ArcturusNeo (/112.215.246.212:3113) lost connection: §cPlayer ArcturusNeo is already online!
-[16:55:44] [Server thread/WARN]: handleDisconnection() called twice
-[16:55:46] [Server thread/INFO]: [Not Secure] <Crysla> nah ini sapiny aja gw galiat
-[16:55:48] [Server thread/INFO]: Disconnecting ArcturusNeo (/112.215.246.212:61934): §cPlayer ArcturusNeo is already online!
-[16:55:48] [Server thread/INFO]: ArcturusNeo (/112.215.246.212:61934) lost connection: §cPlayer ArcturusNeo is already online!
-[16:55:48] [Server thread/WARN]: handleDisconnection() called twice
-[16:55:49] [Server thread/INFO]: ArcturusNeo lost connection: Timed out
-[16:55:49] [Server thread/INFO]: ArcturusNeo left the game
-[16:55:51] [Server thread/INFO]: ArcturusNeo[/112.215.246.212:39418] logged in with entity id 222197 at (-62.338840824142416, 70.0, 5.873969876623796)
-[16:55:51] [Server thread/INFO]: ArcturusNeo joined the game
-[16:57:26] [Server thread/INFO]: [Not Secure] <Crysla> yg dapet leather tuh kuda keledai sapi\
-[16:57:33] [Server thread/INFO]: [Not Secure] <ArcturusNeo> kuda juga?
-[16:57:36] [Server thread/INFO]: [Not Secure] <Crysla> tapi kuda dikit
-[16:57:38] [Server thread/INFO]: [Not Secure] <ArcturusNeo> tapi sayang jir bunuh kuda :v
-[16:57:41] [Server thread/INFO]: [Not Secure] <Crysla> ga dikit juga si
-[16:57:42] [Server thread/INFO]: [Not Secure] <Crysla> sama aja
-[16:57:47] [Server thread/INFO]: [Not Secure] <Crysla> cm sapi kan dapet daging
-[16:57:56] [Server thread/INFO]: [Not Secure] <Crysla> berkembangny gampang
-[16:57:58] [Server thread/INFO]: [Not Secure] <Crysla> sapi murah
-[16:58:51] [Server thread/INFO]: ArcturusNeo has made the advancement [A Throwaway Joke]
-[16:59:07] [Server thread/INFO]: [Not Secure] <ArcturusNeo> nambah damage trident pake apa
-[16:59:15] [Server thread/INFO]: [Not Secure] <Crysla> gabisa pake sharpness
-[16:59:21] [Server thread/INFO]: [Not Secure] <Crysla> nambah damage ngaruh ke mosnter aer doang
-[16:59:26] [Server thread/INFO]: [Not Secure] <Crysla> impaling
-[16:59:35] [Server thread/INFO]: [Not Secure] <ArcturusNeo> oalah
-[17:01:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> bre
-[17:01:27] [Server thread/INFO]: [Not Secure] <ArcturusNeo> creeper drop kaset?
-[17:01:34] [Server thread/INFO]: [Not Secure] <Crysla> kalo mati sama skeleton
-[17:01:43] [Server thread/INFO]: [Not Secure] <ArcturusNeo> lah ini gw drop
-[17:01:44] [Server thread/INFO]: [Not Secure] <ArcturusNeo> wkwkwkw
-[17:01:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ditembak skeleton berarti
-[17:05:48] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gal
-[17:05:52] [Server thread/INFO]: [Not Secure] <ArcturusNeo> dispenser bisa pake bow sekarat?
-[17:06:24] [Server thread/INFO]: [Not Secure] <Crysla> dispenser itu tools active
-[17:06:36] [Server thread/INFO]: [Not Secure] <ArcturusNeo> craftnya
-[17:06:44] [Server thread/INFO]: [Not Secure] <Crysla> bisa
-[17:07:03] [Server thread/INFO]: [Not Secure] <ArcturusNeo> okokk
-[17:07:08] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada cobblestone?
-[17:10:31] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gabisa bre
-[17:10:34] [Server thread/INFO]: [Not Secure] <Crysla> gabisa ?
-[17:10:37] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ga
-[17:10:48] [Server thread/INFO]: [Not Secure] <Crysla> yaudah repair aja bownya
-[17:10:54] [Server thread/INFO]: [Not Secure] <ArcturusNeo> pake xp ya
-[17:10:55] [Server thread/INFO]: [Not Secure] <Crysla> kan ada banyak di atas
-[17:10:57] [Server thread/INFO]: [Not Secure] <Crysla> kagak lol
-[17:11:02] [Server thread/INFO]: [Not Secure] <Crysla> bow + bow di craft e
-[17:11:14] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ohiya hanjir
-[17:11:18] [Server thread/INFO]: [Not Secure] <ArcturusNeo> repair kek gitu doang?
-[17:11:22] [Server thread/INFO]: [Not Secure] <ArcturusNeo> apa cuma bow?
-[17:11:22] [Server thread/INFO]: [Not Secure] <Crysla> iya
-[17:11:26] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw biasa di anvil cok
-[17:11:45] [Server thread/INFO]: [Not Secure] <Crysla> kalo maen mc coba dlu di craft table abru yg laen
-[17:12:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=80, y=14, z=-1} class_2338{x=80, y=14, z=-2}
-[17:12:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=80, y=14, z=-1} class_2338{x=80, y=14, z=-2}
-[17:22:36] [Server thread/INFO]: [Not Secure] <ArcturusNeo> enakan pake bow bre
-[17:22:40] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ketimbang trident
-[17:22:54] [Server thread/INFO]: [Not Secure] <Crysla> trident enchantny enakan riptide kalo gw
-[17:30:11] [Server thread/INFO]: [Crysla: Skin changed]
-[17:30:17] [Server thread/INFO]: [Crysla: Skin changed]
-[17:30:23] [Server thread/INFO]: [Crysla: Skin changed]
-[17:30:39] [Server thread/INFO]: [Crysla: Skin changed]
-[17:33:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-89, y=65, z=9} class_2338{x=-89, y=64, z=8}
-[17:33:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-89, y=65, z=9} class_2338{x=-89, y=64, z=8}
-[17:34:55] [Server thread/INFO]: [Not Secure] <Crysla> lu masih ada sat tridentnya ?
-[17:35:00] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ada 1
-[17:35:03] [Server thread/INFO]: [Not Secure] <Crysla> dimana
-[17:35:05] [Server thread/INFO]: [Not Secure] <Crysla> gw enchant
-[17:35:10] [Server thread/INFO]: [Not Secure] <ArcturusNeo> di chest bawah
-[17:35:14] [Server thread/INFO]: [Not Secure] <Crysla> ok
-[17:38:45] [Server thread/INFO]: [Not Secure] <Crysla> besok gw rapihin mob grindernya
-[17:38:49] [Server thread/INFO]: [Not Secure] <ArcturusNeo> okeoke
-[17:39:05] [Server thread/INFO]: [Not Secure] <ArcturusNeo> gw mau buat rumah beneran :v
-[17:39:14] [Server thread/INFO]: [Not Secure] <Crysla> lah itu bukan rumah lu emang
-[17:47:23] [Server thread/INFO]: [Not Secure] <ArcturusNeo> ribet wkwkwk
-[17:47:36] [Server thread/INFO]: [Not Secure] <Crysla> lu bikin rumah yg gede skalian wkwkwk
-[17:54:37] [Server thread/INFO]: [Not Secure] <ArcturusNeo> off dl gw
-[17:54:40] [Server thread/INFO]: [Not Secure] <ArcturusNeo> sembari nyari snapshot
-[17:54:48] [Server thread/INFO]: ArcturusNeo lost connection: Disconnected
-[17:54:48] [Server thread/INFO]: ArcturusNeo left the game
-[17:55:08] [Server thread/INFO]: [Not Secure] <Crysla [AFK]> sat
-[17:55:25] [Server thread/INFO]: Crysla lost connection: Disconnected
-[17:55:25] [Server thread/INFO]: Crysla left the game
-[17:55:27] [Server thread/INFO]: Crysla[/103.156.118.22:50464] logged in with entity id 256015 at (-179.69999998807907, 164.0, 14.377267339179392)
-[17:55:27] [Server thread/INFO]: Crysla joined the game
-[18:07:20] [Server thread/INFO]: Crysla lost connection: Disconnected
-[18:07:20] [Server thread/INFO]: Crysla left the game
-[19:34:00] [Netty Epoll Server IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
+[03:08:53] [Netty Epoll Server IO #6/ERROR]: Error sending packet clientbound/minecraft:disconnect
 io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
 	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
 	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
@@ -861,20 +115,445 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[20:00:23] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Input/output error
-	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
-	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
-	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
-	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
-	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
-	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
-	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
-	at net.minecraft.class_3176$1.run(class_3176.java:103) [server-intermediary.jar:?]
+[04:13:09] [Netty Epoll Server IO #4/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[04:13:12] [Netty Epoll Server IO #5/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[04:16:50] [Server thread/INFO]: Crysla[/103.156.118.20:49614] logged in with entity id 176750 at (-66.52881533552878, 80.0, -34.55694775240111)
+[04:16:50] [Server thread/INFO]: Crysla joined the game
+[04:52:31] [Server thread/INFO]: Crysla lost connection: Disconnected
+[04:52:31] [Server thread/INFO]: Crysla left the game
+[05:19:25] [Server thread/INFO]: Crysla[/103.156.118.25:49706] logged in with entity id 192629 at (0.8962619682477901, 67.9375, 1069.0605684167176)
+[05:19:25] [Server thread/INFO]: Crysla joined the game
+[05:22:34] [Server thread/INFO]: Crysla lost connection: Disconnected
+[05:22:34] [Server thread/INFO]: Crysla left the game
+[05:22:58] [Server thread/INFO]: Crysla[/103.156.118.62:52621] logged in with entity id 193757 at (-1.699999988079071, 65.0, 1067.641465534689)
+[05:22:58] [Server thread/INFO]: Crysla joined the game
+[05:23:35] [Server thread/INFO]: Crysla lost connection: Disconnected
+[05:23:35] [Server thread/INFO]: Crysla left the game
+[05:23:50] [Server thread/INFO]: Crysla[/103.156.118.31:49724] logged in with entity id 194011 at (-1.699999988079071, 65.0, 1068.2367424548904)
+[05:23:50] [Server thread/INFO]: Crysla joined the game
+[05:24:55] [Server thread/INFO]: Crysla lost connection: Disconnected
+[05:24:55] [Server thread/INFO]: Crysla left the game
+[05:25:31] [Server thread/INFO]: Crysla[/103.156.118.19:52639] logged in with entity id 194383 at (-4.0692313432114595, 66.9375, 1068.6151020396876)
+[05:25:31] [Server thread/INFO]: Crysla joined the game
+[05:39:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3, y=67, z=1066} class_2338{x=5, y=63, z=-5}
+[05:53:27] [Server thread/INFO]: Crysla has completed the challenge [Hero of the Village]
+[06:14:48] [Server thread/INFO]: Crysla lost connection: Disconnected
+[06:14:48] [Server thread/INFO]: Crysla left the game
+[06:21:53] [Netty Epoll Server IO #2/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[06:34:57] [Server thread/INFO]: Crysla[/103.156.118.5:52955] logged in with entity id 215286 at (-68.88943898745981, 79.0, -51.338920469284574)
+[06:34:57] [Server thread/INFO]: Crysla joined the game
+[06:36:39] [Server thread/INFO]: Crysla lost connection: Disconnected
+[06:36:39] [Server thread/INFO]: Crysla left the game
+[06:49:28] [Netty Epoll Server IO #3/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[06:59:38] [Netty Epoll Server IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[08:20:37] [Netty Epoll Server IO #4/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[08:25:46] [Netty Epoll Server IO #0/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[09:57:56] [Netty Epoll Server IO #4/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[10:29:23] [Netty Epoll Server IO #6/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[10:42:20] [Netty Epoll Server IO #6/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[15:07:41] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[16:14:59] [Server thread/INFO]: Stopping the server
+[16:14:59] [Server thread/INFO]: Shutting down Geyser.
+[16:14:59] [Server thread/INFO]: Geyser shutdown successfully.
+[16:15:01] [Server thread/INFO]: Stopping server
+[16:15:01] [Server thread/INFO]: Saving players
+[16:15:01] [Server thread/INFO]: Saving worlds
+[16:15:01] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 978 chunks to unload
+[16:15:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:15:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:15:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:15:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:15:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:15:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:15:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:15:01] [C2ME Storage #3/INFO]: Storage thread Thread[#54,C2ME Storage #3,5,main] stopped
+[16:15:01] [C2ME Storage #2/INFO]: Storage thread Thread[#53,C2ME Storage #2,5,main] stopped
+[16:15:01] [C2ME Storage #1/INFO]: Storage thread Thread[#52,C2ME Storage #1,5,main] stopped
+[16:15:01] [C2ME Storage #6/INFO]: Storage thread Thread[#59,C2ME Storage #6,5,main] stopped
+[16:15:01] [C2ME Storage #4/INFO]: Storage thread Thread[#57,C2ME Storage #4,5,main] stopped
+[16:15:01] [C2ME Storage #5/INFO]: Storage thread Thread[#58,C2ME Storage #5,5,main] stopped
+[16:15:01] [C2ME Storage #9/INFO]: Storage thread Thread[#63,C2ME Storage #9,5,main] stopped
+[16:15:01] [C2ME Storage #8/INFO]: Storage thread Thread[#62,C2ME Storage #8,5,main] stopped
+[16:15:01] [C2ME Storage #7/INFO]: Storage thread Thread[#61,C2ME Storage #7,5,main] stopped
+[16:15:01] [Server thread/INFO]: [EasyAuth]: Shutting down EasyAuth.
+[16:15:01] [Server thread/INFO]: [EasyAuth]: Database connection closed successfully
