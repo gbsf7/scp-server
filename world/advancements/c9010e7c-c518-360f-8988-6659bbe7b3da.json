@@ -9,27 +9,28 @@
     "criteria": {
       "minecraft:cold_ocean": "2024-09-01 07:49:10 +0000",
       "minecraft:snowy_slopes": "2024-08-26 14:31:10 +0000",
+      "minecraft:forest": "2024-08-24 10:03:27 +0000",
+      "minecraft:deep_ocean": "2024-08-27 05:06:32 +0000",
+      "minecraft:frozen_river": "2024-08-26 14:31:05 +0000",
+      "minecraft:ocean": "2024-08-27 04:54:26 +0000",
+      "minecraft:jungle": "2024-08-27 05:02:23 +0000",
+      "minecraft:sunflower_plains": "2024-08-27 04:55:14 +0000",
+      "minecraft:cherry_grove": "2024-09-01 08:49:06 +0000",
+      "minecraft:birch_forest": "2024-08-27 05:08:30 +0000",
+      "minecraft:bamboo_jungle": "2024-08-27 05:04:20 +0000",
+      "minecraft:flower_forest": "2024-09-07 06:50:02 +0000",
       "minecraft:beach": "2024-08-27 04:55:08 +0000",
       "minecraft:dark_forest": "2024-08-30 10:14:52 +0000",
-      "minecraft:forest": "2024-08-24 10:03:27 +0000",
       "minecraft:sparse_jungle": "2024-08-27 05:03:46 +0000",
-      "minecraft:deep_ocean": "2024-08-27 05:06:32 +0000",
       "minecraft:river": "2024-08-24 17:27:45 +0000",
       "minecraft:lukewarm_ocean": "2024-08-27 05:02:06 +0000",
       "minecraft:snowy_plains": "2024-08-26 14:30:16 +0000",
       "minecraft:stony_shore": "2024-09-01 07:50:25 +0000",
       "minecraft:dripstone_caves": "2024-08-27 07:03:58 +0000",
       "minecraft:old_growth_birch_forest": "2024-08-27 05:09:04 +0000",
-      "minecraft:frozen_river": "2024-08-26 14:31:05 +0000",
       "minecraft:deep_dark": "2024-09-01 07:41:22 +0000",
-      "minecraft:ocean": "2024-08-27 04:54:26 +0000",
-      "minecraft:jungle": "2024-08-27 05:02:23 +0000",
-      "minecraft:sunflower_plains": "2024-08-27 04:55:14 +0000",
-      "minecraft:cherry_grove": "2024-09-01 08:49:06 +0000",
       "minecraft:meadow": "2024-09-01 07:41:14 +0000",
-      "minecraft:birch_forest": "2024-08-27 05:08:30 +0000",
       "minecraft:savanna": "2024-08-27 05:01:18 +0000",
-      "minecraft:bamboo_jungle": "2024-08-27 05:04:20 +0000",
       "minecraft:plains": "2024-08-24 17:27:54 +0000"
     },
     "done": false
@@ -271,12 +272,15 @@
       "rotten_flesh": "2024-08-24 17:29:30 +0000",
       "cooked_mutton": "2024-08-24 17:33:09 +0000",
       "cooked_beef": "2024-08-27 07:31:47 +0000",
+      "chorus_fruit": "2024-09-06 16:38:57 +0000",
       "baked_potato": "2024-08-27 07:36:25 +0000",
       "melon_slice": "2024-08-24 17:32:49 +0000",
       "golden_carrot": "2024-08-27 07:29:49 +0000",
       "beetroot": "2024-08-30 10:09:03 +0000",
+      "beetroot_soup": "2024-09-06 16:39:40 +0000",
       "apple": "2024-08-26 04:11:24 +0000",
       "cooked_chicken": "2024-08-27 07:02:19 +0000",
+      "enchanted_golden_apple": "2024-09-06 15:59:30 +0000",
       "potato": "2024-08-27 06:49:15 +0000",
       "carrot": "2024-09-02 03:34:49 +0000"
     },
@@ -653,15 +657,19 @@
       "minecraft:pillager": "2024-08-30 10:06:45 +0000",
       "minecraft:blaze": "2024-08-30 16:20:55 +0000",
       "minecraft:skeleton": "2024-08-26 13:58:11 +0000",
+      "minecraft:phantom": "2024-09-06 17:10:31 +0000",
       "minecraft:zombified_piglin": "2024-08-30 16:20:59 +0000",
       "minecraft:witch": "2024-08-27 04:46:33 +0000",
       "minecraft:wither_skeleton": "2024-08-30 16:32:51 +0000",
       "minecraft:bogged": "2024-08-27 06:52:21 +0000",
       "minecraft:hoglin": "2024-08-27 15:57:21 +0000",
+      "minecraft:shulker": "2024-09-06 16:15:03 +0000",
       "minecraft:piglin": "2024-08-27 15:52:29 +0000",
       "minecraft:breeze": "2024-08-27 06:45:46 +0000",
       "minecraft:vindicator": "2024-08-30 10:18:59 +0000",
+      "minecraft:enderman": "2024-09-06 15:56:34 +0000",
       "minecraft:magma_cube": "2024-08-30 16:24:20 +0000",
+      "minecraft:endermite": "2024-09-06 16:53:26 +0000",
       "minecraft:spider": "2024-08-26 06:39:13 +0000",
       "minecraft:piglin_brute": "2024-08-27 15:52:37 +0000",
       "minecraft:zombie": "2024-08-25 06:44:07 +0000",
@@ -3723,6 +3731,426 @@
   "minecraft:recipes/redstone/redstone_from_blasting_redstone_ore": {
     "criteria": {
       "has_redstone_ore": "2024-09-02 15:19:51 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/tick": {
+    "criteria": {
+      "s": "2024-09-06 14:43:08 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/plains": {
+    "criteria": {
+      "requirement": "2024-09-06 14:43:23 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/forest": {
+    "criteria": {
+      "requirement": "2024-09-06 15:26:58 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/jungle": {
+    "criteria": {
+      "requirement": "2024-09-06 15:27:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2024-09-06 15:28:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2024-09-06 15:28:42 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/savanna": {
+    "criteria": {
+      "requirement": "2024-09-06 15:30:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2024-09-06 15:32:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2024-09-06 15:32:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2024-09-06 15:32:54 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/meadows": {
+    "criteria": {
+      "requirement": "2024-09-06 15:34:29 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/dripstone_caves": {
+    "criteria": {
+      "requirement": "2024-09-06 15:36:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2024-09-06 15:41:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2024-09-06 15:41:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-09-06 15:41:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-09-06 15:41:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-09-06 15:41:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-09-06 15:41:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-09-06 15:41:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-09-06 15:41:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-09-06 15:41:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-09-06 15:47:26 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:location/the_end": {
+    "criteria": {
+      "requirement": "2024-09-06 15:50:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-09-06 15:50:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-09-06 15:50:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-09-06 15:52:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2024-09-06 15:52:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-09-06 15:52:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-09-06 15:52:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-09-06 15:52:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2024-09-06 15:54:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2024-09-06 16:00:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2024-09-06 16:00:56 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:location/the_outer_end": {
+    "criteria": {
+      "entered_end_gateway": "2024-09-06 16:04:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2024-09-06 16:04:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2024-09-06 16:07:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2024-09-06 16:14:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-09-06 16:15:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2024-09-06 16:17:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2024-09-06 16:17:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2024-09-06 16:17:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-09-06 16:17:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-09-06 16:17:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-09-06 16:17:07 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:end/find_end_lighthouse": {
+    "criteria": {
+      "end_lighthouse": "2024-09-06 16:35:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-09-06 16:35:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-09-06 16:35:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-09-06 16:35:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-09-06 16:35:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-09-06 16:35:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-09-06 16:35:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2024-09-06 16:39:40 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:end/find_end_castle": {
+    "criteria": {
+      "end_castle": "2024-09-06 16:50:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2024-09-06 16:51:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-09-06 17:20:05 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/end_teleport": {
+    "criteria": {
+      "s3": "2024-09-06 17:30:20 +0000"
+    },
+    "done": false
+  },
+  "vanilla_refresh:location/the_nether": {
+    "criteria": {
+      "requirement": "2024-09-06 17:32:49 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/nether/warped_forest": {
+    "criteria": {
+      "requirement": "2024-09-06 17:32:57 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/nether/crimson_forest": {
+    "criteria": {
+      "requirement": "2024-09-06 17:33:44 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/nether/nether_wastes": {
+    "criteria": {
+      "requirement": "2024-09-06 17:35:06 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/hurt": {
+    "criteria": {
+      "requirement": "2024-09-06 17:40:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2024-09-06 17:42:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2024-09-06 17:42:23 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/birch_forest": {
+    "criteria": {
+      "requirement": "2024-09-07 06:47:59 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/cherry_grove": {
+    "criteria": {
+      "requirement": "2024-09-07 06:49:13 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/flower_forest": {
+    "criteria": {
+      "requirement": "2024-09-07 06:50:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-09-07 06:52:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2024-09-07 06:54:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2024-09-07 06:54:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-09-07 07:09:54 +0000"
     },
     "done": true
   },
